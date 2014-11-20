@@ -22,7 +22,7 @@ Make sure their names are intact because otherwise the automatic language resolv
 
 Both compressed files must be placed in the directory for the command below to work properly.
 
-To runt it all: go to the dist/ directory in your terminal and run
+To run it all: go to the dist/ directory in your terminal and run
 
 	java -jar wikiforia-1.0-SNAPSHOT.jar 
 	     -pages [path to the file ending with multistream.xml.bz2] 
