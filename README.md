@@ -18,13 +18,15 @@ For a Swedish Wikipedia dump 2014-08-18 it has the following file names:
 	svwiki-20140818-pages-articles-multistream-index.txt.bz2
 	svwiki-20140818-pages-articles-multistream.xml.bz2
 
-Make sure their names are intact because otherwise the automatic language resolving does not work and it will fall back on English.
+Make sure their names are intact because otherwise the automatic language resolving does not work. The default language is English and it does affect the parsing quality.
 
-When the files have been downloaded and placed in the same directory.
+Both compressed files must be placed in the directory for the command below to work properly.
 
-Simply go to the dist/ directory and run
+To runt it all: go to the dist/ directory in your terminal and run
 
-	java -jar wikiforia-1.0-SNAPSHOT.jar -pages [path to the file ending with multistream.xml.bz2] -output [output xml path]
+	java -jar wikiforia-1.0-SNAPSHOT.jar 
+	     -pages [path to the file ending with multistream.xml.bz2] 
+	     -output [output xml path]
 
 This will run with default settings i.e. the number of cores you have and a batch size of 100. These settings can be overriden, for a full listing just run:
 
@@ -48,4 +50,4 @@ Credits
 
 Licence
 -------
-The license is GPLv2.
+The licence is GPLv2.
