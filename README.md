@@ -32,6 +32,43 @@ This will run with default settings i.e. the number of cores you have and a batc
 
 	java -jar wikiforia-1.0-SNAPSHOT.jar
 
+Output
+------
+The output from the tool is an XML with the following structure (example data)
+
+	<?xml version="1.0" encoding="utf-8"?>
+	<pages>
+	
+	<page id="4" title="Alfred" revision="1386155063000" type="text/x-wiki" ns-id="0" ns-name="">Alfred, 
+	with a new line</page>
+	
+	<page id="10" title="Template:Infobox" revision="1386155040000" type="text/x-wiki" ns-id="10" ns-name="Template">Template stuff</page>
+	</pages>
+
+### Attribute information ###
+<dl>
+  <dt>id</dt>
+  <dd>Wikipedia Page id</dd>
+
+  <dt>title</dt>
+  <dd>The title of the Wikipedia page</dd>
+  
+  <dt>revision</dt>
+  <dd>The revision as given by the dump, but in milliseconds since UNIX epoch time</dd>
+  
+  <dt>type</dt>
+  <dd>the format, will always be text/x-wiki in this version of the tool</dd>
+  
+  <dt>ns-id</dt>
+  <dd>The namespace id, 0 is the principal namespace which contains all articles, take a look at Namespaces at [Wikipedia for more information](http://en.wikipedia.org/wiki/Wikipedia:Namespace)</dd>
+  
+  <dt>ns-name</dt>
+  <dd>Localized name for the namspace, for 0 it is usually just an empty string</dd>
+</dl>
+
+### Remarks ###
+Empty articles, for which no text could be found is not included. This includes redirects and most of the templates and categories, because they have no useful text. If you use the API you can extract this bit of information.
+
 API
 ---
 The code can also be used directly to extract more information.
@@ -40,13 +77,15 @@ More information about this will be added, but for now take a look at se.lth.cs.
 
 Credits
 -------
-**Peter Exner**, the author of [KOSHIK](https://github.com/peterexner/KOSHIK), the Sweble code is partially based by the KOSHIK version.
+**Peter Exner**, the author of [KOSHIK](https://github.com/peterexner/KOSHIK). The Sweble code is partially based by the KOSHIK version.
 
 **[Sweble](http://sweble.org)**, developed by the Open Source Research Group at the Friedrich-Alexander-University of Erlangen-Nuremberg. This library is used to parse the Wikimarkup.
 
 **[Woodstox](http://woodstox.codehaus.org)**, Quick XML parser, used to parse the XML and write XML output.
 
 **[Apache Commons](http://commons.apache.org)**, a collection of useful and excellent libraries. Used CLI for the options.
+
+**[Wikipedia](http://www.wikipedia.org)**, without it, this project would be useless. Testdata has been extracted from Swedish Wikipedia and is covered by [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/deed.en) licence.
 
 Licence
 -------
