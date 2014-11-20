@@ -81,7 +81,7 @@ More information about this will be added, but for now take a look at se.lth.cs.
 
 Credits
 -------
-**Peter Exner**, the author of [KOSHIK](https://github.com/peterexner/KOSHIK). The Sweble code is partially based by the KOSHIK version.
+**Peter Exner**, the author of [KOSHIK](https://github.com/peterexner/KOSHIK). The Sweble code is partially based on the KOSHIK version.
 
 **[Sweble](http://sweble.org)**, developed by the Open Source Research Group at the Friedrich-Alexander-University of Erlangen-Nuremberg. This library is used to parse the Wikimarkup.
 
