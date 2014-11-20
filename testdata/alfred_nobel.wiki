@@ -1,0 +1,235 @@
+{{Infobox biografi
+| namn             = Alfred Nobel
+| bild             = AlfredNobel2.jpg
+| bildtext         = Alfred Nobel.
+| födelsenamn      = 
+| födelsedatum     = [[21 oktober]] [[1833]]
+| födelseort       = [[Stockholm]], [[Sverige]]
+| dödsdatum        = {{Död datum och ålder|1896|12|10|1833|10|21}}
+| dödsort          = [[San Remo]], [[Italien]]
+| nationalitet     = Svensk
+| andra_namn       = 
+| känd_för         = Uppfinnare av [[dynamit]]en, [[Nobelpriset]]
+| yrke             = [[Kemist]], [[uppfinnare]], [[ingenjör]], [[industrialist]], [[donator]], stiftare
+| föräldrar        = [[Immanuel Nobel d y]], Andriette Nobel
+| begravningsplats = [[Norra begravningsplatsen]]
+}}
+
+'''Alfred Bernhard Nobel''', född [[21 oktober]] [[1833]] i [[Stockholm]]<ref name="vinterviken-nobel.se">{{webbref |url=http://www.vinterviken-nobel.se/nobel.html |utgivare=Vinterviken-nobel.se |titel=Alfred Nobel |hämtdatum=21 oktober 2014}}</ref>, död [[10 december]] [[1896]] i [[San Remo]], [[Ligurien]], [[Italien]]<ref name="vinterviken-nobel.se"/>, var en svensk [[kemist]], [[uppfinnare]] av [[dynamit]]en<ref name="vinterviken-nobel.se"/>, [[industrialist]], [[donator]], [[ingenjör]] och stiftare av [[Nobelpriset]].<ref name="vinterviken-nobel.se"/>
+
+Alfred Nobel var mycket begåvad, hade stor arbetsförmåga och fast tro på mänsklighetens utveckling genom fredlig kamp med naturens krafter. Hans uppfinningar banade ny väg på flera områden. Hans testamente har gjort Sverige berömt i hela världen.
+
+Hans uppfinningar kunde – och kom också att – å ena sidan användas för krigiska ändamål, men å andra sidan hyllade han fred. Denna [[dualism]] kan sägas vara grunden för utformningen av hans testamentariska förordnanden om Nobelprisets syfte "att komma mänskligheten till den största nytta" och det särskilda fredspriset. Alfred Nobel menade att hans dynamit ledde till fred och gav följande förklaring: "När det står klart vilken kraft det finns i sprängämnen och krut och vilken skada de kan åstadkomma kommer man avstå från att använda dem".
+
+Han var mycket intresserad av vetenskap och konst och hedrades för detta på flera sätt. Bland allt vetenskapligt arbete var han också upphovsman till en del skönlitterära alster. Han skrev dikter på såväl svenska som engelska. De avspeglar för det mesta ensamhet, melankoli och leda vid livet.<ref>{{bokref |efternamn=Nobel |förnamn=Alfred |medförfattare=Erlandsson, Åke; Jones  David (översättare) |titel=Dikter |år=2006 |utgivare=Atlantis |utgivningsort=Stockholm |isbn=91-7353-120-0 |libris=10154509}}{{Sida behövs||datum=2014-10}}</ref> Han hade ett bibliotek på knappt 2&nbsp;000 volymer fördelade på cirka 1200 titlar, varav det mesta var [[skönlitteratur]].<ref>{{bokref |efternamn=Erlandsson |förnamn=Åke |medförfattare=Olsson, Jan Eve |titel=Alfred Nobels bibliotek: en bibliografi |serie=Archives of the Nobel Museum, 1404-7586 ; 3 |år=2002 |utgivare=Atlantis |utgivningsort=Stockholm |isbn=91-7486-630-3 |libris=8462872 |sid=9}}</ref> Det litterära intresset avspeglas i nobeltestamentets föreskrift om litteraturpriset.
+
+== Biografi ==
+[[Fil:Alfred Nobels födelsehus 02.JPG|miniatyr|Nobels födelsehus på [[Norrlandsgatan]] 11.]]
+[[Fil:Nobelsspränggropar.jpg|miniatyr|En grotta vid Nobels spränggropar i [[Vinterviken]] i [[Stockholm]], 2014.]]
+Alfred Nobel var ett av åtta barn (varav bara fyra nådde vuxen ålder)<ref name="hd_roetter">{{tidningsref |url=https://hd.se/familj/slaktforskning/2007/12/10/alfred-nobel-och-hans-roetter/ |tidning=[[Helsingborgs Dagblad]] |rubrik=Alfred Nobel och hans rötter |förnamn=Roland |efternamn=Classon |datum=2007-12-10 |hämtdatum=2013-10-16}}</ref> till [[Immanuel Nobel d y]], som också han var uppfinnare, och Andriette Nobel, född Ahlsell.<ref name="vinterviken-nobel.se"/> Han och hans bröder [[Robert Nobel|Robert]], [[Ludvig Nobel|Ludvig]] och [[Emil Nobel|Emil]] levde i svåra förhållanden med en mycket sjuk fader. År 1842 flyttade familjen till [[Sankt Petersburg]] sedan faderns mekanikverkstad gått i [[konkurs]] i Sverige. Vid den tidpunkten var familjen mycket fattig och hustrun fick arbeta som butiksbiträde i en mjölk- och grönsaksbutik, medan Alfred själv hjälpte till att sälja tändstickor på gatan.{{Källa behövs|datum=2013-06-02}} Men familjens företag lyckades och byggdes upp till en industriell jätte, som blomstrade och bestod ända till dess att den [[ryska revolutionen]] gjorde sitt intåg.
+
+År 1863 återvände fadern och Alfred till [[Sverige]], där Alfred började studera [[sprängämne]]n i synnerhet [[nitroglycerin]]. Experimenten ägde rum i försöksfabriken [[Heleneborg]] i [[Stockholm]]. 1864 skedde en explosion vid Heleneborg vid sprängolje- och nitroglycerinberedning. Brodern Emil Nobel, som var 21 år, och alla andra närvarande omkom.<ref>{{tidningsref |url=http://magasin.kb.se:8080/searchinterface/page.jsp?id=kb:112835&recordNumber=4&totalRecordNumber=1160 |tidning=[[Tidning för Wenersborgs stad och län]] |rubrik=? |nummer=70 |datum=1864-09-09 |hämtdatum=21 oktober 2014}}</ref> Nobel hade mött upptäckaren av nitroglycerin, [[Ascanio Sobrero]], under sin tid i Paris och insåg att dess kraft måste tämjas för att kunna vara användbar. Alfred Nobel uppfann bland annat:
+* [[Dynamit]] 1866, som han fick patent på 1867
+* [[Spränggummi]] ([[bomullskrut]] upplöst i svartkrut), nästan riskfritt vid transport och hantering
+* [[Spränggelatin]] 1875
+* [[Ballistit]], [[nobelkrut]] 1887 (ett [[röksvagt krut]] bestående av [[nitrocellulosa]] och nitroglycerin i lika delar)
+* [[Naftaslup#Alfred Nobels naftaslup Mignon|Mignon Naftaslup]] sjösattes år 1892. 12 m lång, 1,8 m bred och ett djupgående på 0,9 m. Ångdriven 6 hk.
+
+Dynamiten innebar stora möjligheter att transportera explosiva ämnen med hög säkerhet. Trots att nitroglycerin, som är den verksamma delen i dynamit, är mycket stötkänsligt, gör den så kallade [[flegmatisering]]en att dynamiten inte [[detonation|detonerar]] trots ganska hårda törnar. Undantag är om dynamiten är frusen, då den fortfarande kan detonera om den utsätts för stötar. Vid sprängningsarbeten i kallt väder måste därför dynamiten hållas uppvärmd, till exempel genom att förvaras i varmt vatten. Härvid är att märka, att ren nitroglycerin övergår i fast form redan vid +13&nbsp;°C. Dynamit klarar sig något längre, när temperaturen sjunker, men redan vid några plusgrader blir dynamit stötkänslig. Många sprängolyckor har berott på att man inte har insett riskerna även vid plusgrader. En karakteristisk egenskap hos dynamit är att den "boxas kortvarigt", till skillnad från en del andra sprängmedel, som "brottas uthålligt".
+
+När traditionellt [[svartkrut]] används för att driva [[projektil]]er i [[skjutvapen]] blir det ett avsevärt rökmoln, som skymmer sikten för kanonservicen, och avslöjar för fienden varifrån elden utgår. Den som kan skjuta med mindre rök får därigenom en fördel. Nobel arbetade med möjligheterna att få fram ett röksvagt krut och gjorde därvid värdefulla rön som resulterade i ballistit-patentet.
+
+Nobel beviljades ett mycket stort antal [[patent]], och flera av dem inbegrep andra länder eller hela världen, totalt drygt 350 patent. Dessa omfattade även annat än sprängmedel i olika former. Inspirerad av en svår explosion orsakad av gasljus på en teater i Paris uppfann han till exempel en gasbrännare med avsevärt förbättrad säkerhet. En teknisk detalj i denna brännare var att den arbetade med förvärmning av förbränningsluften.
+
+För att exploatera sina uppfinningar anlade Alfred Nobel en mängd fabriker runt om i världen. Han intresserade sig också för industrier inom andra [[bransch]]er.
+
+Hans bröder [[Robert Nobel|Robert]] och [[Ludvig Nobel|Ludvig]] hade börjat utvinna olja i [[Baku]] i [[Azerbajdzjan]] 1874. Fyra år senare bildade de, med Alfred som en av finansiärerna, oljeföretaget ''Tovaristjestvo Neftjanovo Proizvodstva Bratjev Nobel'' (Naftaproduktionssällskapet Bröderna Nobel), som snart blev förkortat till [[Branobel]]. Bolaget blev på kort tid världens näst största oljebolag, efter [[John D. Rockefeller|Rockefellers]] [[Standard Oil]], och dominerade den europeiska marknaden fram till ryska revolutionen. Under bolagets storhetstid hade man flera hundra kontor utspridda i Ukraina och östra Europa från Polen och Baltikum ända till öster om Uralbergen. 1918 nationaliserades anläggningarna, och därmed upphörde bröderna Nobels inflytande i dessa industrier. Cirka 12 procent av Alfreds testamenterade förmögenhet utgjordes av aktier i oljeföretaget.
+
+Med alla dessa engagemang följde att en mängd tekniska och ekonomiska problem måste lösas, och detta gjorde att Alfred Nobel långa tider var på resande fot i en lång rad länder. Detta gav honom [[epitet]]et "Europas rikaste [[Luffare|vagabond]]".<ref>{{webbref |url=http://svt.se/2.42274/1.459511/alfred_nobel_-_vagabond_och_vetenskapsman |arkivurl=https://web.archive.org/web/20101018035329/http://svt.se/2.42274/1.459511/alfred_nobel_-_vagabond_och_vetenskapsman  |arkivdatum=18 oktober 2010|utgivare=[[SVT]] |titel=Alfred Nobel - vagabond och vetanskapsman}}</ref> Han hade också studerat på fem olika språk i fem olika länder och kunde därför tala fem språk flytande.
+
+Han arbetade som kemist på flera utländska laboratorier, bland annat hos professor Peluse i Paris. Där fick han bra tillfälle att studera nitroglycerin och andra sprängämnen. På grund av de många olyckor som inträffade både vid fabrikation och under transport av nitroglycerin, blev både tillverkning och användning av detta sprängämne förbjudet i flera länder. Det stora behovet av ett starkare sprängämne än krut inspirerade, tillsammans med faderns intensiva intresse för denna tillverkning, Nobel att med stor energi försöka komma på en mer lätthanterlig och mindre farlig form av nitroglycerin. En svår olycka i faderns laboratorium vid Heleneborg avskräckte honom inte. Inom kort lyckades han få tillgång till kapital för anläggande av en fabrik vid Vinterviken, nära Stockholm, och en vid Krümmel, intill Hamburg. 
+
+Det var under en vistelse vid fabriken i Krümmel som han 1866 gjorde sin första uppfinning, dynamiten. Han utnyttjade då påpassligt ortens tillgångar: [[Lüneburgheden]], där Lauenburg ligger, är en mäktig sandhed med underliggande lager av [[diluviansk]] [[kiselgur]]. Dynamiten bestod just av kiselgur, som genompressades med nitroglycerin.
+
+Ett exempel som visar hur epokgörande denna uppfinning var är att man vid sprängningen av [[Sankt Gotthardstunneln]] enligt en uppgift sparade 20 miljoner franc (oklart om franska eller schweiziska franc), och vann flera år, jämfört med beräknat. 
+
+Alfred Nobel gifte sig aldrig. År 1876 annonserade han i en Wientidning "''En mycket rik, högt bildad äldre herre som är bosatt i Paris, söker en språkkunnig dam, likaledes vid stadgad ålder, som sekreterare och hushållsföreståndarinna''"<ref>{{bokref |redaktör=Malmberg, Gert; Hansson, Jan |titel=Millennium: årtusendets bok |år=1999 |utgivare=Göteborgs-posten |utgivningsort=Göteborg |isbn=91-973363-2-7 |libris=7799720 |sid=106}}</ref>, och en ung adelsdam, grevinnan [[Bertha von Suttner|Bertha Kinsky]] anställdes. Alfred och Kinsky utvecklade en djup vänskap, som bestod långt efter att hon lämnat sitt arbete hos Alfred Nobel och gift sig med en annan man. Bertha Kinsky var mycket engagerad i fredsfrågor och var en av dåtidens största namn inom fredsrörelsen. Alfred Nobel påverkades starkt av hennes åsikter, och de ligger till grund för instiftandet av fredspriset. [[Bertha von Suttner]], som hon kom att heta efter giftermålet, tilldelades Nobels fredspris år 1905.
+
+[[Fil:Björborns herrgård.jpg|miniatyr|Björkborns herrgård, [[Karlskoga]].]]
+Nobel anlade fabriker i de flesta europeiska länder och i Nordamerika för att kunna dra nytta av sina uppfinningar. Han hade också intressen i flera andra företag, till exempel [[Branobel]] i Baku, Azerbaijan och [[Bofors]] järnverk i [[Karlskoga]], där han hade en stor experimentverkstad, bland annat för att utveckla ett krut med liten rökutveckling. Han byggde där också en mönsteranläggning för tillverkning av kanoner.
+
+Vid årsskiftet 1893/1894 tog Alfred över en stor aktiepost i Bofors, Karlskoga, för en miljon kronor. Kort därefter stod han som ensam ägare till fabriken samt kringliggande industrier. Åren 1894 till 1896 bodde Nobel i [[Björkborns herrgård]] i Karlskoga där han arbetade med sin nyförvärvade vapenfabrik. År 1896 flyttade han sitt stora tekniskt-vetenskapliga laboratorium från Paris till sin villa i San Remo vid Genua och där bodde han sen fram till sin död.
+
+En konflikt mellan Sverige och Frankrike uppstod då Nobels testamente skulle lagföras. Franska staten ansåg att [[Frankrike]] borde betraktas som hans hemland. Men fransk domstol enades om att ”där en man har sina hästar där anser han själv att han har sitt hem” och Alfred Nobel hade sina ryska hingstar på Björkborns herrgård. Testamentet lagfördes vid Karlskoga häradsrätt och instiftandet av [[Nobelpriset|Nobelprisen]] blev verklighet.
+
+Hans gravvård återfinns på [[Norra begravningsplatsen]] i Stockholm.<ref>{{bokref |efternamn=Åstrand |förnamn=Göran |medförfattare=Aunver, Kristjan |titel=Här vilar berömda svenskar: uppslagsbok och guide |år=1999 |utgivare=Ordalaget |utgivningsort=Bromma |isbn=91-89086-02-3 |libris=7777883 |sid=94}}</ref>
+
+===Nobel som författare===
+Utöver poesi, som sedan 2007 finns utgiven i en samlingsvolym<ref>{{tidningsref |url=http://www.svd.se/kultur/litteratur/nobels-hjarta-klappade-for-poesin_34361.svd |tidning=[[Svenska Dagbladet]] |rubrik=Nobels hjärta klappade för poesin |förnamn=Thure |efternamn=Stenström |datum=24 januari 2007 |hämtdatum=21 oktober 2014}}</ref> författade Nobel även det historiska [[Teaterpjäs|skådespel]]et ''[[Nemesis (pjäs)|Nemesis]]'' om den mångfaldigt litterärt skildrade våldsamma historien om den italienska adelsfamiljen Cenci på 1500-talet, däribland [[Beatrice Cenci]] och inbegriper också [[påve]]n [[Clemens VIII]]. Pjäsen utgavs först efter hans död och fick sin urpremiär först 10 december 2005 på [[Strindbergs Intima Teater]]<ref>{{webbref |url=http://sverigesradio.se/sida/artikel.aspx?programid=406&artikel=750843 |utgivare=[[Sveriges Radio]] |titel=Premiär för Alfred Nobels kontroversiella drama |förnamn=Nils Johan |efternamn=Tjärnlund |datum=9 december 2005 |hämtdatum=21 oktober 2014}}</ref>. [[Nathan Söderblom]], senare [[ärkebiskop]], upprördes över pjäsens innehåll och såg till att hela upplagan förstördes. Några enstaka exemplar glömdes bort, men återfanns i början av 1900-talet.
+
+== Alfred Nobels företag ==
+Alfred Nobel grundade ett 30-tal företag över hela världen.<ref name="vinterviken-nobel.se"/> I dag kan de fortleva under samma eller annat namn. Ibland kan ett företag ha nedlagts eller blivit uppköpt av något annat företag eller kanske fusionerats med något. Ibland hade Nobel bara ekonomiska intressen i ett företag men deltog inte aktivt i ledningen. Hans industriimperium blev med tiden svåröverskådligt, och man har i dag svårt att föreställa sig hur han lyckades sköta allt detta på ett uppenbarligen vinstgivande sätt. Följande översikt av Nobelföretag gör inte anspråk på att vara fullständig men kan förhoppningsvis fyllas på efter hand och ge en bild av den enorma vidden av Alfred Nobels imperium. Man kan även tillägga att han stod för 30 procent av Sveriges patentering vid denna tid.
+
+{|
+! Etableringsår
+! Namn
+! Ort
+! Nytt namn
+! Tillverkning
+! Anteckningar
+|-----
+| align="center" | 1858 || Gyttorps sprängämnesab
+| [[Gyttorp]] || [[Nitroglycerin]] AB || 
+| [[Fusion (Ekonomi)|Fusion]] 1915
+|-----
+| align="center" | 1862 || [[Heleneborg]] försöksfabrik
+| [[Stockholm]] ||  ||   ||
+|-----
+| align="center" | 1864 || Nitroglycerin AB
+| [[Vinterviken]], [[Stockholm]] || [[Nitro Nobel AB]] || [[Svartkrut]]
+|
+|-----
+| align="center" | 1864 ||   || [[Krümmel]], [[Lauenburg]]
+| || [[Dynamit]] || 
+|-----
+| align="center" | 1865 ||   || [[Lysaker]], [[Norge]]
+| [[Dyno Industrier]] ||  ||  
+|-----
+| align="center" | 1866 ||   || [[England]]
+| ||   || 
+|-----
+| align="center" | 1865 ||   || [[USA]]
+| ||   || 
+|-----
+| align="center" | 1865 ||   || [[Österrike]]
+| ||   || 
+|-----
+| align="center" | 1870]||   || [[Finland]]
+| ||   || 
+|-----
+| align="center" | 1871 || [[Dynamiterie de Paulilles]]  || [[Frankrike]]
+|
+||   || 
+|-----
+| align="center" | 1871 ||   || [[Skottland]]
+| ||   || 
+|-----
+| align="center" | 1872 ||   || [[Spanien]]
+|
+||   || 
+|-----
+| align="center" | 1873 ||   || [[Italien]]
+|
+||   || 
+|-----
+| align="center" | 1873 ||   || [[Schweiz]]
+|
+||   || 
+|-----
+| align="center" | 1873 ||   || [[Portugal]]
+|
+||   || 
+|-----
+| align="center" | 1876 ||   || [[Baku]]
+|
+|| Oljeraffinaderi || 
+|-----
+| align="center" | 1878 || Nobel Brothers Naphta Co 
+| ||  ||  || Se artikel [[Ludvig Nobel]]
+|-----
+| align="center" | 1894 || AB Bofors–[[Gullspång]]
+| [[Karlskoga]] ||
+| [[Kanon (vapen)|Kanoner]], [[röksvagt krut]]
+| Köpt befintligt [[bruk]] för 1,3&nbsp;Mkr
+|-----
+| align="center" | 1965 || Nitro Nobel AB
+| Gyttorp || 
+| Dynamit, [[säkerhetssprängämne]]n, [[krut]], [[jakt]][[ammunition]]
+| F d Nitroglycerin AB
+|}
+
+Alfred Nobel var engagerad i ytterligare en rad anläggningar inom skilda branscher. Vid sin död ägde han 93 fabriker i 20 länder.<ref name="vinterviken-nobel.se"/>
+
+== Nobelpriset ==
+{{Huvudartikel|Nobelpriset}}
+I sitt testamente, daterat den 27 november 1895, stadfäste Nobel att en [[stiftelse]] skulle grundas av hans förmögenhet, och att [[räntan]] skulle utdelas som pris åt personer  som under föregående år gjort mest nytta för mänskligheten.<ref name="vinterviken-nobel.se"/> Släktingarna fick bara cirka en halv procent av arvet eftersom Nobel ansåg att stora rikedomar som ärvs underblåser lättjan och bidrar till människosläktets försoffning.<ref>{{tidningsref |url=http://www.affarsvarlden.se/hem/nyheter/article269847.ece?service=print |tidning=[[Affärsvärlden]] |rubrik=Hellre donationer än stora arv |förnamn=Lars-Eric |efternamn=Bränfeldt |datum=6 december 2005 |hämtdatum=2010-02-08}}</ref><ref>{{tidningsref |url=http://magasin.kb.se:8080/searchinterface/page.jsp?id=kb:211298&recordNumber=1&totalRecordNumber=1160 |tidning=[[Tidning för Wenersborgs stad och län]] |rubrik=Alfred Nobels testamente beedigadt |sid=3 |datum=1897-02-08 |hämtdatum=21 oktober 2014}}</ref> 
+
+Priset skulle delas upp i fem lika delar inom följande områden:
+
+* [[Fysik]]. Pristagare utses av [[Kungliga Vetenskapsakademien]]
+* [[Kemi]]. Pristagare utses av [[Kungliga Vetenskapsakademien]]
+* [[Fysiologi]] eller [[medicin]]. Pristagare utses av [[Nobelförsamlingen vid Karolinska Institutet]]
+* [[Litteratur]]. Pristagare utses av [[Svenska Akademien]]
+* [[Nobels fredspris|Fredsarbete]]. Pristagare utses av [[Norska Nobelkommittén]].
+
+[[Nobelstiftelsen]] har sedan 1901]varje år delat ut detta på Nobels dödsdag, den 10 december] I slutet av 1900-talet fick denna årliga tilldragelse ytterligare status i och med att den 10 december utmärktes som ''Nobeldagen'' i svenska [[almanacka|almanackor]] och blev [[allmän flaggdag]] i [[Sverige]].
+
+==Utmärkelser och ledamotskap==
+*1884: ledamot av [[Kungliga Vetenskapsakademien]]
+*1893: filosofie [[hedersdoktor]] vid [[Uppsala universitet]] 
+
+== Hedersbetygelser ==
+[[Grundämne]]t [[nobelium]] med [[atomnummer]] 102 är uppkallat efter Alfred Nobel. 
+
+Därutöver har Alfred Nobel bland annat fått följande offentliga äreminnen:
+* 1902 döptes en gata i [[Paris]] till ''Rue Nobel''
+* 1910 uppsattes på huset Norrlandsgatan 11 i [[Klarakvarteren|Klara]], [[Stockholm]], där han föddes, en minnestavla i [[marmor]], utförd av [[Ferdinand Boberg]]. Huset revs i samband med [[Norrmalmsregleringen]].
+* 1911 fick en skola i [[Chicago]] namnet ''The Nobel School''
+* 1912 invigdes en porträttbyst i [[brons]] på [[Karolinska institutet]]s gård, utförd av [[Erik Lindberg]] och bekostad av släktingen, [[verkligt statsråd|verkliga ryska statsrådet]] och [[excellens]]en [[Emanuel Nobel]]
+* En park i [[Stockholm]] vid [[Djurgårdsbrunnsviken]]s norra strand har fått namnet [[Nobelparken]]
+
+Till 50-årsminnet av Alfred Nobels död utgav [[Postverket]] 10 december 1946 två frimärken: valörerna 20 öre (röd, upplaga 81&nbsp;655&nbsp;600) och 30 öre (blå, upplaga 4&nbsp;297&nbsp;500). På senare år har Posten hedrat pristagarna med minnesfrimärken. Se vidare [[svenska frimärken]]. Alfred Nobel finns avbildade på svenska frimärken, "Alfred Nobels testamente" som utkom den 9 november 1995.
+
+==Galleri==
+<gallery>
+Fil:Nobel patent.jpg|Alfred Nobels ansökan från 1864, gällande [[patent]] på [[tändhatt]]en och principen för initialtändning av [[nitroglycerin]].
+Fil:AlfredNobelPainting.jpg|Alfred Nobel efter en målning av [[Emil Österman]].
+File:Alfred Nobel Death mask.jpg|Alfred Nobels dödsmask.
+Fil:Alfred Nobel - Testamente.jpg|Alfred Nobels testamente.
+</gallery>
+
+==Referenser==
+===Noter===
+<references/>
+
+===Tryckta källor===
+* {{bokref |titel=Alfred Nobel och hans släkt: minnesskrift |år=1926 |utgivare=Almqvist & Wiksell i distribution |utgivningsort=Stockholm |språk=swe |libris=405876 }}
+* {{bokref |efternamn=Nobel |förnamn=Alfred |medförfattare=Erlandsson Åke, Jones David översättare |titel=Dikter |år=2006 |utgivare=Atlantis |utgivningsort=Stockholm |språk=swe |isbn=91-7353-120-0 |libris=10154509 }}
+* {{bokref |efternamn=Erlandsson |förnamn=Åke |medförfattare=Olsson Jan Eve |titel=Alfred Nobels bibliotek: en bibliografi |serie=Archives of the Nobel Museum, 1404-7586 ; 3 |år=2002 |utgivare=Atlantis |utgivningsort=Stockholm |språk=swe |isbn=91-7486-630-3 |libris=8462872 }}
+* {{bokref |redaktör=Malmberg Gert, Hansson Jan |titel=Millennium: årtusendets bok |år=1999 |utgivare=Göteborgs-posten |utgivningsort=Göteborg |språk=swe |isbn=91-973363-2-7 |libris=7799720 }}
+* {{bokref |efternamn=Åstrand |förnamn=Göran |medförfattare=Aunver Kristjan |titel=Här vilar berömda svenskar: uppslagsbok och guide |år=1999 |utgivare=Ordalaget |utgivningsort=Bromma |språk=swe |isbn=91-89086-02-3 |libris=7777883 }}
+
+===Vidare läsning===
+* {{bokref |efternamn=Fant |förnamn=Kenne |titel=Alfred Bernhard Nobel |utgåva=3. uppl. |år=2004 |utgivare=Norstedt |utgivningsort=Stockholm |språk=swe |isbn=91-1-301430-7 |libris=9982441 }}
+* {{bokref |efternamn=Andrén |förnamn=Erik |titel=Nitroglycerin aktiebolaget 1864-1964: minnesskrift över Alfred Nobels första sprängämnesföretag, utarb. till 100-årsjubileet på uppdrag av styrelsen för Nitroglycerin aktiebolaget |år=1964 |utgivare=Nitroglycerin AB |utgivningsort=Gyttorp |språk=swe |libris=893607 }}
+
+== Externa länkar ==
+{{wikiquote}}
+{{Commonscat|Alfred Nobel}}
+* [http://www.nobelmuseetikarlskoga.se/ Nobelmuseet i Karlskoga]
+* [http://nobelprize.org/nobelmuseum/index.html Nobelmuseet] (engelska)
+* [http://www.esperanto.se/nemesis Nobel som pjäsförfattare]
+* [http://www.karlskoga.se/ Alfred Nobels Karlskoga]
+* [http://www.tekniskamuseet.se/1/1910.html Alfred Nobel - Tekniska museet]
+* [http://häftessamlarna.se/?page_id=2333 Häftessamlarna] Alfred Nobel på frimärken "Alfred Nobels testamente"
+* [http://hd.se/familj/slaktforskning/2007/12/10/alla-aer-de-slaekt-med-nobel/ "Alla är de släkt med Nobel"], artikel av Roland Classon i [[Helsingborgs Dagblad]] 2007-12-10.
+
+{{Nobelpris}}
+{{STANDARDSORTERING:Nobel, Alfred}}
+
+[[Kategori:Alfred Nobel| ]]
+[[Kategori:Födda 1833]]
+[[Kategori:Avlidna 1896]]
+[[Kategori:Svenska ingenjörer]]
+[[Kategori:Svenska uppfinnare]]
+[[Kategori:Svenska entreprenörer]]
+[[Kategori:Svenska donatorer]]
+[[Kategori:Svenska eponymer]]
+[[Kategori:Personer med anknytning till Bofors]]
+[[Kategori:Vapenkonstruktörer]]
+[[Kategori:Nobel|Alfred]]
+[[Kategori:LVA]]
+[[Kategori:Hedersdoktorer vid Uppsala universitet]]
+[[Kategori:Män]]
+[[Kategori:Svenskar verksamma i S:t Petersburg]]
+[[Kategori:Gravsatta på Norra begravningsplatsen i Stockholm]]
