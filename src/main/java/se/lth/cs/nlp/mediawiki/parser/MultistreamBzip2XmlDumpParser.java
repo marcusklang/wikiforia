@@ -67,7 +67,7 @@ public class MultistreamBzip2XmlDumpParser extends AbstractEmitter<Page,Void> im
      * @param pages the page file contain all the multistreams
      */
     public MultistreamBzip2XmlDumpParser(File index, File pages) {
-        this(index, pages, Runtime.getRuntime().availableProcessors(), 100);
+        this(index, pages, 100, Runtime.getRuntime().availableProcessors());
     }
 
     /**
