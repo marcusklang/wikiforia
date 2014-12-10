@@ -69,6 +69,10 @@ The output from the tool is an XML with the following structure (example data)
 ### Remarks ###
 Empty articles, for which no text could be found is not included. This includes redirects and most of the templates and categories, because they have no useful text. If you use the API you can extract this bit of information.
 
+Language support
+----------------
+Because language support is dependent on localized translation of Wikimarkup tags only Swedish and English are supported at this time. I will happily accept contributions which extends this to support more languages. In a future version I might autogenerate all configurations from the proper Wikimedia source so that more languages will be supported.
+
 API
 ---
 The code can also be used directly to extract more information.
@@ -77,7 +81,7 @@ More information about this will be added, but for now take a look at se.lth.cs.
 
 Credits
 -------
-**Peter Exner**, the author of [KOSHIK](https://github.com/peterexner/KOSHIK). The Sweble code is partially based by the KOSHIK version.
+**Peter Exner**, the author of [KOSHIK](https://github.com/peterexner/KOSHIK). The Sweble code is partially based on the KOSHIK version.
 
 **[Sweble](http://sweble.org)**, developed by the Open Source Research Group at the Friedrich-Alexander-University of Erlangen-Nuremberg. This library is used to parse the Wikimarkup.
 
