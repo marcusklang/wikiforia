@@ -17,6 +17,7 @@
 package se.lth.cs.nlp.wikiforia;
 
 import org.apache.commons.cli.*;
+import se.lth.cs.nlp.io.SimpleHadoopTextWriter;
 import se.lth.cs.nlp.io.XmlWikipediaPageWriter;
 import se.lth.cs.nlp.mediawiki.model.Page;
 import se.lth.cs.nlp.mediawiki.model.WikipediaPage;
@@ -70,6 +71,22 @@ public class App
             .create("batchsize");
 
     @SuppressWarnings("static-access")
+    private static final Option hadoop = OptionBuilder.withLongOpt("use-hadoop-format")
+            .withDescription("use splits and a simple but hadoop friendly output format")
+            .create("hadoop");
+
+    @SuppressWarnings("static-access")
+    private static final Option gzip = OptionBuilder.withLongOpt("gzip-compression")
+            .withDescription("enable gzip compression of output (uses fast compression)")
+            .create("gzip");
+
+    @SuppressWarnings("static-access")
+    private static final Option splitsize = OptionBuilder.withLongOpt("split-size")
+                                                    .hasArg()
+                                                    .withDescription("set split size (defaults to 64 M UTF-8 chars), only applicable with hadoop, max value = 2 G")
+                                                    .create("splitsize");
+
+    @SuppressWarnings("static-access")
     private static final Option output = OptionBuilder.withLongOpt("output")
             .withDescription("xml output filepath")
             .hasArg()
@@ -83,6 +100,104 @@ public class App
             .hasArg()
             .withArgName("language")
             .create("lang");
+
+    /**
+     * Used to invoke the hadoop conversion internally
+     * @param config the language config
+     * @param indexPath the index path (might be null)
+     * @param pagesPath the pages path (must never be null)
+     * @param outputPath the output path (must never be null)
+     * @param numThreads the number of threads to use
+     * @param batchsize the size of a batch
+     * @param gzip use gzip compression
+     * @param splitsize the size of a split in chars
+     */
+    public static void hadoopConvert(
+            TemplateConfig config,
+            File indexPath,
+            File pagesPath,
+            File outputPath,
+            int numThreads,
+            int batchsize,
+            int splitsize,
+            boolean gzip)
+    {
+        Source<Page,Void> source;
+
+        if(index == null)
+        {
+            //Singlestream
+            source = new SinglestreamXmlDumpParser(pagesPath, batchsize);
+        }
+        else
+        {
+            source = new MultistreamBzip2XmlDumpParser(indexPath, pagesPath, batchsize, numThreads);
+        }
+
+        System.out.println("");
+
+        System.out.println("Using hadoop writer with " + numThreads + " threads with a batch-size of " + batchsize + ". Using language " + config.getIso639() + " settings.");
+        System.out.println("Gzip compression: " + gzip);
+        System.out.println("Index path: " + (indexPath == null ? "[not used]" : indexPath.getAbsolutePath()));
+        System.out.println("Pages path: " + pagesPath.getAbsolutePath());
+        System.out.println("Output path: " + outputPath.getAbsolutePath());
+
+        System.out.println("");
+        System.out.println("Conversion has started.");
+        final AtomicLong count = new AtomicLong();
+        final AtomicLong failcount = new AtomicLong();
+        final AtomicLong addcount = new AtomicLong();
+
+        long start = System.currentTimeMillis();
+
+        PipelineBuilder.input(source)
+                       .pipe(new SwebleWikimarkupToText(config))
+                       .sendLog(new Sink<String>() {
+                           @Override
+                           public void process(List<String> batch) {
+                               for(String str : batch) {
+                                   System.out.println(str);
+                               }
+                           }
+                       })
+                       .sendError(new Sink<Page>() {
+                           @Override
+                           public void process(List<Page> batch) {
+                               for (Page page : batch) {
+                                   System.out.println("Failed to parse " + page.getTitle());
+                               }
+
+                               count.addAndGet(batch.size());
+                               failcount.addAndGet(batch.size());
+                           }
+                       })
+                       .sendOutput(new Sink<WikipediaPage>() {
+                           private final AtomicLong futureTime = new AtomicLong(System.currentTimeMillis() + 1000);
+
+                           @Override
+                           public void process(List<WikipediaPage> batch) {
+                               long added = count.addAndGet(batch.size());
+                               addcount.addAndGet(batch.size());
+
+                               if (System.currentTimeMillis() >= futureTime.get()) {
+                                   futureTime.set(System.currentTimeMillis() + 1000);
+                                   System.out.println(" Read " + added);
+                               }
+                           }
+                       })
+                       .pipe(new SimpleHadoopTextWriter(outputPath, splitsize, numThreads, gzip))
+                       .run();
+
+        long end = System.currentTimeMillis();
+
+        System.out.println("Done.");
+        System.out.println();
+        System.out.println("Total count: " + count.get());
+        System.out.println("Total added: " + addcount.get());
+        System.out.println("Total failed: " + failcount.get());
+        System.out.println();
+        System.out.println("Completed in " + (end - start) / 1000.0 + " sec.");
+    }
 
     /**
      * Used to invoke the conversion internally
@@ -101,7 +216,7 @@ public class App
             //Singlestream
             source = new SinglestreamXmlDumpParser(pagesPath, batchsize);
         }
-        else if(index != null)
+        else
         {
             source = new MultistreamBzip2XmlDumpParser(indexPath, pagesPath, batchsize, numThreads);
         }
@@ -121,7 +236,7 @@ public class App
 
         long start = System.currentTimeMillis();
 
-        PipelineBuilder.input(new MultistreamBzip2XmlDumpParser(indexPath, pagesPath, 100))
+        PipelineBuilder.input(source)
                 .pipe(new SwebleWikimarkupToText(config))
                 .sendLog(new Sink<String>() {
                     @Override
@@ -176,7 +291,7 @@ public class App
      */
     public static void main( String[] args )
     {
-        System.out.println("Wikiforia v1.0 by Marcus Klang");
+        System.out.println("Wikiforia v1.1 by Marcus Klang");
 
         Options options = new Options();
         options.addOption(index);
@@ -185,6 +300,8 @@ public class App
         options.addOption(batch);
         options.addOption(output);
         options.addOption(lang);
+        options.addOption(hadoop);
+        options.addOption(gzip);
 
         CommandLineParser parser = new PosixParser();
         try {
@@ -274,7 +391,24 @@ public class App
                 langId = "en";
             }
 
-            convert(config,indexPath,pagesPath, outputPath, numThreads, batchsize);
+            if(cmdline.hasOption(hadoop.getOpt())) {
+                if(outputPath.exists()) {
+                    System.out.println("The target location already exists, please remove before using the tool!");
+                    System.exit(1);
+                }
+                else {
+                    int splitsize = 64000000;
+                    if(cmdline.hasOption(App.splitsize.getOpt())) {
+                        splitsize = Integer.parseInt(cmdline.getOptionValue(App.splitsize.getOpt()));
+                    }
+
+                    hadoopConvert(config, indexPath, pagesPath, outputPath, numThreads, batchsize, splitsize, cmdline.hasOption(gzip.getOpt()));
+                }
+            }
+            else {
+                convert(config,indexPath,pagesPath, outputPath, numThreads, batchsize);
+            }
+
         } catch (ParseException e) {
             System.out.println(e.getMessage());
             HelpFormatter writer = new HelpFormatter();
