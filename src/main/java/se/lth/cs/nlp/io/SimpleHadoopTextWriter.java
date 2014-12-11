@@ -1,6 +1,8 @@
 package se.lth.cs.nlp.io;
 
 import org.apache.commons.lang3.StringUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import se.lth.cs.nlp.mediawiki.model.WikipediaPage;
 import se.lth.cs.nlp.pipeline.Sink;
 
@@ -8,6 +10,7 @@ import java.io.File;
 import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.atomic.AtomicLong;
 
 /**
  * Hadoop text writer which writes to a directory
@@ -22,6 +25,8 @@ public class SimpleHadoopTextWriter implements Sink<WikipediaPage> {
     private final int maxWriters;
     private final boolean gzip;
     private ParallelSplitWriter<String> writer;
+    private final AtomicLong written = new AtomicLong(0);
+    private final Logger logger = LoggerFactory.getLogger(SimpleHadoopTextWriter.class);
 
     /**
      * Construct a hadoop text writer
@@ -47,8 +52,12 @@ public class SimpleHadoopTextWriter implements Sink<WikipediaPage> {
     public void process(List<WikipediaPage> batch) {
         if(batch.size() == 0) {
             //end signal
+            logger.info("End of dump reached.");
+            NumberFormat nf = NumberFormat.getIntegerInstance();
+            nf.setGroupingUsed(true);
+            logger.info("Total written: {}", nf.format(written.get()));
             writer.close();
-            writer = null; //nothing should every call after this point.
+            writer = null; //nothing should call after this point.
         } else {
             ArrayList<String> pages = new ArrayList<String>();
             for (WikipediaPage wikipediaPage : batch) {
@@ -63,6 +72,7 @@ public class SimpleHadoopTextWriter implements Sink<WikipediaPage> {
                 }
             }
 
+            written.addAndGet(pages.size());
             writer.write(pages);
         }
     }
