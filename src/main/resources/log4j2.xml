@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+  <Appenders>
+    <Console name="Console-Out" target="SYSTEM_OUT">
+      <PatternLayout pattern="[%d{YYYY-MM-dd HH:mm:ss.SSS} | %t | %-5level | %logger{36}] %msg%n"/>
+      <Filters>
+        <ThresholdFilter level="ERROR" onMatch="DENY" onMismatch="ACCEPT"/>
+        <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
+      </Filters>
+    </Console>
+    <Console name="Console-Err" target="SYSTEM_ERR">
+      <PatternLayout pattern="[%d{YYYY-MM-dd HH:mm:ss.SSS} | %t | %-5level | %logger{36}] %msg%n"/>
+      <Filters>
+        <ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
+      </Filters>
+    </Console>
+  </Appenders>
+  <Loggers>
+    <Root level="info">
+      <AppenderRef ref="Console-Out" />
+      <AppenderRef ref="Console-Err" />
+    </Root>
+  </Loggers>
+</Configuration>

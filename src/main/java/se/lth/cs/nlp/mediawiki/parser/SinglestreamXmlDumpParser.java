@@ -22,6 +22,7 @@ import se.lth.cs.nlp.pipeline.AbstractEmitter;
 import se.lth.cs.nlp.pipeline.Source;
 
 import java.io.*;
+import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -33,6 +34,7 @@ public class SinglestreamXmlDumpParser extends AbstractEmitter<Page,Void> implem
     private final InputStream input;
     private final XmlDumpParser parser;
     private final int batchsize;
+    private final File pageInput;
 
     /**
      * File constructor
@@ -56,6 +58,7 @@ public class SinglestreamXmlDumpParser extends AbstractEmitter<Page,Void> implem
      * @param batchsize the size of a batch
      */
     public SinglestreamXmlDumpParser(File path, int batchsize) {
+        this.pageInput = path;
         this.batchsize = batchsize;
         try {
             if(path.getAbsolutePath().toLowerCase().endsWith(".bz2")) {
@@ -79,6 +82,7 @@ public class SinglestreamXmlDumpParser extends AbstractEmitter<Page,Void> implem
      * @param batchsize the size of a batch
      */
     public SinglestreamXmlDumpParser(InputStream stream, int batchsize) {
+        this.pageInput = null;
         this.input = stream;
         this.batchsize = batchsize;
         this.parser = new XmlDumpParser(input);
@@ -102,5 +106,15 @@ public class SinglestreamXmlDumpParser extends AbstractEmitter<Page,Void> implem
             output(pages);
 
         output(Collections.<Page>emptyList());
+    }
+
+    @Override
+    public String toString() {
+        NumberFormat nf = NumberFormat.getIntegerInstance();
+        nf.setGroupingUsed(true);
+
+        return String.format("Singlestreamed XML Dump parser { \n * Batch size: %s, \n * Input: %s \n}",
+                             nf.format(batchsize),
+                             pageInput == null ? "[Inputstream]" : pageInput.getAbsolutePath());
     }
 }

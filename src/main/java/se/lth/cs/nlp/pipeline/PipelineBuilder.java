@@ -38,7 +38,6 @@ public class PipelineBuilder {
             this.emitter = source;
         }
 
-
         /**
          * Pipe result to a mapper
          * @param mapper the mapper

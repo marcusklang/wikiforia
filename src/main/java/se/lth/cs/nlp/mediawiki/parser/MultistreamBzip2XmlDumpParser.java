@@ -19,6 +19,9 @@ package se.lth.cs.nlp.mediawiki.parser;
 import org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream;
 import org.codehaus.stax2.XMLInputFactory2;
 import org.codehaus.stax2.XMLStreamReader2;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.slf4j.Marker;
 import se.lth.cs.nlp.mediawiki.model.Header;
 import se.lth.cs.nlp.pipeline.AbstractEmitter;
 import se.lth.cs.nlp.pipeline.Source;
@@ -27,10 +30,12 @@ import se.lth.cs.nlp.mediawiki.model.Page;
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamException;
 import java.io.*;
+import java.text.NumberFormat;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.concurrent.*;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 /**
  * Multistream Mediawiki bzip2 xml dump parser (supporting parallel decompression and xml parsing)
@@ -60,6 +65,7 @@ public class MultistreamBzip2XmlDumpParser extends AbstractEmitter<Page,Void> im
     private final PageReader pageReader;
     private final int batchsize;
     private final Worker[] workers;
+    private final File indexFile, pageFile;
 
     /**
      * Default constructor (batchsize = 100, numThreads = available processors)
@@ -88,6 +94,8 @@ public class MultistreamBzip2XmlDumpParser extends AbstractEmitter<Page,Void> im
      * @param batchsize the size of a batch
      */
     public MultistreamBzip2XmlDumpParser(File index, File pages, int batchsize, int numThreads) {
+        this.indexFile = index;
+        this.pageFile = pages;
         this.workers = new Worker[numThreads];
         this.blocks = new ArrayBlockingQueue<PageBlock>(numThreads*3);
         this.pageReader = new PageReader(new IndexReader(index, pages, numThreads * 3), pages);
@@ -353,22 +361,37 @@ public class MultistreamBzip2XmlDumpParser extends AbstractEmitter<Page,Void> im
 
     @Override
     public void run() {
+        final AtomicBoolean terminate = new AtomicBoolean(false);
+        final Logger logger = LoggerFactory.getLogger(MultistreamBzip2XmlDumpParser.class);
         //1. Start all worker threads
         for (int i = 0; i < workers.length; i++) {
             workers[i] = new Worker();
+            workers[i].setName("Dump Worker " + i);
         }
 
+        //Add an uncaught exception handler and allow for a graceful shutdown.
+        Thread.UncaughtExceptionHandler h = new Thread.UncaughtExceptionHandler() {
+            public void uncaughtException(Thread th, Throwable ex) {
+                logger.error("Fatal error in thread {}, terminating...", th.getName(), ex);
+                for (Worker worker : workers) {
+                    worker.interrupt();
+                }
+                terminate.set(true);
+            }
+        };
+
         for (Worker worker : workers) {
+            worker.setUncaughtExceptionHandler(h);
             worker.start();
         }
 
         //2. Seed them with data until there is no more
         byte[] data;
-        while((data = pageReader.next()) != null) {
+        while((data = pageReader.next()) != null && !terminate.get()) {
             try {
                 blocks.put(new PageBlock(data));
             } catch (InterruptedException e) {
-                e.printStackTrace();
+                logger.error("Data put interrupted", e);
                 break;
             }
         }
@@ -377,7 +400,7 @@ public class MultistreamBzip2XmlDumpParser extends AbstractEmitter<Page,Void> im
             try {
                 blocks.put(new PageBlock(null));
             } catch (InterruptedException e) {
-                e.printStackTrace();
+                logger.info("Termination interrupted", e);
                 break;
             }
         }
@@ -387,10 +410,23 @@ public class MultistreamBzip2XmlDumpParser extends AbstractEmitter<Page,Void> im
             try {
                 worker.join();
             } catch (InterruptedException e) {
-                e.printStackTrace();
+                logger.error("Worker {} thread interrupted.", worker.getName(), e);
             }
         }
 
         output(Collections.<Page>emptyList());
+    }
+
+    @Override
+    public String toString() {
+        NumberFormat nf = NumberFormat.getIntegerInstance();
+        nf.setGroupingUsed(true);
+
+        return String.format("Multistreamed Bzip2 XML Dump parser { \n * Threads: %s, \n * Batch size: %s, \n * Index: %s, \n * Pages: %s, \n * Basepath: %s \n}",
+                             nf.format(workers.length),
+                             nf.format(batchsize),
+                             indexFile.getName(),
+                             pageFile.getName(),
+                             pageFile.getParentFile().getAbsolutePath());
     }
 }

@@ -17,12 +17,21 @@
 package se.lth.cs.nlp.wikiforia;
 
 import org.apache.commons.cli.*;
+import org.apache.commons.lang3.StringUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.core.LoggerContext;
+import org.apache.logging.log4j.core.appender.ConsoleAppender;
+import org.apache.logging.log4j.core.config.Configuration;
+import org.apache.logging.log4j.core.layout.PatternLayout;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import se.lth.cs.nlp.io.SimpleHadoopTextWriter;
 import se.lth.cs.nlp.io.XmlWikipediaPageWriter;
 import se.lth.cs.nlp.mediawiki.model.Page;
 import se.lth.cs.nlp.mediawiki.model.WikipediaPage;
 import se.lth.cs.nlp.mediawiki.parser.MultistreamBzip2XmlDumpParser;
 import se.lth.cs.nlp.mediawiki.parser.SinglestreamXmlDumpParser;
+import se.lth.cs.nlp.pipeline.Filter;
 import se.lth.cs.nlp.pipeline.PipelineBuilder;
 import se.lth.cs.nlp.pipeline.Sink;
 import se.lth.cs.nlp.pipeline.Source;
@@ -34,7 +43,10 @@ import se.lth.cs.nlp.wikipedia.parser.SwebleWikimarkupToText;
 import java.io.File;
 import java.io.IOError;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.TreeMap;
+import java.util.TreeSet;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -81,6 +93,12 @@ public class App
             .create("gzip");
 
     @SuppressWarnings("static-access")
+    private static final Option filterNs = OptionBuilder.withLongOpt("filter-by-namespace-id")
+                                                    .hasArg()
+                                                    .withDescription("only include namespaces that match given numbers, separate by ',' for more than 1 filter")
+                                                    .create("fns");
+
+    @SuppressWarnings("static-access")
     private static final Option splitsize = OptionBuilder.withLongOpt("split-size")
                                                     .hasArg()
                                                     .withDescription("set split size (defaults to 64 M UTF-8 chars), only applicable with hadoop, max value = 2 G")
@@ -125,78 +143,46 @@ public class App
         Source<Page,Void> source;
 
         if(index == null)
-        {
-            //Singlestream
             source = new SinglestreamXmlDumpParser(pagesPath, batchsize);
-        }
         else
-        {
             source = new MultistreamBzip2XmlDumpParser(indexPath, pagesPath, batchsize, numThreads);
-        }
 
-        System.out.println("");
+        Pipeline pipeline = new Pipeline(source, new SimpleHadoopTextWriter(outputPath, splitsize, numThreads, gzip), config);
+        pipeline.run();
+    }
 
-        System.out.println("Using hadoop writer with " + numThreads + " threads with a batch-size of " + batchsize + ". Using language " + config.getIso639() + " settings.");
-        System.out.println("Gzip compression: " + gzip);
-        System.out.println("Index path: " + (indexPath == null ? "[not used]" : indexPath.getAbsolutePath()));
-        System.out.println("Pages path: " + pagesPath.getAbsolutePath());
-        System.out.println("Output path: " + outputPath.getAbsolutePath());
+    /**
+     * Used to invoke the hadoop conversion internally
+     * @param config the language config
+     * @param indexPath the index path (might be null)
+     * @param pagesPath the pages path (must never be null)
+     * @param outputPath the output path (must never be null)
+     * @param numThreads the number of threads to use
+     * @param batchsize the size of a batch
+     * @param gzip use gzip compression
+     * @param splitsize the size of a split in chars
+     * @param filters all filters to append
+     */
+    public static void hadoopConvert(TemplateConfig config,
+                                     File indexPath,
+                                     File pagesPath,
+                                     File outputPath,
+                                     int numThreads,
+                                     int batchsize,
+                                     int splitsize,
+                                     boolean gzip,
+                                     ArrayList<Filter<WikipediaPage>> filters)
+    {
+        Source<Page,Void> source;
 
-        System.out.println("");
-        System.out.println("Conversion has started.");
-        final AtomicLong count = new AtomicLong();
-        final AtomicLong failcount = new AtomicLong();
-        final AtomicLong addcount = new AtomicLong();
+        if(index == null)
+            source = new SinglestreamXmlDumpParser(pagesPath, batchsize);
+        else
+            source = new MultistreamBzip2XmlDumpParser(indexPath, pagesPath, batchsize, numThreads);
 
-        long start = System.currentTimeMillis();
-
-        PipelineBuilder.input(source)
-                       .pipe(new SwebleWikimarkupToText(config))
-                       .sendLog(new Sink<String>() {
-                           @Override
-                           public void process(List<String> batch) {
-                               for(String str : batch) {
-                                   System.out.println(str);
-                               }
-                           }
-                       })
-                       .sendError(new Sink<Page>() {
-                           @Override
-                           public void process(List<Page> batch) {
-                               for (Page page : batch) {
-                                   System.out.println("Failed to parse " + page.getTitle());
-                               }
-
-                               count.addAndGet(batch.size());
-                               failcount.addAndGet(batch.size());
-                           }
-                       })
-                       .sendOutput(new Sink<WikipediaPage>() {
-                           private final AtomicLong futureTime = new AtomicLong(System.currentTimeMillis() + 1000);
-
-                           @Override
-                           public void process(List<WikipediaPage> batch) {
-                               long added = count.addAndGet(batch.size());
-                               addcount.addAndGet(batch.size());
-
-                               if (System.currentTimeMillis() >= futureTime.get()) {
-                                   futureTime.set(System.currentTimeMillis() + 1000);
-                                   System.out.println(" Read " + added);
-                               }
-                           }
-                       })
-                       .pipe(new SimpleHadoopTextWriter(outputPath, splitsize, numThreads, gzip))
-                       .run();
-
-        long end = System.currentTimeMillis();
-
-        System.out.println("Done.");
-        System.out.println();
-        System.out.println("Total count: " + count.get());
-        System.out.println("Total added: " + addcount.get());
-        System.out.println("Total failed: " + failcount.get());
-        System.out.println();
-        System.out.println("Completed in " + (end - start) / 1000.0 + " sec.");
+        Pipeline pipeline = new Pipeline(source, new SimpleHadoopTextWriter(outputPath, splitsize, numThreads, gzip), config);
+        pipeline.appendAllFilters(filters);
+        pipeline.run();
     }
 
     /**
@@ -208,81 +194,54 @@ public class App
      * @param numThreads the number of threads to use
      * @param batchsize the size of a batch
      */
-    public static void convert(TemplateConfig config, File indexPath, File pagesPath, File outputPath, int numThreads, int batchsize) {
+    public static void convert(
+            TemplateConfig config,
+            File indexPath,
+            File pagesPath,
+            File outputPath,
+            int numThreads,
+            int batchsize)
+    {
         Source<Page,Void> source;
 
         if(index == null)
-        {
-            //Singlestream
             source = new SinglestreamXmlDumpParser(pagesPath, batchsize);
-        }
         else
-        {
             source = new MultistreamBzip2XmlDumpParser(indexPath, pagesPath, batchsize, numThreads);
-        }
 
-        System.out.println("");
+        Pipeline pipeline = new Pipeline(source, new XmlWikipediaPageWriter(outputPath), config);
+        pipeline.run();
+    }
 
-        System.out.println("Using " + numThreads + " threads with a batch-size of " + batchsize + ". Using language " + config.getIso639() + " settings.");
-        System.out.println("Index path: " + (indexPath == null ? "[not used]" : indexPath.getAbsolutePath()));
-        System.out.println("Pages path: " + pagesPath.getAbsolutePath());
-        System.out.println("Output path: " + outputPath.getAbsolutePath());
+    /**
+     * Used to invoke the conversion internally
+     * @param config the language config
+     * @param indexPath the index path (might be null)
+     * @param pagesPath the pages path (must never be null)
+     * @param outputPath the output path (must never be null)
+     * @param numThreads the number of threads to use
+     * @param batchsize the size of a batch
+     * @param filters All filters to append
+     */
+    public static void convert(
+            TemplateConfig config,
+            File indexPath,
+            File pagesPath,
+            File outputPath,
+            int numThreads,
+            int batchsize,
+            ArrayList<Filter<WikipediaPage>> filters)
+    {
+        Source<Page,Void> source;
 
-        System.out.println("");
-        System.out.println("Conversion has started.");
-        final AtomicLong count = new AtomicLong();
-        final AtomicLong failcount = new AtomicLong();
-        final AtomicLong addcount = new AtomicLong();
+        if(index == null)
+            source = new SinglestreamXmlDumpParser(pagesPath, batchsize);
+        else
+            source = new MultistreamBzip2XmlDumpParser(indexPath, pagesPath, batchsize, numThreads);
 
-        long start = System.currentTimeMillis();
-
-        PipelineBuilder.input(source)
-                .pipe(new SwebleWikimarkupToText(config))
-                .sendLog(new Sink<String>() {
-                    @Override
-                    public void process(List<String> batch) {
-                        for(String str : batch) {
-                            System.out.println(str);
-                        }
-                    }
-                })
-                .sendError(new Sink<Page>() {
-                    @Override
-                    public void process(List<Page> batch) {
-                        for (Page page : batch) {
-                            System.out.println("Failed to parse " + page.getTitle());
-                        }
-
-                        count.addAndGet(batch.size());
-                        failcount.addAndGet(batch.size());
-                    }
-                })
-                .sendOutput(new Sink<WikipediaPage>() {
-                    private final AtomicLong futureTime = new AtomicLong(System.currentTimeMillis() + 1000);
-
-                    @Override
-                    public void process(List<WikipediaPage> batch) {
-                        long added = count.addAndGet(batch.size());
-                        addcount.addAndGet(batch.size());
-
-                        if (System.currentTimeMillis() >= futureTime.get()) {
-                            futureTime.set(System.currentTimeMillis() + 1000);
-                            System.out.println(" Read " + added);
-                        }
-                    }
-                })
-                .pipe(new XmlWikipediaPageWriter(outputPath))
-                .run();
-
-        long end = System.currentTimeMillis();
-
-        System.out.println("Done.");
-        System.out.println();
-        System.out.println("Total count: " + count.get());
-        System.out.println("Total added: " + addcount.get());
-        System.out.println("Total failed: " + failcount.get());
-        System.out.println();
-        System.out.println("Completed in " + (end - start) / 1000.0 + " sec.");
+        Pipeline pipeline = new Pipeline(source, new XmlWikipediaPageWriter(outputPath), config);
+        pipeline.appendAllFilters(filters);
+        pipeline.run();
     }
 
     /**
@@ -291,7 +250,9 @@ public class App
      */
     public static void main( String[] args )
     {
-        System.out.println("Wikiforia v1.1 by Marcus Klang");
+        Logger logger = LoggerFactory.getLogger(App.class);
+
+        logger.info("Wikiforia v1.1.1 by Marcus Klang");
 
         Options options = new Options();
         options.addOption(index);
@@ -302,6 +263,7 @@ public class App
         options.addOption(lang);
         options.addOption(hadoop);
         options.addOption(gzip);
+        options.addOption(filterNs);
 
         CommandLineParser parser = new PosixParser();
         try {
@@ -349,14 +311,14 @@ public class App
 
             //Validation
             if(!pagesPath.exists()) {
-                System.out.println("pages with absolute filepath '" + pagesPath.getAbsolutePath() + "' could not be found.");
+                logger.error("pages with absolute filepath {} could not be found.", pagesPath.getAbsolutePath());
                 return;
             }
 
             if(indexPath != null && !indexPath.exists())
             {
-                System.out.println("Could not find index file '" + indexPath.getAbsolutePath() + "'.");
-                System.out.println("Skipping index and continuing with singlestream parsing (no threaded decompression)");
+                logger.error("Could not find index file {}.", indexPath.getAbsolutePath());
+                logger.error("Skipping index and continuing with singlestream parsing (no threaded decompression)");
                 indexPath = null;
             }
 
@@ -373,8 +335,31 @@ public class App
                     langId = matcher.group(1).toLowerCase();
                 }
                 else {
-                    System.out.println("Could not find a suitable language, will default to English");
+                    logger.error("Could not find a suitable language, will default to English");
                     langId = "en";
+                }
+            }
+
+            ArrayList<Filter<WikipediaPage>> filters = new ArrayList<Filter<WikipediaPage>>();
+            if(cmdline.hasOption(filterNs.getOpt())) {
+                String optionValue = cmdline.getOptionValue(filterNs.getOpt());
+                final TreeSet<Integer> ns = new TreeSet<Integer>();
+                for (String s : optionValue.split(",")) {
+                    ns.add(Integer.parseInt(s));
+                }
+
+                if(ns.size() > 0) {
+                    filters.add(new Filter<WikipediaPage>() {
+                        @Override
+                        protected boolean accept(WikipediaPage item) {
+                            return ns.contains(item.getNamespace());
+                        }
+
+                        @Override
+                        public String toString() {
+                            return String.format("Namespace filter { namespaces: %s }", StringUtils.join(ns, ","));
+                        }
+                    });
                 }
             }
 
@@ -387,13 +372,13 @@ public class App
             }
             else {
                 config = new EnglishConfig();
-                System.out.println("language " + langId + " is not yet supported and will be defaulted to a English setting for Sweble.");
+                logger.error("language {} is not yet supported and will be defaulted to a English setting for Sweble.", langId);
                 langId = "en";
             }
 
             if(cmdline.hasOption(hadoop.getOpt())) {
                 if(outputPath.exists()) {
-                    System.out.println("The target location already exists, please remove before using the tool!");
+                    logger.error("The target location already exists, please remove before using the tool!");
                     System.exit(1);
                 }
                 else {
@@ -402,11 +387,11 @@ public class App
                         splitsize = Integer.parseInt(cmdline.getOptionValue(App.splitsize.getOpt()));
                     }
 
-                    hadoopConvert(config, indexPath, pagesPath, outputPath, numThreads, batchsize, splitsize, cmdline.hasOption(gzip.getOpt()));
+                    hadoopConvert(config, indexPath, pagesPath, outputPath, numThreads, batchsize, splitsize, cmdline.hasOption(gzip.getOpt()), filters);
                 }
             }
             else {
-                convert(config,indexPath,pagesPath, outputPath, numThreads, batchsize);
+                convert(config,indexPath,pagesPath, outputPath, numThreads, batchsize, filters);
             }
 
         } catch (ParseException e) {

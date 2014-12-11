@@ -5,6 +5,7 @@ import se.lth.cs.nlp.mediawiki.model.WikipediaPage;
 import se.lth.cs.nlp.pipeline.Sink;
 
 import java.io.File;
+import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,6 +17,10 @@ import java.util.List;
  */
 public class SimpleHadoopTextWriter implements Sink<WikipediaPage> {
 
+    private final File basepath;
+    private final int limit;
+    private final int maxWriters;
+    private final boolean gzip;
     private ParallelSplitWriter<String> writer;
 
     /**
@@ -25,6 +30,10 @@ public class SimpleHadoopTextWriter implements Sink<WikipediaPage> {
      * @param maxWriters the maximum number of concurrent writers
      */
     public SimpleHadoopTextWriter(File basepath, int limit, int maxWriters, boolean gzip) {
+        this.basepath = basepath;
+        this.limit = limit;
+        this.maxWriters = maxWriters;
+        this.gzip = gzip;
         if(basepath.exists())
             throw new IllegalArgumentException("Safety feature: basepath must not exist prior to output");
 
@@ -48,7 +57,7 @@ public class SimpleHadoopTextWriter implements Sink<WikipediaPage> {
 
                     sb.append(wikipediaPage.getTitle())
                       .append("\t")
-                      .append(StringUtils.replaceChars(wikipediaPage.getText(), "\t\n", " \t"));
+                      .append(wikipediaPage.getText().replaceAll("\n", " \t"));
 
                     pages.add(sb.toString());
                 }
@@ -56,5 +65,12 @@ public class SimpleHadoopTextWriter implements Sink<WikipediaPage> {
 
             writer.write(pages);
         }
+    }
+
+    @Override
+    public String toString() {
+        NumberFormat nf = NumberFormat.getIntegerInstance();
+        nf.setGroupingUsed(true);
+        return String.format("Hadoop Split Writer { \n * Split limit: %s, \n * Max writers: %s, \n * Use Gzip: %s, \n * Basepath: %s \n}", nf.format(limit), nf.format(maxWriters), gzip ? "Yes" : "No", basepath.getAbsolutePath());
     }
 }

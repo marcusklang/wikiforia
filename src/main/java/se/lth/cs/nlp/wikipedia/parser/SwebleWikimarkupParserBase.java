@@ -84,7 +84,6 @@ public abstract class SwebleWikimarkupParserBase<T> extends Mapper<Page,T,Page> 
             else
             {
                 //Failed because it is not of x-wiki format.
-                failed.add(page);
                 log(page.getTitle() + " ignored because it is not wikimarkup, has format " + page.getFormat());
             }
         }

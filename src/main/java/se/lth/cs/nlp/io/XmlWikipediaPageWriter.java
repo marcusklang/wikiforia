@@ -90,6 +90,10 @@ public class XmlWikipediaPageWriter implements Sink<WikipediaPage> {
         } catch (XMLStreamException e) {
             throw new IOError(e);
         }
+    }
 
+    @Override
+    public String toString() {
+        return String.format("XML Writer { target: %s }", output.getAbsolutePath());
     }
 }

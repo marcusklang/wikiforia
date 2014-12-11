@@ -23,7 +23,7 @@ public interface PipelinePipeBlock<Input, Error> {
 
     /**
      * Pipe result to a mapper
-     * @param mapper the mapper
+     * @param mapper the mapper.
      * @param <Output> the type of mapped output
      * @param <Error> the type of mapping errors
      * @return new piping stage
