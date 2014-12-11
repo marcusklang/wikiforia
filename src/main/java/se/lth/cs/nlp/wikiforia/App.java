@@ -73,6 +73,7 @@ public class App
 
     @SuppressWarnings("static-access")
     private static final Option threads = OptionBuilder.withLongOpt("num-threads")
+            .hasArg()
             .withDescription("set the number of threads to use, defaults to available processors as given by Runtime.getRuntime()")
             .create("t");
 
