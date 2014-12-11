@@ -9,6 +9,9 @@ import java.util.List;
 public abstract class Filter<T> extends Mapper<T,T,Void> {
     @Override
     public void process(List<T> batch) {
+        if(batch.size() == 0)
+            output(batch); //let the end signal get through.
+
         ArrayList<T> output = new ArrayList<T>();
 
         for (T item : batch) {
