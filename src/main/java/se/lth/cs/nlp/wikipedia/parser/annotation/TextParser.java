@@ -28,12 +28,11 @@ public class TextParser<T,Out> extends AstVisitor<WtNode> {
 
     private boolean hasNotReadAbstract = true;
 
-    protected WikiConfig config;
+    protected final WikiConfig config;
     protected AnnotationParser<T,Out> parser;
-    protected String title;
 
     protected AnnotationContext<T> context;
-    protected Page page;
+    protected final Page page;
 
     public AnnotationContext<T> getContext() {
         return context;
@@ -262,7 +261,7 @@ public class TextParser<T,Out> extends AstVisitor<WtNode> {
         if(start < end) {
             String target = link.getTarget().getAsString();
             if(target.startsWith("#")) {
-                parser.anchor(context, title, target.substring(1), true, start, end);
+                parser.anchor(context, page.getTitle(), target.substring(1), true, start, end);
             } else {
                 int hashIndex = target.lastIndexOf('#');
                 if(hashIndex == -1) {
