@@ -39,6 +39,7 @@ public class SwebleWikimarkupToText extends SwebleWikimarkupParserBase<Wikipedia
     protected WikipediaPage extract(Page page, EngProcessedPage cp) {
         SwebleTextAstWalker walker = new SwebleTextAstWalker(config);
         String text = (String)walker.go(cp.getPage());
+        text = text.replaceAll("\\(\\s*\\)", " ");
         text = text.replaceAll(" {2,}", " ");
         text = text.replaceAll("\n{2,}", "\n\n");
         text = trimLineStartFix.matcher(text).replaceAll("");

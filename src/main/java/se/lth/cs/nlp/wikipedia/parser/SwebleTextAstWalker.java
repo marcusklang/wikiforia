@@ -16,14 +16,13 @@
  */
 package se.lth.cs.nlp.wikipedia.parser;
 
+import de.fau.cs.osr.ptk.common.AstVisitor;
 import org.apache.commons.lang.StringUtils;
 import org.sweble.wikitext.engine.PageTitle;
 import org.sweble.wikitext.engine.config.WikiConfig;
 import org.sweble.wikitext.engine.nodes.EngPage;
 import org.sweble.wikitext.parser.nodes.*;
 import org.sweble.wikitext.parser.parser.LinkTargetException;
-
-import de.fau.cs.osr.ptk.common.AstVisitor;
 
 /**
  * A Sweble AST walker that extracts text content from the parser AST tree.
@@ -97,7 +96,8 @@ public class SwebleTextAstWalker extends AstVisitor<WtNode> {
         int end = sb.length();
 
         if(start != end) {
-            if(StringUtils.trim(sb.substring(start,end)).length() > 0)
+            String endpart = StringUtils.trim(sb.substring(start,end));
+            if(endpart.length() > 0 && !endpart.endsWith("."))
                 sb.append(". ");
             else
                 sb.append(" ");
@@ -190,6 +190,9 @@ public class SwebleTextAstWalker extends AstVisitor<WtNode> {
             {
                 PageTitle page = PageTitle.make(config, link.getTarget().getAsString());
                 if (page.getNamespace().equals(config.getNamespace("Category"))) {
+                    return;
+                }
+                else if(page.getNamespace().isFileNs() || page.getNamespace().isMediaNs()) {
                     return;
                 }
             }

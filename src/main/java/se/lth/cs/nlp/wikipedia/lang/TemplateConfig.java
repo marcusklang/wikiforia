@@ -16,14 +16,16 @@
  */
 package se.lth.cs.nlp.wikipedia.lang;
 
-import java.util.*;
-
-import org.sweble.wikitext.engine.config.I18nAliasImpl;
-import org.sweble.wikitext.engine.config.InterwikiImpl;
-import org.sweble.wikitext.engine.config.NamespaceImpl;
-import org.sweble.wikitext.engine.config.ParserConfigImpl;
-import org.sweble.wikitext.engine.config.WikiConfigImpl;
+import org.apache.commons.lang.StringUtils;
+import org.sweble.wikitext.engine.config.*;
 import org.sweble.wikitext.engine.utils.DefaultConfig;
+import se.lth.cs.nlp.mediawiki.model.Page;
+import se.lth.cs.nlp.wikipedia.WikipediaPageType;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.List;
 
 /**
  * Programatically generate a default configuration for that is similar to that
@@ -79,6 +81,30 @@ public abstract class TemplateConfig
 
         for (String aliase : aliases) {
             list.add(aliase);
+        }
+    }
+
+    public WikipediaPageType classifyPageType(Page page) {
+        switch(page.getNamespace()) {
+            case 0:
+                String data = page.getContent();
+                if(page.getContent().startsWith(" "))
+                    data = data.trim();
+
+                for (String redirect : getI18nAlias("redirect")) {
+                    if(StringUtils.startsWithIgnoreCase(data, redirect))
+                        return WikipediaPageType.REDIRECT;
+                }
+                if(StringUtils.startsWithIgnoreCase(data, "#REDIRECT"))
+                    return WikipediaPageType.REDIRECT;
+
+                return WikipediaPageType.ARTICLE;
+            case 10:
+                return WikipediaPageType.TEMPLATE;
+            case 14:
+                return WikipediaPageType.CATEGORY;
+            default:
+                return WikipediaPageType.OTHER;
         }
     }
 

@@ -1,0 +1,635 @@
+{{förväxlas|Hälsingborg, Vindelns kommun}}
+{{Olika betydelser}}
+{{Ortsfakta Sverige
+| ortnamn           = Helsingborg
+| alternativnamn    = (Hälsingborg, Helsingaburg)
+| form              = Tätort<br />[[Centralort]]
+| smeknamn          = Sundets Pärla<ref name="BoOLeva">{{webbref |författare= |titel=Bo och leva i Helsingborg |utgivare=Helsingborg.se |datum= |url=http://www.helsingborg.se/Foretagare/Etablera-foretag-i-Helsingborg/starta/Bo-och-leva-i-Helsingborg/ |arkivurl=http://web.archive.org/web/20131109061358/http://www.helsingborg.se/Foretagare/Etablera-foretag-i-Helsingborg/starta/Bo-och-leva-i-Helsingborg/ |arkivdatum=9 november 2013 |språk= |hämtdatum=14 januari 2015}}</ref>
+| slogan            = Här börjar kontinenten,<ref name="BoOLeva" /><br />Staden för dig som vill något<ref>{{webbref |författare= |titel=Jag vill! Helsingborg |utgivare=Helsingborg.se |datum=7 oktober 2013 |url=http://www.helsingborg.se/ImageVaultFiles/id_45292/cf_2/broschyr_jagvill_helsingborg_webb_131007_sbf.PDF |arkivurl=http://web.archive.org/web/20150114121910/http://www.helsingborg.se/ImageVaultFiles/id_45292/cf_2/broschyr_jagvill_helsingborg_webb_131007_sbf.PDF |arkivdatum=14 januari 2015 |språk= |hämtdatum=14 januari 2015}}</ref>
+| bild              = Helsingborg montage.png
+| bildtext          = [[Sofiero]], [[Kärnan]], [[Helsingborgs rådhus]], [[Dunkers kulturhus]], [[Ramlösa hälsobrunn]] och [[Scandlines|Scandlines-färjorna]].
+| landskap          = [[Skåne]]
+| län               = [[Skåne län]]
+| kommun            = [[Helsingborgs kommun]]
+| församling1       = [[Gustav Adolfs församling, Helsingborg|Helsingborgs Gustav Adolfs<br/>församling]]
+| församling2       = [[Maria församling, Helsingborg|Helsingborgs Maria församling]]
+| församling3       = [[Raus församling]]
+| församling4       = [[Filborna församling]]
+| lat_g             = 56
+| lat_m             = 2
+| lat_s             = 59
+| lat_NS            = N
+| long_g            = 12
+| long_m            = 41
+| long_s            = 59
+| long_EW           = E
+| areaort           = {{Stat/Sverige/Tätorter/Areal|3452}}
+| areaår            = {{Stat/Sverige/Tätorter/Areal|år}}
+| areanot           = {{Stat/Sverige/Tätorter/Befolkning|ref}}
+| areakommun        = {{Stat/Sverige/Kommuner/Areal land|Helsingborgs kommun}}
+| areakommunår      = {{Stat/Sverige/Kommuner/Areal land|år}}
+| areakommunnot     = {{Stat/Sverige/Kommuner/Areal land|ref}}
+| invort            = {{Stat/Sverige/Tätorter/Befolkning|3452}}
+| invår             = {{Stat/Sverige/Tätorter/Befolkning|år}}
+| invnot            = {{Stat/Sverige/Tätorter/Befolkning|ref2}}
+| invkommun         = {{Stat/Sverige/Kommuner/Befolkning|Helsingborgs kommun}}
+| invkommunår       = {{Stat/Sverige/Kommuner/Befolkning|år}}
+| invkommunnot      = {{Stat/Sverige/Kommuner/Befolkning|ref}}
+| täthet            = auto
+| täthetkommun      = auto
+| grundades         = 1085<ref name="AboutHBG">{{webbref |författare= |titel=About Helsingborg |utgivare=Helsingborg.se |datum= |url=http://www.helsingborg.se/medborgare/toppmeny/english/about-helsingborg/ |arkivurl=http://web.archive.org/web/20140724181117/http://www.helsingborg.se/Medborgare/toppmeny/english/about-helsingborg/ |arkivdatum=24 juli 2014 |språk=engelska |hämtdatum=14 januari 2015}}</ref>
+| postort           = 
+| postnummer        = 25X XX
+| riktnummer        = 042
+| tätortskod        = 3452
+| positionskarta    = södra Sverige
+| positionskartnamn = Sweden location map, 40south.svg
+| karttext          = Helsingborgs läge i södra Sverige.
+| fotnot            = 
+}}
+
+{| class=toccolours cellpadding=4 cellspacing=0 width="269px" align="right" style="border:1px solid #ccd2d9; margin-bottom:5px; clear:right;"
+|-
+| [[Fil:Portal.svg|28px]]
+| Hitta fler artiklar i [[Portal:Helsingborg|'''Helsingborgsportalen''']]
+|}
+
+'''Helsingborg''' (stavat '''Hälsingborg''' mellan 1912–1971) är [[centralort]] i [[Helsingborgs kommun]] och ligger i [[Skåne län]]. Den är med över 99 000 invånare<ref name="Folkmängd_Hbg_kommun_1_jan_2014" /> befolkningsmässigt [[lista över Sveriges tätorter|Sveriges åttonde största tätort]]<ref>{{Webbref | arkivurl=http://www.webcitation.org/5zXLYLCfE | arkivdatum=18 juni 2011 | url=http://www.scb.se/Statistik/MI/MI0810/2010A01/MI0810_2010A01_SM_MI38SM1101.pdf | titel=Tätorter 2010 | format=PDF | utgivare=Statistiska centralbyrån | hämtdatum=16 juni 2011}}</ref>, Skånes andra största stad (efter [[Malmö]]) och ingår i [[Öresundsregionen]]. Helsingborg ligger vid [[Öresund]]s smalaste del där endast fyra kilometer skiljer staden från [[Helsingör]] i [[Danmark]]. Stadens geografi domineras av den branta sluttningen [[Landborgen, Helsingborg|Landborgen]] som löper längs Öresund, något indragen från kusten. Mellan strandterrassen och landborgsterrassen finns ett antal raviner som bildats under den senaste istiden. I centrum är arkitekturen en tätbyggd [[Stenstaden (arkitektur)|stenstad]], med monumentala och storstadsmässiga hus mot paradgatorna [[Drottninggatan, Helsingborg|Drottninggatan]] och [[Järnvägsgatan, Helsingborg|Järnvägsgatan]] samt, mot [[Stortorget, Helsingborg|Stortorget]], [[Sankt Jörgens plats]] och [[Trädgårdsgatan]]. I gatorna bakom denna bebyggelse är arkitekturen mer småskalig och intim.
+
+Helsingborgs historia sträcker sig tillbaka till [[vikingatiden]]. Den viktiga plats där Öresund är som smalast har gett staden en strategisk position under lång tid. På medeltiden var staden och [[Kärnan|dess slott]] ett av [[Norden]]s mäktigaste fästen och därmed inblandat i mycket av den tidens maktspel. Under århundradena har Helsingborg varit platsen för flera politiska konflikter och strider. De många krigen mellan Sverige och Danmark gick hårt åt staden och dess bebyggelse, men sedan 1700-talet har staden levt i fred och på 1800-talet lyckades Helsingborg återhämta sig ordentligt. Helsingborg blev en av Sveriges snabbast växande städer som en viktig hamn- och industristad.
+
+Industrin i Helsingborg domineras inte av några stora privata företag utan består av flera mindre. [[Ikea]], som en av stadens största privata arbetsgivare, hade sitt svenska huvudkontor i Helsingborg mellan 2005<ref name="Ikea2005">{{webbref |författare=Andersson, Elisabeth |titel=Ikea flyttar huvudkontoret till Helsingborg |utgivare=''Sydsvenskan'' |datum=21 april 2005 |url=http://www.sydsvenskan.se/ekonomi/ikea-flyttar-huvudkontoret-till-helsingborg/ |arkivurl=http://web.archive.org/web/20150115113128/http://www.sydsvenskan.se/ekonomi/ikea-flyttar-huvudkontoret-till-helsingborg/ |arkivdatum=15 januari 2015 |språk= |hämtdatum=15 januari 2015}}</ref>–2015<ref name="Ikea2015">{{webbref |författare= |titel=Nya huvudkontor ger Malmö 3200 arbetstillfällen |utgivare=''Helsingborgs Dagblad'' |datum=17 oktober 2013 |url=http://hd.se/ekonomi/2013/10/17/nya-huvudkontor-ger-malmo-3200/ |arkivurl=http://web.archive.org/web/20131122063444/http://hd.se/ekonomi/2013/10/17/nya-huvudkontor-ger-malmo-3200 |arkivdatum=22 november 2013 |språk= |hämtdatum=15 januari 2015}}</ref>. Andra viktiga företag sysslar med handel och kommunikationer samt livsmedel, kemi och läkemedelsteknik. Stadens goda läge gör att det finns flera åkeriföretag och distributionscentraler. [[Helsingborgs hamn]] är, efter [[Göteborgs hamn]], Sveriges näst största containerhamn och färjetrafiken är omfattande. Två [[rederi]]er har färjetrafik över Öresund med avgångar dygnet runt.
+
+== Historia ==
+{{Huvudartikel|Helsingborgs historia}}
+Helsingborg är en av Nordens äldsta städer. Det har troligen funnits bebyggelse i form av en mindre befästning uppe på [[Landborgen, Helsingborg|landborgen]] redan i slutet av 900-talet för att betrygga överfarten mellan [[Skåne]] och [[Själland]]. Stadens namn tros härledas från ordet "helsing" som är en avledning till hals och betecknar den smala passagen i [[Öresund]] mellan Helsingborg och [[Helsingör]]. På 1070-talet omnämns staden av [[Adam av Bremen]] och den 21 maj 1085 omnämns Helsingborg (då skrivet Helsingaburg) i ett gåvobrev från den danske kungen [[Knut den helige]] och detta datum har i sen tid fått stå som stadens officiella födelsedag<ref name="AboutHBG" />.
+[[Fil:Helsingborg Sankta Maria kyrka 2.jpg|miniatyr|stående|[[Sankta Maria kyrka, Helsingborg|Sankta Maria kyrkas]] entréparti och torn.]]
+Den tidigaste bebyggelsen uppe på landborgen var de tre kyrkorna S:t Clemens, S:t Petri och S:t Olai. På 1100-talet ersattes den enkla befästningen av ett större slott i sandsten. Detta dominerades av ett runt torn med drygt fyra meter tjocka väggar. I takt med att staden växte började folk bosätta sig på stranden nedanför landborgen. På 1300-talet var Helsingborg en av Danmarks mest betydelsefulla städer främst på grund av att slottet, som detta århundrade byggts om till det försvarstorn i tegel som numera kallas [[Kärnan]], var ett av Nordens starkaste fästen. Även [[Sankta Maria kyrka, Helsingborg|Sankta Maria kyrka]] nedanför landborgen berättar om stadens betydelse då den var en av Danmarks största stadskyrkor vid denna tidpunkt. 
+[[Fil:Helsingborg 1589 Georg Braun.jpg|miniatyr|vänster|Helsingborg ritat 1589 av den tyske prästen Georg Braun i verket ''[[Civitates orbis terrarum]]''.]] 
+1332 köpte den svenske kungen [[Magnus Eriksson]] Helsingborg och hela Skåne samt Blekinge genom att överta en pant på 34&nbsp;000 mark silver. Den danske kungen [[Valdemar Atterdag]] återerövrade de förlorade landskapen 1360 till stor del genom att komma över Helsingborgs slott. På 1400- och 1500-talen minskade Helsingborgs betydelse i och med att slottet [[Kronborg]] (då vid namn Krogen) i Helsingör byggdes, vilket var en betydligt modernare fästning. 
+
+Vid [[freden i Roskilde]] 1658 blev Helsingborg svenskt och samma år inkvarterades en svensk garnison i [[Kärnan|Helsingborgs slott]]. De svensk-danska krigen under 1600- och 1700-talen härjade staden svårt och vid flera tillfällen fick befolkningen fly och bebyggelsen skövlades och brändes. Störst skada gjorde det [[skånska kriget]] (1675–1679) under vilket nästan hela stadens bebyggelse ödelades och vid krigsslutet när danskarna intog staden vid två tillfällen. Detta fick [[Karl XI]] att vid krigsslutet riva stadens befästningar och det mesta av slottet. Det enda som lämnades kvar var Kärnan.<ref name="karlxi">{{Harvnb|Johannesson|1985|p=126}}</ref>
+
+1709, under det [[stora nordiska kriget]], landsteg en stor dansk armé vid [[Råå]] söder om Helsingborg. Den dåvarande generalguvernören i Skåne, [[Magnus Stenbock]], lyckades vid [[slaget vid Helsingborg]] den 28 februari 1710 besegra den danska armén. En ryttarstaty av honom restes 1901 i Helsingborg och flyttades till Stortorget i denna stad 1959<ref>{{webbref |författare=Svab, Marjan |titel=Stenbocksstatyn ska få ansiktslyft |utgivare=''Helsingborgs Dagblad'' |datum=11 september 2014 |url=http://hd.se/helsingborg/2014/09/11/stenbocksstatyn-ska-fa-ansiktslyft/ |arkivurl=http://web.archive.org/web/20150117174022/http://hd.se/helsingborg/2014/09/11/stenbocksstatyn-ska-fa-ansiktslyft/ |arkivdatum=17 januari 2015 |språk= |hämtdatum=17 januari 2015}}</ref>. I början av 1700-talet var Helsingborg hårt åtgånget. Flera års krigande, en hård försvenskningspolitik samt minskad handel över sundet innebar en ekonomisk och befolkningsmässig stagnation. Dessutom hade massgravar efter slaget förgiftat vattnet och pest bröt ut 1711–1712. 1770 hade Helsingborg endast 1&nbsp;300 invånare.
+
+Inte förrän under senare hälften av 1800-talet började staden återhämta sig och en kraftig expansion av näringslivet innebar en mångdubbling av befolkningen. Flera nya industrier grundlades och 1857 avskaffades [[Öresundstullen]]. I mars 1892 invigdes Sveriges första ångfärjeförbindelse mellan Helsingborg och Helsingör<ref>{{webbref |författare= |titel=Persontrafik och färjelägen |utgivare=Länsstyrelsen Skåne |datum= |url=http://www.lansstyrelsen.se/skane/sv/samhallsplanering-och-kulturmiljo/landskapsvard/kulturmiljoprogram/historia-utveckling/kustens-landskap/Pages/Persontrafik_och_farjelagen.aspx |arkivurl=http://web.archive.org/web/20150117174557/http://www.lansstyrelsen.se/skane/sv/samhallsplanering-och-kulturmiljo/landskapsvard/kulturmiljoprogram/historia-utveckling/kustens-landskap/Pages/Persontrafik_och_farjelagen.aspx |arkivdatum=17 januari 2015 |språk= |hämtdatum=17 januari 2015}}</ref>. Från att ha haft 4&nbsp;000 invånare i mitten av 1800-talet passerade folkmängden under 1920-talet 50&nbsp;000-strecket och 1920 var Helsingborg Sveriges femte största stad. Efter 1930 gick Helsingborgs befolkningsutveckling i en beskedligare takt. 
+
+Helsingborg blev en viktig exporthamn, inte minst för spannmål. Betydande för staden var dess [[Konsul (utrikesförvaltning)|konsuler]]: lokala företagare, kommunalmän och riksdagsledamöter. Två av de ledande var [[Konsul Petter Olsson|Petter Olsson]] och [[Konsul Nils Persson|Nils Persson]], vilka båda har fått två torg i staden namngivna efter sig: Konsul Olssons plats<ref>{{webbref |författare=Rantala, Anette |titel=Vill lyfta Konsul Olssons plats med inneservering |utgivare=''Helsingborgs Dagblad'' |datum=14 december 2013 |url=http://hd.se/helsingborg/2013/12/14/vill-lyfta-konsul-olssons-plats/ |arkivurl=http://web.archive.org/web/20131216194815/http://hd.se/helsingborg/2013/12/14/vill-lyfta-konsul-olssons-plats/ |arkivdatum=16 december 2013 |språk= |hämtdatum=17 januari 2015}}</ref> och Konsul Perssons plats.<ref>{{webbref |författare= |titel=Nytt kvarter på Konsul Perssons plats |utgivare=Hplus.helsingborg.se |datum= |url=http://hplus.helsingborg.se/om-hplus/pagaende-projekt/konsul-perssons-plats/ |arkivurl= |arkivdatum= |språk= |hämtdatum=17 januari 2015}}</ref> En annan betydelsefull företagare var [[Henry Dunker]], disponenten på [[Helsingborgs Gummifabrik AB]] (senare [[Tretorn|Tretorn AB]]), som en gång var Sveriges rikaste man.<ref>{{webbref |författare=Carlson, Peter |titel=Här bodde Sveriges rikaste man |utgivare=''Helsingborgs Dagblad'' |datum=27 december 2005 |url=http://hd.se/helsingborg/2005/12/27/haer_bodde_sveriges_rikaste_man/ |arkivurl=http://web.archive.org/web/20080917023854/http://hd.se/helsingborg/2005/12/27/haer_bodde_sveriges_rikaste_man/ |arkivdatum=17 september 2008 |språk= |hämtdatum=17 januari 2015}}</ref>
+
+I samband med [[Helsingborgsutställningen 1903]] invigdes [[Helsingborgs stads spårvägar]], vilka fortlevde till [[högertrafikomläggningen]] 1967 när hela linjenätet lades ned. Stadens namn stavades under perioden 1912–1971 Hälsingborg, men i samband med kommunreformen 1971 ändrades namnet tillbaka till Helsingborg efter påtryckningar från stadens exportindustrier.
+
+=== Historiska datum ===
+[[Fil:Magnus Stenbock, 1665-1717.jpg|miniatyr|stående|[[Magnus Stenbock]] lyckades vid [[slaget vid Helsingborg]] den 28 februari 1710 besegra den danska armén under det [[stora nordiska kriget]].]]
+* 1085 (21 maj) – Helsingborgs stads officiella födelse, grundad på ett gåvobrev av Knut den helige.
+* 1270 – Dominikanerklostret helgat åt S:t Nikolaus grundades.
+* 1310 (17 juli) – [[Freden i Helsingborg]] sluts mellan Sverige, Norge och Danmark. [[Birger Magnusson]] återfår den svenska kronan.
+* 1410 – Sankta Maria kyrka byggd.
+* 1657 – [[Dietrich Buxtehude]] blir organist i Sankta Maria kyrka.
+* 1658 (26 februari) – [[Freden i Roskilde]] där Helsingborg blir svenskt.
+* 1658 (29 oktober) – Sjöslaget i Öresund.
+* 1676 – En dansk armé landstiger vid Råå under det skånska kriget.
+* 1707 (17 juni) – [[Ramlösa brunn]] grundas.
+* 1710 (28 februari) – Magnus Stenbock besegrar en dansk invasionshär utanför Helsingborg.
+* 1810 (20 oktober) – [[Karl XIV Johan|Jean Baptiste Bernadotte]], senare [[Karl XIV Johan]], tar sina första steg på svensk mark i Helsingborg.
+* 1847 – [[Oscar Patrick Sturzen-Becker]] grundar tidningen ''Öresundsposten'', som blir ett organ för [[skandinavismen]].
+* 1863 – Stadskommunen [[Helsingborgs stad (stadskommun)|Helsingborgs stad]] inrättas 
+* 1865 (31 juli) – Helsingborg-Billeberga-Landskrona järnväg invigs.
+* 1891 – Helsingborgs Gummifabrik AB grundas.
+* 1892 (10 mars) – Tågfärjeförbindelsen mellan Helsingborg och Helsingör invigs.
+* 1903 – Industriutställning i Helsingborg. Terrasstrapporna invigs. Spårvagnstrafik börjar.
+* 1912 – Helsingborg stavas Hälsingborg efter [[stavningsreformen 1906]].
+* 1921 – Hälsingborgs teater blir Sveriges första stadsteater.
+* 1932 – Hälsingborgs konserthus invigs.
+* 1944 – [[Ingmar Bergman]] blir teaterchef för [[Helsingborgs stadsteater|Hälsingborgs stadsteater]].
+* 1945:
+** 8 februari – Allierat plan skjuts ner i Hälsingborg. Åtta döda.
+** 1 mars – Tysk minsvepare kantrar och sjunker utanför Vikingstrand med över fyrtio döda.
+** 5 maj – Fredsdagen. Tyskarna kapitulerar i bland annat Danmark.
+* 1955 (10 juni) – Hälsingborgsutställningen [[H55]] invigs.
+* 1967 (3 september) – [[Högertrafikomläggningen]] medför att spårvagnstrafiken avskaffas.
+* 1971 – Stadskommunen Hälsingborgs stad upplöses när Helsingborgs kommun bildas. Helsingborg stavas igen som Helsingborg.
+* 1973 (15 september) – [[Gustaf VI Adolf]] avlider på [[Helsingborgs lasarett]].
+* 1976 – Gamla teatern rivs och ersätts av en ny.
+* 1991 (9 juni) – [[Knutpunkten]], Helsingborgs nya resecentrum, invigs.
+* 1999 (10 juni) – Helsingborgsutställningen [[H99]] invigs.
+* 2000 – Tågfärjetrafiken mellan Helsingborg och Helsingör upphör på grund av öppnandet av [[Öresundsbron]]. Bil- och passagerarfärjetrafiken fortsätter som tidigare.
+* 2002 (27 april) – [[Dunkers kulturhus]] invigs vid [[Sundstorget]].
+
+== Geografi ==
+Helsingborg är placerat på Skånes nordvästra kust, vid Öresunds smalaste del, och är centralort i [[Helsingborgs stad]] som avgränsas av [[Höganäs kommun|Höganäs]], [[Ängelholms kommun|Ängelholms]], [[Åstorps kommun|Åstorps]], [[Bjuvs kommun|Bjuvs]], [[Svalövs kommun|Svalövs]] och [[Landskrona kommun|Landskronas]] kommuner. Avståndet till Helsingör och Danmark är 4&nbsp;km<ref>{{webbref |författare= |titel=Resa hit |utgivare=Helsingborg.se |datum= |url=http://www.helsingborg.se/Foretagare/moten/resa-hit/ |arkivurl=http://web.archive.org/web/20131119014945/http://www.helsingborg.se/Foretagare/moten/resa-hit/ |arkivdatum=19 november 2013 |språk= |hämtdatum=18 januari 2015}}</ref>. Stadsbebyggelsen sträckte sig enligt [[Statistiska centralbyrån]] över en yta på 3&nbsp;841 hektar 2010, vilket ger en befolkningstäthet på 25,29 invånare per hektar. Tre tätorter, [[Hittarp]], [[Ödåkra]] och [[Bårslöv]], samt småorterna [[Väla by]], [[Östra Ramlösa]] och [[Görarp]] ligger på runt en kilometers avstånd från stadens bebyggelsegräns. Ännu en bit längre ut (2–3&nbsp;km) finner man tätorterna [[Rydebäck]], [[Gantofta]], [[Påarp]] och [[Allerum]].
+
+Det största vattendraget i staden är [[Råån]], som flyter genom det gamla fiskesamhället Råå i södra Helsingborg.<ref>{{webbref |författare=Rantala, Anette |titel=Översvämningar får länsstyrelsen att ingripa på Råå |utgivare=''Helsingborgs Dagblad'' |datum=7 juli 2014 |url=http://hd.se/helsingborg/2014/07/07/oversvamningar-far-lansstyrelsen/ |arkivurl=http://web.archive.org/web/20150118155710/http://hd.se/helsingborg/2014/07/07/oversvamningar-far-lansstyrelsen/ |arkivdatum=18 januari 2015 |språk= |hämtdatum=18 januari 2015}}</ref> Förutom Råån finns det ett flertal mindre bäckar som letar sig ner mot havet. I stadens södra delar rinner Lussebäcken genom Ramlösadalen och ner till Råån och genom Jordbodalen flyter Gåsebäcken, för att sedan ledas i kulvertar ner till havet medan man i norr finner Pålsjöbäcken rinna ner genom [[Pålsjö skog]]. 
+
+=== Berggrund ===
+[[Fil:Helsingborg Lanborgen berggrund.jpg|miniatyr|Helsingborgs berggrund består av en kombination av [[sandsten]] och [[lerskiffer]].]] 
+Topografin i Helsingborg domineras av en dramatisk [[abrasion]]sbrant, kallad landborgen, som sträcker sig mellan 20 och 35 meter över havet längs kusten från Pålsjö genom stadens centrum för att sedan ungefär vid Ramlösa vika av och dra sig inåt landet. Denna är en del av en lång förkastningszon som sträcker sig diagonalt genom Skåne, Kattegatt och Östersjön ner till Bornholm, kallad [[Tornquistzonen]].<ref name="jvghbg">{{webbref |författare=Söderdelegationen |titel=Järnvägstunnlar i Helsingborg: Idéstudie april 2006 |utgivare=Helsingborg.se |datum=april 2006 |url=http://www.helsingborg.se/pv_obj_cache/pv_obj_id_917C7552B490AA15CBD86D7C0DEDF10852E48600/filename/idestudie_jarnvagstunnlar_helsingborg_2006.pdf |arkivurl=http://web.archive.org/web/20110514214025/http://www.helsingborg.se/pv_obj_cache/pv_obj_id_917C7552B490AA15CBD86D7C0DEDF10852E48600/filename/idestudie_jarnvagstunnlar_helsingborg_2006.pdf |arkivdatum=14 maj 2011 |språk= |hämtdatum=15 januari 2015}}</ref> Genom denna har det under istiden brutits dalar och raviner som skär in i branten på flera ställen, där de mest dramatiska är Pålsjödalen och Hälsodalen. 
+ 
+Berggrunden i Helsingborg består ner till 50–150 meter av bergarter som bildades under rätliastiden i övergången mellan [[Jura (period)|Jura]] och [[Krita (geologi)|Krita]] för 200 miljoner år sedan. Denna berggrund består av en för Sverige unik kombination av [[sandsten]] och [[lerskiffer]] med inslag av tunna kolflötslar, vilken endast existerar i Skåne. Denna skapades genom att det som nu är Skandinavien låg där Nordafrika nu ligger och hade länge varit en öken. Men när de eurasiska och amerikanska kontinentalplattorna separerade bildades det ett hav mellan dem och miljön förändrades så småningom till att bli ett sumpigt deltaområde med varmt och fuktigt klimat. Nuvarande Danmark var helt översvämmat med vatten och Skåne låg i en kustzon, där de nordvästra delarna växelvis låg under vatten, vilket skapade en skiftbildning mellan sand och lera, som sedan komprimerades till sandsten och lerskiffer. De stenkolsinslag som finns bildades av ormbunks- och fräkenskogar som täckte landytan och sedan förmultnade och bildade stenkol. De övre jordlagren består till väster om landborgen till största delen av sand och grus medan [[morän (jordart)|lermoräner]] dominerar över lagren på landborgen.<ref name="jvghbg" />
+
+=== Klimat ===
+Helsingborg har, liksom större delen av Sverige, ett [[tempererat klimat]], vilket för Helsingborgs del även påverkas av [[kustklimat]].<ref>{{webbref |författare=Ransheim, Magnus |titel=Arkitekturexperten tror på samarbete |utgivare=''Helsingborgs Dagblad'' |datum=19 januari 2013 |url=http://hd.se/helsingborg/2013/01/19/arkitekturexperten-tror-pa/ |arkivurl=http://web.archive.org/web/20130121120623/http://hd.se/helsingborg/2013/01/19/arkitekturexperten-tror-pa/ |arkivdatum=21 januari 2013 |språk= |hämtdatum=18 januari 2015}}</ref> Dock kan det blåsa rätt mycket i Helsingborg, vilket gör att [[Vindavkylning|kyleffekten]] bidrar till att kalla temperaturer känns bistrare. Årsmedeltemperaturen ligger på 8,2&nbsp;°C grader och månadsmedeltemperaturerna i januari och juli är -0,1&nbsp;°C respektive 16,8&nbsp;°C. Årsnederbörden är i medeltal på 568&nbsp;mm.<ref>{{webbref |författare= |titel=Reisen > Städte > Weitere Städte - Helsingborg |utgivare=Sverige.de |datum= |url=http://www.sverige.de/reis/reis_stad_sons_deta.asp |arkivurl=http://web.archive.org/web/20071022184516/http://sverige.de/reis/reis_stad_sons_deta.asp |arkivdatum=22 oktober 2007 |språk=tyska |hämtdatum=15 januari 2015}}</ref>
+
+;Klimattabell<ref>{{webbref |författare= |titel=Helsingborg, Sweden |utgivare=Msn.com |datum= |url=http://www.msn.com/en-us/weather/today/SE/Helsingborg,Sk%C3%A5ne,Sweden/we-city-56.04,12.70?q=helsingborg-sk%c3%a5ne&form=PRWLAS |språk=engelska |hämtdatum=15 januari 2015}}</ref>
+{{Klimattabell|
+   |hmjan=2 
+   |hmfeb=4  
+   |hmmar=6  
+   |hmapr=12
+   |hmmaj=16
+   |hmjun=19
+   |hmjul=21 
+   |hmaug=22 
+   |hmsep=18  
+   |hmokt=12
+   |hmnov=6
+   |hmdec=3
+   |lmjan=-1 
+   |lmfeb=-1  
+   |lmmar=0  
+   |lmapr=3
+   |lmmaj=7
+   |lmjun=11
+   |lmjul=13 
+   |lmaug=13  
+   |lmsep=10  
+   |lmokt=6
+   |lmnov=3
+   |lmdec=0
+   |nbjan=40.1 
+   |nbfeb=43.0  
+   |nbmar=36.8 
+   |nbapr=31.6
+   |nbmaj=57.3
+   |nbjun=80.0
+   |nbjul=73.0 
+   |nbaug=74.1  
+   |nbsep=50.4  
+   |nbokt=70.0
+   |nbnov=48.5
+   |nbdec=51.9
+  }}
+
+== Stadsbild ==
+{{Huvudartikel|Arkitektur i Helsingborg}}
+[[Fil:Karta över Helsingborg 1909.jpg|miniatyr|Helsingborgs stadsbild 1909.]]
+Landborgen har en stor påverkan på Helsingborgs stadsbild.<ref>{{Harvnb|Haas|Katzeff|2003|p=7}}</ref> Dess långa utsträckning gör att Helsingborgs centrum trängs in på den smala landremsa som finns mellan Öresund och landborgens kant. De enda naturliga förbindelserna mellan de nedre delarna av staden och de uppe på platån finns i ett antal raviner som skjuter in i landborgen på ett antal ställen från norr till söder vid Halalid, Tågabacken, Hälsobacken, Långvinkelsgatan, Bergaliden och Gåsebäcksdalen. [[Carl von Linné]] noterade på sin skånska resa 1749 stadens beskaffenhet enligt följande:
+
+{{citat|Östra landsidan instängde staden såsom en ganska hög, brant mur, på vilken den nedanför liggande staden helt artigt åskådades.|Carl von Linné<ref>{{Harvnb|von Linné|1751|loc=Julius 9. Söndag}}</ref>}}
+[[Fil:HBG C karta.jpg|miniatyr|stående|Helsingborgs centrala delar 2006.]]
+Landborgen separerar därmed staden och förhindrar de centrala delarna att växa inåt land. Som resultat ligger stora delar av Helsingborgs centrum på utfyllnadsmark i Öresund. Däremot skapar landborgen också goda möjligheter för kontakt med vattnet och havsutsikt långt inåt land eftersom platån höjer sig över den centrala bebyggelsen så att sundet blir synligt för fler i staden. Då Helsingborg ligger utträngd och utsträckt mot Öresund har staden även en unik kontakt med vattnet och visar upp en kraftfull och sammanhängande fasad ut mot havet.<ref name="ranby2005s362">{{Harvnb|Ranby|2005|p=362}}</ref>
+
+Trots att Helsingborg är av hög ålder finns det inte många bostadshus i staden som berättar om det.<ref name="ranby2005s361">{{Harvnb|Ranby|2005|p=361}}</ref> Det senaste årtusendets många krig har gjort att mycket av den äldre arkitekturen har blivit förstörd genom alla skövlingar av staden i samband med krigen, både från dansk och svensk sida. Särskilt förödande var det skånska kriget när först den danske kungen [[Kristian V av Danmark|Kristian V]] rev stora delar av staden för att stärka dess befästningar och sedan Karl XI rev större delen av Helsingborgs slott för att bara lämna kvar Kärnan. Några av de enda spåren av profan bebyggelse från 1600- och 1700-talen är [[Jacob Hansens hus]],<ref>{{Harvnb|Johannesson|1985|p=265}}</ref> [[Gamlegård, Helsingborg|Gamlegård]]<ref>{{Harvnb|Ander et al.|2006|p=125}}</ref> och [[Henckelska gården]].<ref>{{Harvnb|Dahlin|1973|p=120}}</ref>
+
+Den största delen av bebyggelsen i stadens centrala delar är från slutet av 1800-talet och början av 1900-talet när Helsingborg upplevde sitt stora uppsving. Flera dominerande byggnader i historiserande stil kommer från denna tid till exempel längs de nybyggda paradgatorna Drottninggatan och Järnvägsgatan, fortfarande några av stadens huvudleder, och Stortorget. Bland dessa byggnader besökare se [[Hotell Mollberg]], [[Continentalpalatset]] och [[Helsingborgs rådhus|rådhuset]]. Jugendstilen är rikt representerad, särskilt i området väster om Olympia där ett helt villaområde domineras av jugendstilens rundade former och dekorativa inslag.<ref>{{Harvnb|Ranby|2005|p=191}}</ref> Under modernismen byggdes pampiga funkisbyggnader bland vilka [[Helsingborgs konserthus]], ritat av [[Sven Markelius]], utmärker sig som Sveriges första monumentala funkisbyggnad.<ref>{{Harvnb|Haas|Katzeff|2003|p=136}}</ref> I gatorna bakom många pampiga fasader, till exempel längs Bruksgatan och runt Sankta Maria kyrka finns fortfarande flera byggnader av blygsammare och småskaligare natur. Helsingborg är en utpräglad [[Stenstaden (arkitektur)|stenstad]] med endast få exempel på byggnader i [[korsvirke]] eller trä i de centrala delarna. Som en träbyggnad av betydelse kan nämnas före detta [[Ångfärjestationen]], ritad av [[Folke Zettervall]], som ligger invid Hamntorget. Ett annat sällsynt exempel av äldre datum är [[Tornérhjelmska huset]] från 1804 på Fågelsångsgatan. Typiskt för Helsingborgs centrum är även dess tättbyggda och högexploaterade karaktär, som ger staden en urbanitet och kontinental känsla.<ref name="ranby2005s362" />
+
+Ända sedan 1800-talet har Helsingborg varit en segregerad stad mellan de rika norra delarna och de södra arbetarkvarteren, där den traditionella gränsen gått längs Trädgårdsgatan.<ref name="ranby2005s361" /> Dessa skillnader består till viss del än i dag genom att [[Söder, Helsingborg|Söder]] blivit ett av Helsingborg mest invandrartäta områden. Delarna strax utanför centrum består mestadels av bebyggelse från tidigt 1900-tal bland annat på [[Tågaborg]] där det finns omväxlande stadsbebyggelse och högborgerliga villaområden. Många områden har också förtätats med tiden med modernistiska byggnader till exempel på [[Eneborg]], [[Slottshöjden]] och [[Stattena]]. 
+
+=== Betydande byggnader ===
+{{Se även|Lista över byggnader i Helsingborg}}
+{|
+|-----
+| valign="top" |
+* [[Dunkers kulturhus]]
+* [[Essenska villan]]
+* [[Folkets hus, Helsingborg|Folkets hus]]
+* [[Fredriksdals herrgård]]
+* [[Gamlegård, Helsingborg|Gamlegård]]
+* [[Gustav Adolfs kyrka, Helsingborg|Gustav Adolfs kyrka]]
+* [[Henckelska gården]]
+* [[Hotell Mollberg]]
+* [[Idrottens hus, Helsingborg|Idrottens hus]]
+* [[Jacob Hansens hus]]
+| valign="top" |
+* [[Knutpunkten]]
+* [[Helsingborgs konserthus|Konserthuset]]
+* [[Helsingborgs krematorium|Krematoriet]]
+* [[Kärnan]]
+* [[Helsingborgs Lasarett|Lasarettet]]
+* [[Nicolaiskolan]]
+* [[Olympiaskolan]]
+* [[Ramlösa brunnshotell]]
+* [[Raus kyrka]]
+* [[Helsingborgs rådhus|Rådhuset]]
+| valign="top" |
+* [[Sankta Maria kyrka, Helsingborg|Sankta Maria kyrka]]
+* [[Maria Park#Sankta Maria sjukhus|Sankta Maria sjukhus]]
+* [[Simhallsbadet, Helsingborg|Simhallsbadet]]
+* [[Sofiero slott]]
+* [[Helsingborgs stadsbibliotek|Stadsbiblioteket]]
+* [[Helsingborgs stadsteater|Stadsteatern]]
+* [[Terrasstrapporna]]
+* [[Tretornfabriken]]
+* [[Vikingsberg]]
+* [[Ångfärjestationen]]
+|}
+
+=== Torg och platser ===
+[[Fil:Helsingborg utsikt fr Terasstrapporna.jpg|miniatyr|stående|Stortorget, Helsingborg|Stortorget sett från [[Terrasstrapporna]].]] 
+
+Det mest dominerande torget i Helsingborg är [[Stortorget, Helsingborg|Stortorget]], som sträcker sig från [[Terrasstrapporna]] och [[Konsul Trapps plats]] i öster och sluttar lätt ner mot övergången mellan Drottninggatan och Järnvägsgatan i väster. Torget har fått sin säregna avlånga karaktär av att det tillkom under den danska ockupationen av staden på 1670-talet när den danska armén drog en bred försörjningslinje mellan Helsingborgs slott och hamnen, rakt genom befintlig bebyggelse.<ref name="kristianv">{{Harvnb|Johannesson|1985|p=123-124}}</ref> 1692 beslutade generalguvernören i Skåne, Rutger von Asceberg, att man på denna plats skulle anlägga stadens nya torg.<ref>{{Harvnb|Johannesson|1985|p=139}}</ref>
+
+I Stortorgets förlängning ut mot hamnen ligger [[Hamntorget, Helsingborg|Hamntorget]] som tillkom på 1890-talet i och med byggnationen av [[Norra hamnen, Helsingborg|Norra hamnen]]. Vid torget ligger [[Gamla tullhuset, Helsingborg|gamla tullhuset]], som sedan länge varit terminal åt personfärjor över sundet, och Ångfärjestationen. Längst i öster, strax vid pirkanten, tronar [[Carl Milles]] staty ''Sjöfartsgudinnan'' på en hög piedestal<ref>{{webbref |författare=Fagerström, Linda |titel=En ärgad gudinna |utgivare=''Helsingborgs Dagblad'' |datum=27 juni 2009 |url=http://hd.se/kultur/2009/06/27/en-aergad-gudinna/ |arkivurl= |arkivdatum= |språk= |hämtdatum=18 januari 2015}}</ref> och vid sidan om denna finns ett monument över Karl XIV Johans landstigning i Helsingborg. Från Hamntorget och bort mot Knutpunkten ligger [[Kungstorget, Helsingborg|Kungstorget]] som, efter att ha varit mestadels parkering och banområde under den tid då det gick järnvägsspår rakt genom staden, numera är omvandlat till en plats med uteserveringar och scen för olika tillställningar.<ref>{{Harvnb|Stadsbyggnadskontoret|2005|p=188}}</ref>
+
+[[Sundstorget]] byggdes 1865 på utfyllnadsmark i Öresund.<ref>{{Harvnb|Ranby|2005|p=37}}</ref> Runt torget byggdes flera monumentala byggnader främst från runt sekelskiftet 1900.<ref>{{Harvnb|Haas|Katzeff|2003|p=15}}</ref> På grund av uppförandet av en [[saluhall]] i torgets västra del flyttades större delen av torghandeln från Stortorget till Sundstorget. Under den senare delen av 1900-talet revs dock saluhallen och torget blev i stället ett parkeringstorg så när som på en liten yta där Sundstorgets grill låg. 2004 byggdes torget om och parkeringen förlades i ett underjordiskt parkeringsgarage på två våningar samt att en saluhall i glas byggdes, denna gång i torgets södra sida.<ref>{{Harvnb|Stadsbyggnadskontoret|2005|p=218-219}}</ref> Längs torgets norra fasad ligger flera restauranger och i väster innesluts torget av Dunkers kulturhus.
+
+Flera platser i Helsingborg har fått namn av personer med stor betydelse för staden. Några exempel är [[Henry Dunkers plats]] mellan [[Helsingborgs konserthus|konserthuset]] och [[Helsingborgs stadsteater|stadsteatern]], som fick sitt namn vid [[H99]]-utställningen för att hedra [[Henry Dunker]]s bidrag till stadens kulturliv genom [[Dunkerintressen|Dunkerska stiftelserna]].<ref>{{Harvnb|Stadsbyggnadskontoret|2005|p=205}}</ref> Konsul Olssons plats är centralt belägen, inbäddad vid mitten av Kullagatan i närheten av [[Petter Olsson (konsul)|konsul Petter Olssons]] magasinbyggnad.<ref>{{Harvnb|Stadsbyggnadskontoret|2005|p=189}}</ref> Vid Terrasstrapporna har konsul [[Oscar Trapp]] hedrats med en egen [[Konsul Trapps plats|plats]] som tack för dennes pådrivning av restaureringen av Kärnan, byggandet av Terrasstrapporna och bevarandet av flera äldre byggnader. Vid platsen där den gamla, numera rivna, teatern låg vid [[Bruksgatan, Helsingborg|Bruksgatan]] hedrades regissören [[Ingmar Bergman]] med en plats 2008; Bergman var teaterchef på Helsingborgs stadsteater 1944–1946.<ref>{{webbref |författare=Anklam Schmidt, Anna |titel=Ingmar Bergman har fått sin plats i Helsingborg |utgivare=''Helsingborgs Dagblad'' |datum=14 juli 2008 |url=http://hd.se/helsingborg/2008/07/14/bergman-aer-paa-plats/ |arkivurl=http://web.archive.org/web/20131212115306/http://hd.se/helsingborg/2008/07/14/bergman-aer-paa-plats/ |arkivdatum=12 december 2013 |språk= |hämtdatum=23 oktober 2010}}</ref> På Söder ligger Konsul Perssons plats på den tomt där [[Nils Persson (konsul)|Nils Perssons]] svavelsyrafabrik tidigare låg. Norr om denna ligger [[Mäster Palms plats]], efter den socialistiske agitatorn [[August Palm]], vilken omges av flera senmodernistiska byggnader såsom Söderpunkten och Fackföreningarnas hus.<ref>{{Harvnb|Stadsbyggnadskontoret|2005|p=212}}</ref> På Söder ligger även [[Gustav Adolfs torg, Helsingborg|Gustav Adolfs torg]], som anlades 1878 som Nya Torg i enlighet med en stadsplan från 1874.<ref>{{Harvnb|Ranby|2005|p=43-45}}</ref> Torget fick sitt nuvarande namn av [[Gustav Adolfs kyrka, Helsingborg|Gustav Adolfs kyrka]], som uppfördes 1897 i torgets norra del.<ref>{{Harvnb|Ander et al.|2006|p=137}}</ref> På torget bedrivs torghandel de flesta dagar i veckan.<ref>{{webbref |författare= |titel=Torghandel |utgivare=Helsingborg.se |datum= |url=http://www.helsingborg.se/Foretagare/Tillstand-och-anmalan/Torghandel/ |arkivurl=http://web.archive.org/web/20131106035118/http://www.helsingborg.se/Foretagare/Tillstand-och-anmalan/Torghandel/ |arkivdatum=6 november 2013 |språk= |hämtdatum=18 januari 2015}}</ref>
+
+=== Parker och grönområden ===
+[[Fil:Helsingborg stadsparken 2.jpg|miniatyr|[[Stadsparken, Helsingborg|Stadsparken]], även kallad Krookska planteringen, öppnades för allmänheten 1877.]]
+Flera av Helsingborgs parker ligger som en krans runt stadens centrala delar där de allra första parkerna kom till på sent 1800-tal. Förtätningen av staden och de många nya industrierna gjorde att behovet av grönområden för avkoppling och rekreation blev allt påtagligare. Många av stadens parker har tidigare varit trädgårdar som donerats till staden av dess välbemedlade ägare.
+
+Den första riktiga park som anlades var [[Stadsparken, Helsingborg|Krookska planteringen]] belägen mellan Helsingborgs dåvarande innerstad och den nya stadsdelen Söder. På platsen låg tidigare Bollbrolyckan, som var en del av stadens fäladsmark. Planer fanns att bebygga marken för att knyta samman stadsdelarna, men i stället köpte syskonen Krook upp och donerade den till staden att användas till plantering. Parken anlades 1873–1874 och öppnades för allmänheten 1877<ref>{{webbref |författare= |titel=Stadsparken |utgivare=Helsingborg.se |datum= |url=http://www.helsingborg.se/Medborgare/Uppleva-och-gora/Friluftsliv-och-motion/Parker/stadsparken/ |arkivurl=http://web.archive.org/web/20140529192638/http://www.helsingborg.se/Medborgare/Uppleva-och-gora/Friluftsliv-och-motion/Parker/stadsparken/ |arkivdatum=29 maj 2014 |språk= |hämtdatum=18 januari 2015}}</ref>.
+
+En annan tidig park i Helsingborg är [[Öresundsparken, Helsingborg|Öresundsparken]] som är belägen i en ravin i landborgen kallad Hälsobacken, men även med en del uppe på landborgen. Parken anlades 1876–1877 efter att verksamheten i de vattenkvarnar som bildade Helsingborgs tidigaste industriområde flyttat till det nya industriområdet på Söder. Parkens sluttningar är rikt bevuxna med [[rhododendron]]buskar och skuggande träd. Här ligger även [[Sofiakällan]] som påträffades 1889 och som är Sveriges enda naturliga saltvattenkälla.<ref>{{webbref |författare= |titel=Öresundsparken |utgivare=Helsingborg.se |datum= |url=http://www.helsingborg.se/Medborgare/Uppleva-och-gora/Friluftsliv-och-motion/Parker/oresundsparken/ |arkivurl=http://web.archive.org/web/20140529182830/http://www.helsingborg.se/Medborgare/Uppleva-och-gora/Friluftsliv-och-motion/Parker/oresundsparken/ |arkivdatum=29 maj 2014 |språk= |hämtdatum=18 januari 2015}}</ref> Området runt Kärnan har hyst väldigt sparsam bebyggelse ända sedan Karl XI beordrade att hela slottet, förutom Kärnan, skulle rivas. I samband med Helsingborgsutställningen 1903 kring Kärnan anlades en park kallad [[Slottshagen, Helsingborg|Slottshagen]] och en lekplats har funnits i parken sedan 1906<ref>{{webbref |författare= |titel=Slottshagen |utgivare=Helsingborg.se |datum= |url=http://www.helsingborg.se/Medborgare/Uppleva-och-gora/Friluftsliv-och-motion/Parker/slottshagen/ |arkivurl=http://web.archive.org/web/20140529201430/http://www.helsingborg.se/Medborgare/Uppleva-och-gora/Friluftsliv-och-motion/Parker/slottshagen/ |arkivdatum=29 maj 2014 |språk= |hämtdatum=18 januari 2015}}</ref>.
+[[Fil:Pålsjö skog2.jpg|miniatyr|vänster|[[Pålsjö skog]] ligger i de norra delarna av Helsingborg.]]
+Några av Helsingborgs mest kända parker har tillkommit genom donationer från några av stadens prominenta invånare. Öster om idrottsområdet på Olympia ligger [[Fredriksdals friluftsmuseum]], som 1918 donerades till Helsingborgs stad av [[Konsul Oscar Trapp|konsul Trapps]] änka, Gisela Trapp. Parken hyser [[Fredriksdals herrgård]], botanisk trädgård, frukträdgård och [[Fredriksdalsteatern]]. Efter Gustaf VI Adolfs död erhöll Helsingborgs stad Sofiero slott med tillhörande trädgård som gåva. Parken har blivit berömd för sina många olika arter av rhododendron<ref>{{webbref |författare= |titel=Sofiero slott och slottsträdgård |utgivare=Helsingborg.se |datum= |url=http://www.helsingborg.se/Medborgare/Uppleva-och-gora/Friluftsliv-och-motion/Parker/sofiero-slott-och-slottstradgard/ |arkivurl=http://web.archive.org/web/20140529141650/http://www.helsingborg.se/Medborgare/Uppleva-och-gora/Friluftsliv-och-motion/Parker/sofiero-slott-och-slottstradgard/ |arkivdatum=29 maj 2014 |språk= |hämtdatum=18 januari 2015}}</ref> och olika evenemang, som orkidétävlingen Sofiero Trophy och veteranbilsutställningen Sofiero Classic.<ref>{{webbref |författare= |titel=Welcome to Sofiero 2011 |utgivare=Sofiero.se |datum= |url=http://www.sofiero.se/ImageVaultFiles/id_7328/cf_2/Sofiero%20program%202011%20Eng.PDF |arkivurl=http://web.archive.org/web/20111201131445/http://www.sofiero.se/ImageVaultFiles/id_7328/cf_2/Sofiero%20program%202011%20Eng.PDF |arkivdatum=1 december 2011 |språk=engelska |hämtdatum=18 januari 2015}}</ref> En annan donation är [[Vikingsberg]] med tillhörande park, beläget på landborgen, som Ida och Otto Banck överlämnade till staden 1912. Själva villan på Vikingsberg hyste länge stadens konstsamling och är nu för tiden privat konstgalleri<ref>{{webbref |författare= |titel=Vikingsbergsparken |utgivare=Helsingborg.se |datum= |url=http://www.helsingborg.se/Medborgare/Uppleva-och-gora/Friluftsliv-och-motion/Parker/vikingsbergsparken/ |arkivurl=http://web.archive.org/web/20140529183850/http://www.helsingborg.se/Medborgare/Uppleva-och-gora/Friluftsliv-och-motion/Parker/vikingsbergsparken/ |arkivdatum=29 maj 2014 |språk= |hämtdatum=18 januari 2015}}</ref>. Parken består av både buskinramade trädgårdar, näckrosdamm och öppna grönytor.
+
+Ännu en av de namnkunnigare parkerna är Ramlösa brunnspark i södra delen av Helsingborg. Här låg den gamla Ramlösakällan som varit i bruk från 1707.<ref>{{webbref |författare= |titel=Ramlösa brunnspark |utgivare=Helsingborg.se |datum= |url=http://www.helsingborg.se/Medborgare/Uppleva-och-gora/Friluftsliv-och-motion/Parker/ramlosa-brunnspark/ |arkivurl=http://web.archive.org/web/20140529193252/http://www.helsingborg.se/Medborgare/Uppleva-och-gora/Friluftsliv-och-motion/Parker/ramlosa-brunnspark/ |arkivdatum=29 maj 2014 |språk= |hämtdatum=18 januari 2015}}</ref> På 1700- och 1800-talen dracks det ofta brunn i parken och flera kända personer har lovprisat vattnet, till exempel Carl von Linné och [[Carl Hårleman]]. Området är en lummig park runt dalen där den gamla järnhaltiga vattenkällan är placerad. I parken finns även flera byggnader, till största delen i gulmålat trä med vita lövsågeridetaljer, bevarade ovanför dalen sedan hälsobrunnens tid. Två andra natursköna områden avgränsar staden i norr och i söder. I norr ligger [[Pålsjö skog]]<ref>{{webbref |författare= |titel=Pålsjö skog |utgivare=Helsingborg.se |datum= |url=http://www.helsingborg.se/Medborgare/Uppleva-och-gora/Friluftsliv-och-motion/Naturomraden/palsjo-skog/ |arkivurl=http://web.archive.org/web/20110318083638/http://www.helsingborg.se/Medborgare/Uppleva-och-gora/Friluftsliv-och-motion/Naturomraden/palsjo-skog/ |arkivdatum=18 mars 2011 |språk= |hämtdatum=18 januari 2015}}</ref> belägen runt en ravin i landborgen och ett populärt friluftsområde. Vid skogen ligger [[Pålsjö slott]] med tillhörande slottspark. I söder ligger Rååns dalgång, med sluttningar ned mot ån med naturskog och betesmarker, så skyddsvärt att området nu för tiden är [[naturreservat]]. Vid kanten av Råån ligger [[Raus kyrka]], som är Helsingborgs äldsta kyrka med anor från 1100-talet<ref>{{webbref |författare= |titel=Kyrkorna i Raus församling |utgivare=Svenska kyrkan |datum= |url=http://www.svenskakyrkan.se/helsingborg/kyrkorna--raus-forsamling |arkivurl=http://web.archive.org/web/20140203124440/http://www.svenskakyrkan.se/helsingborg/kyrkorna--raus-forsamling |arkivdatum=3 februari 2014 |språk= |hämtdatum=18 januari 2015}}</ref>.
+
+I och med skapandet av [[Landborgspromenaden]] har flera av stadens parker bundits ihop, från Pålsjö skog till Råådalen genom ett vandringsstråk på landborgens kant.<ref>{{webbref |författare= |titel=Landborgspromenaden - Helsingborgs ryggrad |utgivare=Helsingborg.se |datum= |url=http://www.helsingborg.se/Medborgare/Uppleva-och-gora/Friluftsliv-och-motion/Vandringsleder/Landborgspromenaden/ |arkivurl=http://web.archive.org/web/20131030115350/http://www.helsingborg.se/Medborgare/Uppleva-och-gora/Friluftsliv-och-motion/Vandringsleder/Landborgspromenaden/ |arkivdatum=30 oktober 2013 |språk= |hämtdatum=18 januari 2015}}</ref>
+
+=== Stränder ===
+[[Fil:Helsingborg, sunset 2013-07-08 2.jpg|miniatyr|Soldnedgång vid [[Örestrandsbadet]], även kallad Fria Bad.]]
+Helsingborg huserar ett flertal badstränder på gångavstånd från centrum. En av dessa är Tropical Beach på [[Parapeten]], anlagd i samband med [[H99]]-utställningen, med utplacerade palmer, spänger och solstolar<ref>{{webbref |författare= |titel=Tropical beach |utgivare=Helsingborg.se |datum= |url=http://www.helsingborg.se/Medborgare/Uppleva-och-gora/Friluftsliv-och-motion/Badplatser-strander/Dold-nodsida-for-faktasidor-om-strander/Tropical-beach/ |arkivurl=http://web.archive.org/web/20131030120345/http://www.helsingborg.se/Medborgare/Uppleva-och-gora/Friluftsliv-och-motion/Badplatser-strander/Dold-nodsida-for-faktasidor-om-strander/Tropical-beach/ |arkivdatum=30 oktober 2013 |språk= |hämtdatum=18 januari 2015}}</ref>. Vidare norrut, längs Strandpromenaden, ligger Järnvägsmännens bad och [[Gröningen]].<ref>{{webbref |författare= |titel=Järnvägsmännens bad / Gröningen |utgivare=Helsingborg.se |datum= |url=http://www.helsingborg.se/Medborgare/Uppleva-och-gora/Friluftsliv-och-motion/Badplatser-strander/Dold-nodsida-for-faktasidor-om-strander/Jarnvagsmannens-bad/ |arkivurl=http://web.archive.org/web/20131030081529/http://www.helsingborg.se/Medborgare/Uppleva-och-gora/Friluftsliv-och-motion/Badplatser-strander/Dold-nodsida-for-faktasidor-om-strander/Jarnvagsmannens-bad/ |arkivdatum=30 oktober 2013 |språk= |hämtdatum=18 januari 2015}}</ref> Här finns en stor grönyta att sola på samt ett stort trädäck med tillhörande bryggor. Vidare norrut längs promenaden ligger en av Helsingborgs mest populära stränder [[Örestrandsbadet]], eller Fria Bad som det kallas i folkmun.<ref>{{webbref |författare= |titel=Fria bad |utgivare=Helsingborg.se |datum= |url=http://www.helsingborg.se/Medborgare/Uppleva-och-gora/Friluftsliv-och-motion/Badplatser-strander/Dold-nodsida-for-faktasidor-om-strander/Fria-bad/ |arkivurl=http://web.archive.org/web/20130624115854/http://www.helsingborg.se/Medborgare/Uppleva-och-gora/Friluftsliv-och-motion/Badplatser-strander/Dold-nodsida-for-faktasidor-om-strander/Fria-bad/ |arkivdatum=24 juni 2013 |språk= |hämtdatum=18 januari 2015}}</ref> Stadens nordligaste stränder är [[Vikingstrand]], väl anpassad för funktionshindrade,<ref>{{webbref |författare= |titel=Vikingstrand |utgivare=Helsingborg.se |datum= |url=http://www.helsingborg.se/Medborgare/Uppleva-och-gora/Friluftsliv-och-motion/Badplatser-strander/Dold-nodsida-for-faktasidor-om-strander/Vikingstrand/ |arkivurl=http://web.archive.org/web/20131030074310/http://www.helsingborg.se/Medborgare/Uppleva-och-gora/Friluftsliv-och-motion/Badplatser-strander/Dold-nodsida-for-faktasidor-om-strander/Vikingstrand/ |arkivdatum=30 oktober 2013 |språk= |hämtdatum=18 januari 2015}}</ref> och Tinkarpsbadet, vilket är en av de lugnare stränderna i Helsingborg.<ref>{{webbref |författare= |titel=Tinkarpsbadet |utgivare=Helsingborg.se |datum= |url=http://www.helsingborg.se/Medborgare/Uppleva-och-gora/Friluftsliv-och-motion/Badplatser-strander/Dold-nodsida-for-faktasidor-om-strander/Tinkarpsbadet/ |arkivurl=http://web.archive.org/web/20130624085751/http://www.helsingborg.se/Medborgare/Uppleva-och-gora/Friluftsliv-och-motion/Badplatser-strander/Dold-nodsida-for-faktasidor-om-strander/Tinkarpsbadet/ |arkivdatum=24 juni 2013 |språk= |hämtdatum=18 januari 2015}}</ref>
+
+Söder om Helsingborg är Öresund väldigt långgrunt. Här ligger stränderna [[Råå vallar]]<ref>{{webbref |författare= |titel=Råå vallar |utgivare=Helsingborg.se |datum= |url=http://www.helsingborg.se/Medborgare/Uppleva-och-gora/Friluftsliv-och-motion/Badplatser-strander/Dold-nodsida-for-faktasidor-om-strander/Raa-vallar/ |arkivurl=http://web.archive.org/web/20140407232952/http://www.helsingborg.se/Medborgare/Uppleva-och-gora/Friluftsliv-och-motion/Badplatser-strander/Dold-nodsida-for-faktasidor-om-strander/Raa-vallar/ |arkivdatum=7 april 2014 |språk= |hämtdatum=18 januari 2015}}</ref> och [[Örby ängar]].<ref>{{webbref |författare= |titel=Örby ängar |utgivare=Helsingborg.se |datum= |url=http://www.helsingborg.se/Medborgare/Uppleva-och-gora/Friluftsliv-och-motion/Badplatser-strander/Dold-nodsida-for-faktasidor-om-strander/Orby-angar/ |arkivurl=http://web.archive.org/web/20130625073716/http://www.helsingborg.se/Medborgare/Uppleva-och-gora/Friluftsliv-och-motion/Badplatser-strander/Dold-nodsida-for-faktasidor-om-strander/Orby-angar/ |arkivdatum=25 juni 2013 |språk= |hämtdatum=18 januari 2015}}</ref> Norr om dessa, nära hamnområdet, ligger Helsingborgs enda [[Naturism|naturiststrand]]: Knähakenbadet.<ref>{{webbref |författare= |titel=Knähakenbadet |utgivare=Helsingborg.se |datum= |url=http://www.helsingborg.se/Medborgare/Uppleva-och-gora/Friluftsliv-och-motion/Badplatser-strander/Dold-nodsida-for-faktasidor-om-strander/Knahakenbadet/ |arkivurl=http://web.archive.org/web/20130617054036/http://www.helsingborg.se/Medborgare/Uppleva-och-gora/Friluftsliv-och-motion/Badplatser-strander/Dold-nodsida-for-faktasidor-om-strander/Knahakenbadet/ |arkivdatum=17 juni 2013 |språk= |hämtdatum=18 januari 2015}}</ref> Det finns även tre kallbadhus i staden. Två av dem i norr, [[Pålsjöbaden]] (strax söder om Vikingstrand) och [[Norra kallbadhuset]] (eller Kallis som det kallas i folkmun), mellan Gröningen och Fria Bad. I söder ligger Råå kallbadhus vid [[Rååbadet]] invid småbåtshamnen.
+
+=== Stadsdelar ===
+[[Fil:Helsingborg stadtteile ueberblick.svg|miniatyr|stående|Översiktskarta över Helsingborgs stadsdelar.]]
+I takt med att Helsingborg började växa under 1800-talets andra hälft började områden uppstå utanför den gamla stadskärnan, som varit någorlunda oförändrad sedan den senare medeltiden. Till en början benämndes de olika områdena som förstäder, till exempel Östra förstaden (bebyggelsen utmed Långvinkelsgatan) och Södra förstaden (bebyggelsen utmed Södergatan). Dessa benämningar förenklades så småningom: Södra förstaden blev till Söder och bebyggelsen norr om Hälsovägen kallades [[Norr, Helsingborg|Norr]]. Vissa stadsdelar har namn som går längre tillbaka i tiden genom äldre ortnamn eller bebyggelse som inkorporerats i Helsingborg. Bland de ursprungligen självständiga orter som vuxit samman med staden finns Råå, Stattena, [[Raus plantering]] och [[Ramlösa (stadsdel)|Ramlösa]]. Andra stadsdelar (såsom [[Ringstorp, Helsingborg|Ringstorp]], [[Ättekulla]], [[Högasten]] och [[Drottninghög]]) tar sina namn från fornminnesplatser. Eftersom trakten kring Helsingborg mestadels bestod av odlingslandskap växte flera stadsdelar fram på marker som tillhört [[landeri]]er eller gårdar och fick därför ofta sina namn därifrån. De områden som fått namn efter landerier är [[Eneborg]], [[Fredriksdal, Helsingborg|Fredriksdal]], [[Närlunda]], [[Sofieberg, Helsingborg|Sofieberg]] och Tågaborg medan de som fått namn från gårdar är [[Adolfsberg, Helsingborg|Adolfsberg]], [[Berga, Helsingborg|Berga]], [[Dalhem, Helsingborg|Dalhem]], [[Elineberg]], [[Gustavslund]] och [[Miatorp]]. 
+
+Gränserna för Helsingborgs olika stadsdelar är inte officiellt fastställda.<ref>{{webbref |författare=Lassen, Fredrik |titel=Oklara stadsdelsgränser i Helsingborg ställer till det |utgivare=''Helsingborgs Dagblad'' |datum=24 augusti 2008 |url=http://hd.se/helsingborg/2008/08/24/oklara-stadsdelsgraenser-staeller/ |arkivurl=http://web.archive.org/web/20100823022942/http://hd.se/helsingborg/2008/08/24/oklara-stadsdelsgraenser-staeller/ |arkivdatum=23 augusti 2010 |språk= |hämtdatum=20 augusti 2010}}</ref> Istället har Helsingborgs kommun delat in staden i 32 så kallade statistikområden som dock ofta motsvarar gamla stadsdelar eller bostadsområden, från vilka de också fått sina namn. Totalt hade statistikområdena en befolkning på 99&nbsp;856 invånare den 1 januari 2014.<ref name="Folkmängd_Hbg_kommun_1_jan_2014">{{webbref |författare= |titel=Befolkningsutvecklingen 2013 och Folkmängden efter ålder 1 januari 2014 |utgivare=Perspektiv Helsingborg, Helsingborgs stad |datum=2014 |url=http://www.helsingborg.se/ImageVaultFiles/id_49899/cf_2/Befolkningsutveckling_2014.PDF |arkivurl=http://web.archive.org/web/20150115183623/http://www.helsingborg.se/ImageVaultFiles/id_49899/cf_2/Befolkningsutveckling_2014.PDF |arkivdatum=15 januari 2015 |språk= |hämtdatum=15 januari 2015}}</ref>
+
+{| 
+|- valign=top
+| style="width:17em;" |
+* 1. [[Norr, Helsingborg|Norr]] (3 699)
+* 2. [[Mariastaden]] (4 361)
+* 3. [[Ringstorp, Helsingborg|Ringstorp]] (3 498)
+* 4. [[Berga, Helsingborg|Berga]] (1 805)
+* 5. [[Drottninghög]] (3 082)
+* 6. [[Dalhem, Helsingborg|Dalhem]] (5 242)
+* 7. [[Tågaborg]]{{Ref_label|A|a|none}} (7 451)
+* 8. [[Stattena]] (2 661)
+* 9. [[Fredriksdal, Helsingborg|Fredriksdal]] (4 721)
+* 10. [[Slottshöjden]] (3 753)
+* 11. [[Olympia, Helsingborg|Olympia]] (1 824)
+| style="width:17em;" |
+* 12. [[Centrum, Helsingborg|Centrum]] (3 430)
+* 13. [[Eneborg]] (3 956)
+* 14. [[Wilson Park]] (2 115)
+* 15. [[Rosengården]] (4 488)
+* 16. [[Husensjö]] (1 623)
+* 17. [[Sofieberg, Helsingborg|Sofieberg]] (1 712)
+* 18. [[Adolfsberg, Helsingborg|Adolfsberg]] (4 442)
+* 19. [[Söder, Helsingborg|Söder]] (4 196)
+* 20. [[Högaborg]] (4 115)
+* 21. [[Fältabacken]] (991)
+* 22. [[Närlunda]] (1 256)
+| style="width:17em;" |
+* 23. [[Eskilsminne]] (1 865)
+* 24. [[Gustavslund]] (3 073)
+* 25. [[Raus plantering|Planteringen]] (2 842)
+* 26. [[Elineberg]] (2 333)
+* 27. [[Ramlösa (stadsdel)|Ramlösa]] (4 508)
+* 28. [[Miatorp]] (2 672)
+* 29. [[Högasten]] (997)
+* 30. [[Ättekulla]] (3 940)
+* 31. [[Råå]] (3 205)
+|}
+
+;Noteringar
+*{{Note_label|A|a|none}} Tågaborg delas av Helsingborgs stad in i två statistikområden: Tågaborg N (7a) med ett invånarantal på 3 353 och Tågaborg S (7b) med ett invånarantal på 4 098 per den 1 januari 2014.<ref name="Folkmängd_Hbg_kommun_1_jan_2014" />
+
+== Demografi ==
+=== Befolkningsutveckling ===
+Fram till mitten av 1800-talet kunde Helsingborg betecknas som en småstad och hade innan detta en befolkning på endast runt 1&nbsp;000 invånare. I och med industrialismens genombrott i staden började befolkningen under andra hälften av 1800-talet, och en stor del av 1900-talet, öka explosionsartat. Mellan 1850–1900 sexdubblades folkmängden genom en ökning från 4&nbsp;140 till 24&nbsp;670 invånare. Detta var vid tidpunkten den största procentuella folkökningen i Sverige och Helsingborg var då Sveriges femte största stad. Under det sena 1900-talets nedgång inom industrin saktades ökningen av befolkningskurvan ned, men bibehåller ändå en svag stigning av befolkningökningen i staden. Kravet på nya bostäder är höga och särskilt har kön för fribyggartomter ökat kraftigt<ref>{{webbref |författare= |titel=Fribyggartomter - en bristvara |utgivare=''Helsingborgs Dagblad'' |datum=3 februari 2007 |url=http://hd.se/helsingborg/2007/02/03/fribyggartomter-en-bristvara/ |arkivurl=http://web.archive.org/web/20070402084245/http://hd.se/helsingborg/2007/02/03/fribyggartomter-en-bristvara/ |arkivdatum=2 april 2007 |språk= |hämtdatum=16 januari 2015}}</ref>.
+
+Något begrepp som Stor-Helsingborg existerar inte, men i sin bok ''Fjärde staden: Placemarketing Helsingborg'' har Ola Tufvesson, universitetslektor i kulturgeografi på [[Campus Helsingborg]], studerat stadens utgångspunkt vad det gäller befolkning. Staden ligger i ett väldigt befolkningstätt område och i stället för att jämföra folkmängden mellan kommuner, som kan variera i yta, framlägger Tufvesson tesen att se hur många människor som bor inom tre mils radie från stadens rådhus. Inom Helsingborgs sfär skulle det då bo ungefär 300 000 människor, vilket gör att Tufvesson anser att Helsingborg kan kalla sig Sveriges fjärde största stad.<ref name="fjärdestaden">{{Harvnb|Tufvesson|2006|loc=''passim''}}</ref>
+
+{{Befolkningsutveckling
+| namn = Helsingborg
+| från = 1900
+| till = 2010
+| ref = <ref>{{Köpingsliknande samhällen|Helsingborg, med landsförsamlingens municipalsamhälle}}</ref><ref>{{webbref |författare=Eriksson, Marianne |titel=Sveriges officiella statistik: Statistiska meddelanden (MI 38, SM 0703) - Tätorter 1960–2005 |utgivare=Statistiska centralbyrån |datum=9 juni 2009 |url=http://www.scb.se/statistik/MI/MI0810/2005A01x/MI0810_2005A01x_SM_MI38SM0703.pdf |arkivurl=http://www.webcitation.org/5zewoamwt |arkivdatum=23 juni 2011 |språk= |hämtdatum=13 december 2010}}</ref>
+| max = 97122
+| y2010 = 97122
+| a2010 = 3841
+| y2005 = 91457
+| a2005 = 3763
+| y2000 = 87914
+| a2000 = 3690
+| a1995 = 3646
+| y1995 = 84494
+| a1990 = 3391
+| y1990 = 81615
+| y1980 = 77291
+| y1975 = 80986
+| y1970 = 82008
+| y1965 = 78153
+| y1960 = 75770
+| d1900 = 26071
+}}
+
+=== Invånare med utländsk bakgrund ===
+{| class=toccolours border=0 cellpadding=3 cellspacing=0 style="padding:.5em; width:21em; float:right; font-size:95%; margin-left:1em; margin-bottom:1em;"
+|- style="font-size:105%;" 
+| colspan=2 align=center |'''Utländska nationaliteter i Helsingborg (per 1 januari 2014)'''<ref name="Folkmängd_Hbg_kommun_1_jan_2014" />
+|- style="vertical-align:top;"
+|'''Ursprungsland'''
+| align=right width=35% |'''Antal'''
+|-
+|[[Jugoslavien]]
+|align="right"|3 374
+|-
+|[[Irak]]
+|align="right"|2 961
+|-
+|[[Danmark]]
+|align="right"|2 240
+|-
+|[[Bosnien och Hercegovina|Bosnien-Hercegovina]]
+|align="right"|1 744
+|-
+|[[Polen]]
+|align="right"|1 700
+|-
+|[[Libanon]]
+|align="right"|1 396
+|-
+|[[Vietnam]]
+|align="right"|889
+|-
+|[[Tyskland]]
+|align="right"|803
+|-
+|[[Finland]]
+|align="right"|768
+|-
+|[[Rumänien]]
+|align="right"|752
+|-
+|Övriga länder
+|align="right"|11 097
+|}
+
+Andelen invånare med [[utländsk bakgrund]] (det vill säga människor födda utomlands eller som har två föräldrar som är födda utomlands) var 1 januari 2014 20,8% för Helsingborg, vilket motsvarar 27 724 personer. De med utländsk bakgrund har anknytning till cirka 120 olika länder och de största grupperna kommer från forna [[Jugoslavien]] följt av [[Irak]] och [[Danmark]].<ref name="Folkmängd_Hbg_kommun_1_jan_2014" /> Under perioden 2006 till 2009 ökade antalet irakiska flyktingar drastiskt. Helsingborgs stad för ett aktivt integrationsarbete, som bland annat innefattar information om olika kulturer i skolorna, skapande av olika nätverk och särskilda åtgärder i invandrartäta områden som Dalhem, Fredriksdal och Drottninghög.<ref>{{webbref |författare= |titel=Integration och invandring |utgivare=Helsingborg.se |datum= |url=http://www.helsingborg.se/templates/SubMain.aspx?id=518&epslanguage=SV |arkivurl=http://web.archive.org/web/20080508234718/http://www.helsingborg.se/templates/SubMain.aspx?id=518&epslanguage=SV |arkivdatum=2 april 2007 |språk= |hämtdatum=22 maj 2007}}</ref>
+
+=== Trossamfund ===
+Det finns ingen egentlig statistik om religionstillhörighet i Helsingborg, men klart är att största delen av stadens befolkning tillhör [[Svenska kyrkan]] och i formell mening betecknas som evengeliskt-lutherska. Svenska kyrkan har fyra församlingar i staden: [[Maria församling, Helsingborg|Helsingborgs Maria]], [[Gustav Adolfs församling, Helsingborg|Helsingborgs Gustav Adolf]], [[Filborna församling|Filborna]] och [[Raus församling|Raus]] och förfogar bland annat över kyrkorna [[Sankta Maria kyrka, Helsingborg|Sankta Maria kyrka]], [[Gustav Adolfs kyrka, Helsingborg|Gustav Adolfs kyrka]], [[Raus kyrka]] och [[Sankt Olofs kyrka, Helsingborg|Sankt Olofs kyrka]]<ref>{{webbref |författare= |titel=Svenska kyrkan: Helsingborg - Församlingarna |utgivare=Svenska kyrkan |datum= |url=http://www.svenskakyrkan.se/helsingborg/forsamlingarna |arkivurl=http://web.archive.org/web/20140222095607/http://www.svenskakyrkan.se/helsingborg/forsamlingarna |arkivdatum=22 februari 2014 |språk= |hämtdatum=19 januari 2015}}</ref>. Till Svenska kyrkan räknas även den föreningsdrivna [[Evangeliska Fosterlandsstiftelsen|EFS-kyrkan]] på Råå.<ref>{{webbref |författare= |titel=Välkommen till EFS-kyrkan Råå |utgivare=EFS-kyrkan Råå |datum= |url=http://www.efskyrkanraa.se/ |arkivurl=http://web.archive.org/web/20141217044647/http://efskyrkanraa.se/ |arkivdatum=17 december 2014 |språk= |hämtdatum=19 januari 2015}}</ref>  Dessutom finns det i staden flera olika kristna samfund bland annat en [[Romersk-katolska kyrkan|katolsk]] församling, med församlingskyrka i [[Sankt Clemens katolska församling|Sankt Clemens]], en [[serbisk-ortodox]] församling, belägen i Sankt Basilius den Stores kyrka, och ett stort antal frikyrkoförsamlingar som [[Jesu Kristi kyrka av sista dagars heliga]], [[Pingstkyrkan]] och [[Svenska Missionskyrkan]].
+
+Utöver de kristna samfunden finns det i Helsingborg en muslimsk församling, med bland annat en moské belägen vid korsningen Rusthållsgatan-Brunnbäcksgatan i stadsdelen [[Miatorp]]<ref>{{webbref |författare=Rantala, Anette |titel=Olust efter vandalisering i källarmoskén på Söder |utgivare=''Helsingborgs Dagblad'' |datum=8 december 2014 |url=http://hd.se/helsingborg/2014/12/08/olust-efter-vandalisering-i-pa/ |arkivurl=http://web.archive.org/web/20141210040544/http://hd.se/helsingborg/2014/12/08/olust-efter-vandalisering-i-pa/ |arkivdatum=10 december 2014 |språk= |hämtdatum=19 januari 2015}}</ref> och en judisk församling, vars synagoga är belägen i [[von Platenska huset]] på Springpostgränden i centrala Helsingborg.<ref>{{webbref |författare= |titel=Ännu en brand vid Judiska församlingen |utgivare=Sveriges Radio |datum=5 januari 2009 |url=http://sverigesradio.se/sida/artikel.aspx?programid=96&artikel=2549027 |arkivurl=http://web.archive.org/web/20150119122819/http://sverigesradio.se/sida/artikel.aspx?programid=96&artikel=2549027 |arkivdatum=19 januari 2015 |språk= |hämtdatum=19 januari 2015}}</ref>
+
+=== Social struktur ===
+De centrala stadsdelarna norr och söder om stadens gamla stadskärna har traditionellt tillhört olika skikt av samhället. Stadsdelarna Söder, Raus plantering och Högaborg var länge dominerade av flera industrier, vilket gjorde att befolkningen till största delen bestod av arbetare som bosatt sig nära sina arbetsgivare. I de norra stadsdelarna Norr och Tågaborg bosatte sig däremot mestadels förmögnare människor samt medlemmar av övre medelklassen. Dessa strukturer lever till stor del kvar i Helsingborg. I de södra delarna är arbetslösheten hög och utbildningsnivån låg medan det mest högutbildade höginkomsttagare bor i norr.<ref>{{webbref |författare= |titel=Perspektiv Helsingborg nr 5:2008: En delad stad eller hel? Med fokus på den socioekonomiska segregationen i Helsingborg. |utgivare=Helsingborg.se |datum= |url=http://www.helsingborg.se/upload/Om%20Helsingborg/Kalla%20fakta%20om%20Helsingborg/PERSPEKTIV0508.docx.pdf |arkivurl= |arkivdatum= |språk= |hämtdatum=16 januari 2015}}</ref> Helsingborgs [[Miljonprogrammet|miljonprogramsområden]] Dalhem, Drottninghög och Fredriksdal uppvisar även de en lägre utbildningsnivå och högre arbetslöshet medan de allra sydligaste delarna som Ramlösa och Råå uppvisar en större andel höginkomsttagare med eftergymnasial utbildning.<ref name="utbildn">{{webbref |författare= |titel=Befolkningen 20–64 år, efter utbildningsnivå 2007-12-31 |utgivare=Helsingborg.se |datum= |url=http://www.helsingborg.se/upload/Om%20Helsingborg/Kalla%20fakta%20om%20Helsingborg/UTBILD2007.pdf |arkivurl= |arkivdatum= |språk= |hämtdatum=16 januari 2015}}</ref><ref>{{webbref |författare= |titel=Förvärvsinkomst år 2006 |utgivare=Helsingborg.se |datum= |url=http://www.helsingborg.se/upload/Om%20Helsingborg/Kalla%20fakta%20om%20Helsingborg/f%C3%B6rv%C3%A4rvsink2006.pdf |arkivurl= |arkivdatum= |språk= |hämtdatum=16 januari 2015}}</ref> Generellt sett är utbildningsnivån och medelinkomsterna lägre i stadens tätbebyggda centrala delar söder om stadskärnan och de flerbostadshusdominerade norra delarna längre inåt land medan de däremot är högre i villaområdena inåt land samt i de stadsdelar som ligger nära kusten.
+
+== Kultur- och nöjesliv ==
+Helsingborg har ett rikt utbud av både kultur- och nöjesetablissemang. Kommunen ger ofta bidrag till olika kultursatsningar, vilket stärker stadens kulturliv. Enligt siffror från Statens kulturråd var Helsingborgs stad den kommun i landet som satsade mest pengar på kultur per invånare 2007;<ref>{{Harvnb|Kulturrådet|2008|p=49}}</ref> en placering kommunen behöll under 2008 och 2009.<ref>{{Harvnb|Kulturrådet|2010|p=41}}</ref>
+
+=== Museer ===
+[[Fil:Fredriksdals stadskvarter BÅn.JPG|miniatyr|Stadskvarter med kulturhistoriska byggnader på [[Fredriksdal museer och trädgårdar|Fredriksdals friluftsmuseum]].]]
+Den historieintresserade konsuln Oscar Trapp föreslog i början av 1900-talet att ett museum skulle inrättas i Helsingborg och 1909 öppnade det nya stadsmuseet, inhyst i den gamla skolbyggnaden på Södra Storgatan, med samlingar som börjat samlas in redan på 1890-talet. Den ursprungliga samlingen bestod av både naturvetenskapliga, arkeologiska, etnografiska och kulturhistoriska föremål samt konstverk. När Otto Banck donerade Vikingsberg till Helsingborgs stad 1912 kunde konstsamlingarna inhysas där, som flyttades dit 1929<ref>{{webbref |författare= |titel=Mer om Vikingsbergsparken |utgivare=Helsingborg.se |datum= |url=http://www.helsingborg.se/Medborgare/Uppleva-och-gora/Friluftsliv-och-motion/Parker/vikingsbergsparken/mer-om-vikingsbergsparken/ |arkivurl=http://web.archive.org/web/20150119102433/http://www.helsingborg.se/Medborgare/Uppleva-och-gora/Friluftsliv-och-motion/Parker/vikingsbergsparken/mer-om-vikingsbergsparken/ |arkivdatum=19 januari 2015 |språk= |hämtdatum=19 januari 2015}}</ref>. 1918 donerade Oscar Trapps änka Gisela Trapp [[Fredriksdals herrgård|Fredriksdal]] med tillhörande marker till museet, med föremålet att det skulle användas som friluftsmuseum och dessutom skulle markerna finansiera museets verksamhet.<ref>{{webbref |författare=Classon, Roland |titel=Oscar och Gisela Trapp – en släktsaga |utgivare=''Helsingborgs Dagblad'' |datum=28 juni 2009 |url=http://hd.se/familj/slaktforskning/2009/06/29/oscar-och-gisela-trapp-en-slaktsaga/ |arkivurl=http://web.archive.org/web/20140201161232/http://hd.se/familj/slaktforskning/2009/06/29/oscar-och-gisela-trapp-en-slaktsaga/ |arkivdatum=1 februari 2014 |språk= |hämtdatum=19 januari 2015}}</ref> Med tiden kom Stadsmuseets lokaler på Södra Storgatan att bli för små, men det dröjde till 2002 innan detta problem löstes då både de kultur- och [[stadshistorisk]]a samlingarna på Södra Storgatan och konstsamlingen på Vikingsberg flyttades till det nybyggda [[Dunkers kulturhus]].
+[[Fil:Dunkers kulturhus 2.jpg|miniatyr|vänster|[[Dunkers kulturhus]] söderfasad, sedd från Helsingörskajen.]]
+[[Fredriksdal museer och trädgårdar|Fredriksdals friluftsmuseum]] har genom tidens lopp utökats med historiska gårdar från olika platser i Skåne och kulturhistoriskt intressanta byggnader från Helsingborgs äldre stadsbebyggelse. På museet finns också en fruktträdgård, botanisk trädgård och friluftsteater.<ref>{{webbref |författare= |titel=Fredriksdal museer och trädgårdar |utgivare=Helsingborg.se |datum= |url=http://www.helsingborg.se/Besokare/gora/sevardheter/fredriksdal/ |arkivurl=http://web.archive.org/web/20130323021330/http://www.helsingborg.se/Besokare/gora/sevardheter/fredriksdal/ |arkivdatum=23 mars 2013 |språk= |hämtdatum=19 januari 2015}}</ref> I ett av husen från gamla Helsingborg ligger Grafiska museet, som är Nordens största tryckerimuseum, och visar tryckerikonstens historia från [[Johannes Gutenberg]] fram till vår tid.<ref>{{webbref |författare= |titel=Grafiska museet |utgivare=Fredriksdal.se |datum= |url=http://www.fredriksdal.se/besoka/verksamheter-pa-fredriksdal/flikar/grafiska-museet/ |arkivurl=http://web.archive.org/web/20140812233812/http://www.fredriksdal.se/besoka/verksamheter-pa-fredriksdal/flikar/grafiska-museet/ |arkivdatum=12 augusti 2014 |språk= |hämtdatum=19 januari 2015}}</ref> I anknytning till Fredriksdal ligger [[Kulturmagasinet, Helsingborg|Kulturmagasinet]], där stora delar av de mycket omfattande samlingarna från Helsingborgs museer förvaras. Kulturmagasinet ansvarar även för Kärnans underhåll, i egenskap av ägare, samt kulturmiljövård och konservering.<ref>{{webbref |författare= |titel=Välkommen till Kulturmagasinet |utgivare=Helsingborg.se |datum= |url=http://www.helsingborg.se/kulturmagasinet |arkivurl=http://web.archive.org/web/20141022225447/http://www.helsingborg.se/kulturmagasinet |arkivdatum=22 oktober 2014 |språk= |hämtdatum=19 januari 2015}}</ref>
+
+Vid Bergaliden, öster om Kärnan, ligger ytterligare två museer. Det ena är [[Helsingborgs skolmuseum|Skolmuseet]], som invigdes 1985<ref>{{webbref |författare= |titel=Kunskap, glädje och lite ris... Helsingborgs folkskola 175 år |utgivare=Dunkers kulturhus |datum= |url=http://www.dunkerskulturhus.se/utstallning/arkiv/helsingborgs-folkskola-175-ar/ |arkivurl= |arkivdatum= |språk= |hämtdatum=19 januari 2015}}</ref>, beläget i den gamla Östra skolan vid sidan om Slottsvångsskolan. Skolmuseet visar restaurerade skolmiljöer och föremål som använts på olika folkskolor i Helsingborgs kommun genom åren. Det andra är [[Medicinhistoriska museet, Helsingborg|Medicinhistoriska museet]], inhyst i det före detta barnsjukhuset, som i sin tur visar miljöer och föremål från vården.<ref>{{webbref |författare= |titel=Helsingborgs medicinhistoriska museum |utgivare=Helsingborg.se |datum= |url=http://www.helsingborg.se/Besokare/gora/museer/helsingborgs-medicinhistoriska-museum/ |arkivurl=http://web.archive.org/web/20130411053341/http://www.helsingborg.se/Besokare/gora/museer/helsingborgs-medicinhistoriska-museum/ |arkivdatum=11 april 2013 |språk= |hämtdatum=19 januari 2015}}</ref> I det nyrenoverade före detta IOGT-huset, på Carl Krooks gata på Söder, ligger [[Helsingborgs idrottsmuseum]] som ställer ut föremål från stadens idrottshistoria samt arrangerar olika evenemang, föreläsninger och utser Årets idrottare i Helsingborg.<ref>{{webbref |författare= |titel=Helsingborgs Idrottsmuseum |utgivare=Helsingborg.se |datum= |url=http://www.helsingborg.se/Besokare/gora/museer/helsingborgs-idrottsmuseum/ |arkivurl=http://web.archive.org/web/20131030112509/http://www.helsingborg.se/Besokare/gora/museer/helsingborgs-idrottsmuseum/ |arkivdatum=30 oktober 2013 |språk= |hämtdatum=19 januari 2015}}</ref>
+
+Utanför staden ligger det privatägda [[Beredskapsmuseet]], Sveriges enda museum i en underjordisk försvarsanläggning från andra världskriget: Batteri Helsingborg. Beredskapsmuseet är riksbekant framför allt genom tvisten om bilden [[En svensk tiger]].<ref>{{webbref |författare= |titel=Beredskapsmuseet |utgivare=Helsingborg.se |datum= |url=http://www.helsingborg.se/Besokare/gora/museer/beredskapsmuseet/ |arkivurl=http://web.archive.org/web/20131030111932/http://www.helsingborg.se/Besokare/gora/museer/beredskapsmuseet/ |arkivdatum=30 oktober 2013 |språk= |hämtdatum=19 januari 2015}}</ref>
+
+=== Musik och teater ===
+[[Fil:Helsingborgs konserthus 3.jpg|miniatyr|[[Helsingborgs konserthus]] invigdes i november 1932.]]
+[[Fil:Helsingborgs stadsteater.jpg|miniatyr|[[Helsingborgs stadsteater]] grundades 1921 och 1976 öppnade den nya stadsteatern vid [[Henry Dunkers plats]].]]
+Under första hälften av 1800-talet var konserter ovanliga inslag i Helsingborg. Ett fåtal ensembler framträdde då och då vid någon av stadens hälsobrunnar, antingen Sofiakällan eller Ramlösa, och Husarregementets musikkår gav enstaka utomhuskonserter. 1896 bildades Helsingborgs musiksällskap för att lyfta musiksmaken hos stadens invånare och sällskapet började regelbundet framföra ett antal konserter. 1911 beslutade riksdagen om stöd för upprättande av orkestrar i Sveriges provinsstäder och då Helsingborgs stad också gav ett bidrag bildades den 14 juli 1911 Nordvästra Skånes Orkesterförening (senare [[Helsingborgs symfoniorkester]]). De första åren var intresset stort och 1932 stod [[Helsingborgs konserthus]] färdigt, designat av Sven Markelius.<ref>{{webbref |författare=Fryksén, Arne |titel=Helsingborgs Konsertförening (HKF) |utgivare=Visualarkiv.se |datum=6 december 2005 |url=http://www.visualarkiv.se/xtf/view?docId=SE/M007/HSA22/66-1.ead.xml;query=kultur*;brand=arkivinfo&hit.rank=2 |arkivurl=http://web.archive.org/web/20150120091023/http://www.visualarkiv.se/xtf/view?docId=SE/M007/HSA22/66-1.ead.xml;query=kultur*;brand=arkivinfo&hit.rank=2 |arkivdatum=20 januari 2015 |språk= |hämtdatum=20 januari 2015}}</ref>
+
+I konserthuset går det att regelbundet lyssna på Helsingborgs symfoniorkester liksom flera andra gästande artister.<ref>{{webbref |författare= |titel=Alla konserter |utgivare=Helsingborgs konserthus |datum= |url=http://www.helsingborgskonserthus.se/konserter-och-biljetter/alla-konserter/ |arkivurl=http://web.archive.org/web/20140414171200/http://www.helsingborgskonserthus.se/konserter-och-biljetter/alla-konserter/ |arkivdatum=14 april 2014 |språk= |hämtdatum=20 januari 2015}}</ref> Dunkers kulturhus kan även det erbjuda konserter till exempel när Musikskolans elever framträder. I stadens kyrkor förekommer ofta konserter då mer i de centrala kyrkorna Mariakyrkan och Gustav Adolfs kyrka. Även i Jazzklubbens lokaler i en källare på Kullagatan i centrum bjuds det på konserter och andra klubbar som erbjuder musik är bland annat Telegrafen, Charles Dickens och [[The Tivoli]]. Helsingborg har även flera musikföreningar, bland annat [[Helsingborgs kammarkör]], Helsingborgs kammarmusikförening, [[Visans vänner]], Pearls of the Sound, [[Kvartettsångsällskapet i Helsingborg]], Fyrstämman, Tangorma och Helsingborgs vokalensemble.
+
+Helsingborg har en [[Helsingborgs stadsteater|stadsteater]] som var den första fasta stadsteaterensemblen i Sverige när den grundades 1921.<ref>{{webbref |författare=Gunnarsson, Björn |titel=Ja, må den leva! |utgivare=''Helsingborgs Dagblad'' |datum=3 september 2011 |url=http://www.hd.se/kultur/2011/09/03/ja-ma-den-leva/ |arkivurl= |arkivdatum= |språk= |hämtdatum=20 januari 2015}}</ref> Dock har det funnits en teater i staden sedan 1813 när dåvarande ägaren av Ramlösa brunn, Achates von Platen, fick tillstånd av staden att uppföra ett "provisionellt teaterhus av trä" på Prästgatan. 1859 köptes teatern upp av staden och snart höjdes röster för ett nytt och mer tidsenligt teaterhus, vilket inte kom att invigas förrän 1877. Den nya teatern gjorde att resande teatersällskap allt oftare besökte staden och i början av 1900-talet kom önskemål om en fast teaterensemble, vilken startades 1921. Då den gamla teatern var byggd för resande teatersällskap och inte en fast ensemble blev lokalerna efter hand allt mindre funktionella och dessutom ökade kraven på föreställningarna från publiken. 1976 öppnade därför den nya stadsteatern intill konserthuset vid [[Henry Dunkers plats]] och innehåller både en större scen (kallad Storan, med 580 platser) och en mindre scen (kallad Lillan, med upp till 150 platser)<ref>{{webbref |författare= |titel=Hyr lokalen |utgivare=Helsingborgs stadsteater |datum= |url=http://www.helsingborgsstadsteater.se/om-stadsteatern/hyr-lokalen/ |arkivurl=http://web.archive.org/web/20150120093455/http://www.helsingborgsstadsteater.se/om-stadsteatern/hyr-lokalen/ |arkivdatum=20 januari 2015 |språk= |hämtdatum=20 januari 2015}}</ref>. Den gamla teatern revs samma år,<ref>{{webbref |författare= |titel=Teaterhistoria i Malmö och Helsingborg och om skådespeleri i bokform. |utgivare=Sveriges Radio |datum=21 oktober 2009 |url=http://sverigesradio.se/sida/avsnitt/77820?programid=3049 |arkivurl=http://web.archive.org/web/20150120093717/http://sverigesradio.se/sida/avsnitt/77820?programid=3049 |arkivdatum=20 januari 2015 |språk= |hämtdatum=20 januari 2015}}</ref> till stora protester. Ett populärt och välkänt sommarnöje är Fredriksdalsteatern som anlades 1927 och hade sin första uppsättning den 27 juli 1932. Fredriksdalsteatern fick sin stora spridning i riket i och med att [[Nils Poppe]] anslöt sig till teatern och de årliga TV-sändningarna därifrån på trettondagen. Det går även att se på utomhusteater i Slottshagen eftersom det regelbundet ges olika revyer i parken under sommaren.<ref>{{webbref |författare= |titel=Fredriksdalsteatern |utgivare=Fredriksdal.se |datum= |url=http://www.fredriksdal.se/natur-kultur/hus-och-gardar/fredriksdalsteatern/ |arkivurl=http://web.archive.org/web/20140708174839/http://www.fredriksdal.se/natur-kultur/hus-och-gardar/fredriksdalsteatern/ |arkivdatum=8 juli 2014 |språk= |hämtdatum=20 januari 2015}}</ref>
+
+=== Restauranger och nattklubbar ===
+Helsingborg är en av Sveriges krogtätaste städer med 394 invånare per restaurang 2007, fullt jämförbart med storstäderna Malmö och Göteborg med 379 respektive 374 invånare per restaurang.<ref>{{webbref |författare= |titel=Utbud och efterfrågan hotell- och restaurangbranschen |utgivare=Sveriges Hotell- och Restaurangföretagare |datum=2007 |url=http://www.shr.se/statistiksajten/stat.asp?lan=noLan&kommun=Helsingborgs&verksamheter=RestaurangHotell |arkivurl= |arkivdatum= |språk= |hämtdatum=24 februari 2009}}</ref><ref>{{webbref |författare= |titel=Folkmängd i riket, län och kommuner 31 december 2007 och befolkningsförändringar 2007 |utgivare=Statistiska centralbyrån |datum= |url=http://www.scb.se/Pages/TableAndChart____228181.aspx |arkivurl=http://web.archive.org/web/20110612094233/http://www.scb.se/Pages/TableAndChart____228181.aspx |arkivdatum=12 juni 2011 |språk= |hämtdatum=24 februari 2009}}</ref> Staden har flera framstående restauranger. I 2008 års upplaga av [[White Guide]] nämns restaurangerna [[Gastro]], Sofiero Slottsrestaurang, Bonasera bonasera, Dahlberg samt Café le fil du Rasoir. Av dessa har Gastro fått Vitt kort i svensk mästarklass och Sofiero Slottsrestaurang bedömdes som "mycket god klass".<ref>{{webbref |författare= |titel=Sveriges bästa restauranger, barer och caféer |utgivare=White Guide |datum=2008 |url=http://www.whiteguide.se/ |arkivurl= |arkivdatum= |språk= |hämtdatum=16 januari 2015}}</ref> I 2014 års upplaga av White Guide nämndes även restaurangerna Papi Bistro & Njutbar, Inom Mat & Bar, Sillen & Makrillen, Chateau Foret, Fridas, Eki Sushi och Pålsjö Matbar.<ref>{{webbref |författare= |titel=White Guide restauranger i Helsingborg |utgivare=Helsingborg.se |datum= |url=http://www.helsingborg.se/Besokare/ata/ata/white-guide-restauranger-i-helsingborg/ |arkivurl=http://web.archive.org/web/20150120115416/http://www.helsingborg.se/Besokare/ata/ata/white-guide-restauranger-i-helsingborg/ |arkivdatum=20 januari 2015 |språk= |hämtdatum=20 januari 2015}}</ref> I Helsingborg finns flera restauranger som både är populära och anrika. Till de mest anrika räknas Mollbergs matsalar, som troligen har funnits som en matinrättning med anknytning till [[Hotell Mollberg]] under hela hotellets historia, och La Petite på Bruksgatan. Eftersom Helsingborg har en speciell relation med Öresund finns det flera restauranger som ligger i anknytning till vattnet. Flera av dem ligger vid Norra hamnen och Kajpromenaden och vidare ut längs Strandpromenaden ligger flera sommarrestauranger. Färjorna till Helsingör har oftast en restaurang där man genom att "tura", alltså att ta färjan över sundet utan att hoppa av i Helsingör, kan få en matupplevelse ute på Öresund<ref>{{webbref |författare= |titel=Tura |utgivare=Scandlines.se |datum= |url=http://www.scandlines.se/ombord/restaurang-aurora.aspx |arkivurl=http://web.archive.org/web/20150110035857/http://www.scandlines.se/ombord/restaurang-aurora.aspx |arkivdatum=10 januari 2015 |språk= |hämtdatum=20 januari 2015}}</ref>.
+[[Fil:Fahlmans conditori 1.jpg|miniatyr|vänster|[[Fahlmans conditori]] grundades 1914 av [[Georg Fahlman]].]]
+
+I Helsingborg finns även många konditorier och kaféer. Några av dessa är [[Fahlmans conditori]], som är ett av stadens mest anrika konditorier, Konditori Signe Bergkvist (även kallat Kafferepet), som är Helsingborgs äldsta konditori med en verksamhet som sträcker sig tillbaka till 1892, [[Ebbas Fik]] med 50-talsinredning och musik samt [[Koppi]], vars två ägare båda är tidigare vinnare av [[barista]]-SM<ref>{{webbref |författare=Holmquist, Göran |titel="Vi ska skilja oss från mängden" |utgivare=''Helsingborgs Dagblad'' |datum=30 juni 2007 |url=http://hd.se/noje/2007/06/30/vi-ska-skilja-oss-fraan-maengden/ |arkivurl=http://web.archive.org/web/20150116185650/http://hd.se/noje/2007/06/30/vi-ska-skilja-oss-fraan-maengden/ |arkivdatum=16 januari 2015 |språk= |hämtdatum=16 januari 2015}}</ref>.
+
+För den som vill festa finns det flera pubar och nattklubbar för dans och umgänge.<ref>{{webbref |författare= |titel=Kvällsnöjen |utgivare=Helsingborg.se |datum= |url=http://www.helsingborg.se/Besokare/gora/noje/barer-och-nattliv/ |arkivurl=http://web.archive.org/web/20130127130438/http://www.helsingborg.se/Besokare/gora/noje/barer-och-nattliv/ |arkivdatum=27 januari 2013 |språk= |hämtdatum=20 januari 2015}}</ref> De flesta ligger i centrum, men även Söder har en del nattliv att erbjuda, däribland [[Wallmans salonger]]. Några av de välbesöktare nattklubbarna är The Tivoli, Tempel, Le Cardinal och Sirocco. Det finns även ett stort utbud av pubar och barer. Som exempel kan nämnas de brittiskinspirerade pubarna Charles Dickens och Telegrafen, rockbaren PL13 samt barer av vanligare karaktär såsom Utposten och [[Harrys]]. Här finns även pubkedjor som [[Bishops Arms]] och [[O'Learys]].
+
+=== Shopping ===
+[[Fil:Väla centrum.jpg|miniatyr|[[Väla centrum|Väla köpcentrum]] invigdes den 13 mars 1974<ref>{{webbref |författare=Bergström, Tommy |titel=Väla fyller 40 år |utgivare=''Helsingborgs Dagblad'' |datum=11 mars 2014 |url=http://www.hd.se/lokalt/helsingborg/2014/03/11/vala-fyller-40-ar/ |arkivurl=http://web.archive.org/web/20150120121829/http://www.hd.se/lokalt/helsingborg/2014/03/11/vala-fyller-40-ar/ |arkivdatum=20 januari 2015 |språk= |hämtdatum=20 januari 2015}}</ref> och ligger i utkanten av [[Ödåkra]].]]
+Genom omvandlingen av Kullagatan till Kulla gågata 1961 fick Helsingborg en av Sveriges första gågator.<ref>{{webbref |författare= |titel=Gågata efter raggarrunda |utgivare=''Helsingborgs Dagblad'' |datum=26 januari 2012 |url=http://www.hd.se/lokalt/helsingborg/2012/01/26/gagata-efter-raggarrunda/ |arkivurl= |arkivdatum=|språk= |hämtdatum=20 januari 2015}}</ref> Idén kom från gatan Lijnbaan i [[Rotterdam]], men skiljer sig från denna genom att den går genom äldre bebyggelse i stället för en nybyggd stadsmiljö. Till en början var handlarna tveksamma till idén, men då det snabbt visade sig vara en succé övertygades de flesta. Shoppingstråket fortsätter söderut i form av Mariagatan och Bruksgatans gågator. Även längs de Norra och Södra Storgatorna, som i öster löper parallellt med Kullagatan respektive Bruksgatan, finns det flera butiker av varierande slag även om dessa inte är gågator.
+
+Som en fortsättning på handelsstråket efter Stadsparken löper Södergatan ut till Söder. Södergatan är inte heller någon gågata, men Helsingborgs stad har breddat gatans trottoarer för att göra gatan mer attraktiv för butikernas kunder. Vid Mäster Palms plats längs Södergatan ligger gallerian Söderpunkten,<ref>{{webbref |författare= |titel=Söderpunkten byggs om |utgivare=''Helsingborgs Dagblad'' |datum=9 augusti 2014 |url=http://www.hd.se/lokalt/helsingborg/2014/08/09/soderpunkten-byggs-om/ |arkivurl=http://web.archive.org/web/20150120125741/http://www.hd.se/lokalt/helsingborg/2014/08/09/soderpunkten-byggs-om/ |arkivdatum=20 januari 2015 |språk= |hämtdatum=20 januari 2015}}</ref> som tidigare varit ett [[EPA (varuhus)|EPA-varuhus]]. Gallerian innehåller ett flertal butiker samt några matställen.
+
+Strax utanför Helsingborg ligger [[Väla centrum|Väla köpcentrum]], ett av Sveriges största köpcentra med cirka 180 butiker där flera av de större kedjorna finns representerade.<ref>{{webbref |författare= |titel=Välkommen till Sveriges största modehus |utgivare=Vala.se |datum= |url=http://www.vala.se/om-vala |arkivurl=http://web.archive.org/web/20141229130005/http://www.vala.se/om-vala |arkivdatum=29 december 2014 |språk= |hämtdatum=20 januari 2015}}</ref> Under hösten 2011 öppnade nya butiker i den stora om- och tillbyggnaden som hade pågått sedan ett par år; hela ombyggnaden var klar i mars 2012.<ref>{{webbref |författare=Wingren, Martin |titel=Väla fortsätter utbyggnaden - fler butiker invigda |utgivare=''Lokaltidningen Helsingborg'' |datum=20 oktober 2011 |url=http://helsingborg.lokaltidningen.se/v%C3%A4la-forts%C3%A4tter-utbyggnaden---fler-butiker-invigda-/20111020/artikler/111029979 |arkivurl=http://web.archive.org/web/20150120130425/http://helsingborg.lokaltidningen.se/v%C3%A4la-forts%C3%A4tter-utbyggnaden---fler-butiker-invigda-/20111020/artikler/111029979 |arkivdatum=20 januari 2015 |språk= |hämtdatum=20 januari 2015}}</ref> Några kilometer utanför Helsingborg ligger Familia som är det näst största köpcentrumet i Helsingborgsregionen med över 40 butiker.<ref>{{webbref |författare= |titel=Butiker |utgivare=Familiakopcentrum.se |datum= |url=http://www.familiakopcentrum.se/butiker-och-andra-verksamheter/ |arkivurl=http://web.archive.org/web/20150120130819/http://www.familiakopcentrum.se/butiker-och-andra-verksamheter/ |arkivdatum=20 januari 2015 |språk= |hämtdatum=20 januari 2015}}</ref> I och med Helsingborgs närhet till Danmark lockas en stor mängd svenskar över Öresund för att handla alkohol på grund av de lägre priserna.<ref>{{webbref |författare=Nilsson, Sofia |titel=Ökad gränshandel oroar regeringen |utgivare=''Svenska Dagbladet'' |datum=2 januari 2004 |url=http://www.svd.se/nyheter/inrikes/okad-granshandel-oroar-regeringen_118280.svd |arkivurl=http://web.archive.org/web/20150120131038/http://www.svd.se/nyheter/inrikes/okad-granshandel-oroar-regeringen_118280.svd |arkivdatum=20 januari 2015 |språk= |hämtdatum=20 januari 2015}}</ref>
+
+=== Återkommande kulturevenemang ===
+* Love & Light (februari) – ljusfestival med kärlekstema under en vecka kring alla hjärtans dag. Efterföljare till tidigare Midvinterljus.
+* Påskfest på Fredriksdal (april) – olika tillställningar för barn under påsken.
+* Sofiero Classic (maj) – utställning på Sofiero med veteranfordon.
+* Sofiero Trophy (juni) – [[orkidé]]tävling med tillhörande utställning och försäljning av orkidéer.
+* Rosdagar på Fredriksdal (juli) – tips och råd om rosor ges med guidade rosvandringar på olika teman.
+* Antikmässan (juli) – en antikmässa som hålls på [[Idrottens hus, Helsingborg|Idrottens hus]].
+* Kul-i-juli (juli) – utomhusrevy som spelats sedan 1968 i Slottshagen.
+* [[Hx]] (augusti) – sommarevenemang som varar i tre dagar över hela staden med musik, kultur och idrott. Efterföljare till tidigare [[Helsingborgsfestivalen]].
+* Den stora trädgårdsfesten (augusti) – trädgårdsutställning på Sofiero.
+* Helsingborgs båtmässa (augusti) – utställning inriktad på småbåtar och som avslutas med kräftkalas.
+* Julskyltning (december) – stadens affärer visar upp sina skyltfönster inför julen.
+* Julstämning på Sofiero (december) – försäljning av julpynt och mat samt inspiration för [[vinterträdgård]]ar inför julen.
+
+== Kommunikationer ==
+=== Sjöfart ===
+{{Huvudartikel|Helsingborgs hamn|HH-leden}}
+[[Fil:Ferries in Helsingborg.jpg|miniatyr|De tre rederier som trafikerar [[HH-leden]] finns representerade i denna bild. Från vänster: [[Scandlines]], [[Sundbusserne]] och [[HH-Ferries]].]]
+Helsingborg har med sitt läge en lång historia som sjöfartstad. Platsen där Öresund är som smalast har sedan länge varit en vältrafikerad farled. Länge hade dock staden ingen ordentlig hamn utan denna bestod endast av en brygga ut i vattnet. Inte förrän 1832 fick man en större hamn med tillhörande hamnbassäng. När Helsingborg under 1800-talets andra hälft växte fram som en betydande industristad började hamnen snart att växa. 1867 uppfördes Södra hamnen och 1891 Norra hamnen.<ref>{{webbref |författare= |titel=Hamnens historia |utgivare=Helsingborgs hamn |datum= |url=http://www.port.helsingborg.se/allmanhet/om-oss/hamnens-historia/ |arkivurl=http://web.archive.org/web/20140810115117/http://www.port.helsingborg.se/allmanhet/om-oss/hamnens-historia/ |arkivdatum=10 augusti 2014 |språk= |hämtdatum=20 januari 2015}}</ref> Vid denna tid var Helsingborg en av Sveriges största rederistäder. Utbyggnaden av hamnen fortsatte och den kom att dominera stadens kustlinje under hela 1900-talet fram till bomässan H99. 1991 grävdes det norrgående järnvägsspåret ner, vilket gjorde att man kunde omvandla Norra hamnen till ett bostadsområde som invigdes vid bomässan.<ref>{{webbref |författare= |titel=Norra Hamnen |utgivare=Helsingborgshem |datum= |url=http://www.helsingborgshem.se/index.php?page=areainfo_509 |arkivurl=http://web.archive.org/web/20140810063845/http://www.helsingborgshem.se/index.php?page=areainfo_509 |arkivdatum=10 augusti 2014 |språk= |hämtdatum=20 januari 2015}}</ref>
+
+Färjeleden mellan Helsingborg och Helsingör kallas [[HH-leden]] och är en av världens tätast trafikerade färjelinjer. Tre rederier trafikerar rutten där [[Scandlines]] är den största aktören och trafikerar med färjorna ''[[M/S Tycho Brahe]]'', ''[[M/S Aurora af Helsingborg]]'' och ''[[M/S Hamlet]]''.<ref>{{webbref |författare= |titel=Tidtabell: Helsingborg-Helsingör |utgivare=Scandlines |datum=25 mars 2013 |url=http://m.scandlines.se/landingpage/tidtabell/resultat/?y=2013&m=3&d=25&r=HGHR |arkivurl=http://web.archive.org/web/20150120195401/http://m.scandlines.se/landingpage/tidtabell/resultat/?y=2013&m=3&d=25&r=HGHR |arkivdatum=20 januari 2015 |språk= |hämtdatum=20 januari 2015}}</ref> [[HH-Ferries]] trafikerar med färjorna ''M/S Mercandia IV'' och ''M/S Mercandia VIII'', men sedan den 1 september 2009 har HH-Ferries integrerats med Scandlines, vilket gjordes för att möta konkurrensen från Öresundsbron. Från och med den 1 september 2010 är biljettköp, check-in och kajlägen gemensamma för HH-Ferries och Scandlines.<ref>{{webbref |författare=TT |titel=HH Ferries integreras med Scandlines |utgivare=''Skånska Dagbladet'' |datum=18 juni 2009 |url=http://www.skanskan.se/article/20090618/NYHETER/722853060/-/hh-ferries-integreras-med-scandlines |arkivurl=http://web.archive.org/web/20150120195725/http://www.skanskan.se/article/20090618/NYHETER/722853060/-/hh-ferries-integreras-med-scandlines |arkivdatum=20 januari 2015 |språk= |hämtdatum=20 januari 2015}}</ref> Det tredje rederiet är [[Sundbusserne]] (tidigare Ace Link<ref>{{webbref |författare=Melkersson, Erik |titel=Slutseglat med Ace link |utgivare=''Helsingborgs Dagblad'' |datum=4 januari 2010 |url=http://www.hd.se/lokalt/helsingborg/2010/01/04/slutseglat-med-ace-link/ |arkivurl=http://web.archive.org/web/20150120200321/http://www.hd.se/lokalt/helsingborg/2010/01/04/slutseglat-med-ace-link/ |arkivdatum=20 januari 2015 |språk= |hämtdatum=20 januari 2015}}</ref>), vilka till skillnad från de föregående två endast medför gående resenärer. Linjen trafikeras med färjan ''[[M/S Sundbuss Pernille]]''.
+
+=== Vägar ===
+Helsingborgstrakten har länge haft en viktig betydelse i vägnätet i södra Sverige. Detta har under lång tid berott bland annat på stadens förbindelser med färjor till Helsingör. Förr var Helsingborg mötespunkten för de på sin tid viktiga vägarna [[Riksettan (turistväg)|Riksettan]] och [[Rikstvåan]]. Under årens lopp har vägsystemet byggs om och numera omges staden av motorvägar. Motorvägarna på [[E4]] och [[E6]]/[[E20]] möts utanför Helsingborg på bland annat [[Trafikplats Kropp]] eller avfart nummer 30 som den också heter. Detta är förgreningen där motorvägarna på E4 mot Stockholm och E6/E20 mot Göteborg går åt varsitt håll. Innan E6 färdigställdes som motorväg gick denna väg längre inåt landet (delvis nuvarande [[länsväg 110]]) och korsade E4 nära [[Hyllinge]]. E4:an har sitt slut i Helsingborg och går vid färjeläget över till vägarna [[E55]] och [[E47]], som båda har sin början i staden. E55 sträcker sig förbi [[Köpenhamn]], [[Berlin]], [[Prag]], [[Salzburg]], [[Rimini]] och [[Brindisi]] för att sluta i [[Kalamata]] i [[Grekland]]. E47 är betydligt kortare och har sitt avslut i [[Lübeck]], men dessa vägar skyltas inte i Sverige. För att undvika tung trafik från färjorna genom stadens centrum skyltas Malmöleden söderut som E4 och går vid Helsingborgs södra trafikplats in i E6/E20 innan de delas åt vid Trafikplats Kropp. E4:ans gamla sträckning, [[Ängelholmsleden]], sträcker sig norrut till Väla köpcentrum och är numera endast en stadsmotorväg. 
+
+[[Länsväg 111]] passerar strax öster om tätortens bebyggelse och kallas från korsningen med Rausvägen till Brohultstrafikplats för Österleden.<ref>{{webbref |författare= |titel=Österleden byggs om |utgivare=Helsingborg.se |datum= |url=http://www.helsingborg.se/templates/StandardPage.aspx?id=41272&epslanguage=SV |arkivurl=http://web.archive.org/web/20080101041824/http://www.helsingborg.se/templates/StandardPage.aspx?id=41272&epslanguage=SV |arkivdatum=1 januari 2008 |språk= |hämtdatum=14 januari 2009}}</ref> Österleden fungerar till stor del som stadsbebyggelsens gräns mot öst med undantag för Ättekulla industriområde, Långeberga industriområde och Väla södra industriområde.
+
+=== Järnvägar ===
+{{Huvudartikel|Knutpunkten}}
+[[Fil:Knutpunktenext.jpg|miniatyr|[[Knutpunkten]] är Helsingborgs huvudstation och invigdes 1991.<ref>{{webbref |författare= |titel=Innan Knutpunkten |utgivare=''Helsingborgs Dagblad'' |datum=3 oktober 2012 |url=http://www.hd.se/lokalt/helsingborg/2012/10/03/innan-knutpunkten/ |arkivurl=http://web.archive.org/web/20150120201311/http://www.hd.se/lokalt/helsingborg/2012/10/03/innan-knutpunkten/ |arkivdatum=20 januari 2015 |språk= |hämtdatum=20 januari 2015}}</ref>]]
+Helsingborg är en viktig [[järnvägsknut]] och genom staden går [[Västkustbanan]] från Lund till Göteborg. [[X2000]] mellan Malmö-Göteborg, som tidigare gick via Helsingborg, går nu tills vidare i stället via [[Hässleholm]] och [[Markarydsbanan]]. Det är i stället [[Öresundstågen]] mellan Malmö-Göteborg som går via Helsingborg samt [[Intercity|SJ Intercity]].
+
+[[Skånebanan]] utgår från Helsingborg och går via [[Åstorp]], [[Perstorp]] och [[Hässleholm]] till [[Kristianstad]].<ref>{{webbref |författare= |titel=Skånebanan |utgivare=Trafikverket |datum= |url=http://www.trafikverket.se/Privat/Vagar-och-jarnvagar/Sveriges-jarnvagsnat/Skanebanan/ |arkivurl=http://web.archive.org/web/20131217130421/http://www.trafikverket.se/Privat/Vagar-och-jarnvagar/Sveriges-jarnvagsnat/Skanebanan/ |arkivdatum=17 december 2013 |språk= |hämtdatum=20 januari 2015}}</ref> Sedan går också [[Rååbanan]] genom Helsingborg via Ramlösa och [[Teckomatorp]] mot [[Eslöv]].<ref>{{webbref |författare= |titel=Rååbanan |utgivare=Trafikverket |datum= |url=http://www.trafikverket.se/Privat/Vagar-och-jarnvagar/Sveriges-jarnvagsnat/Raabanan/ |arkivurl=http://web.archive.org/web/20131220163301/http://www.trafikverket.se/Privat/Vagar-och-jarnvagar/Sveriges-jarnvagsnat/Raabanan/ |arkivdatum=20 december 2013 |språk= |hämtdatum=20 januari 2015}}</ref> Den sistnämnda banan används först och främst till [[pågatåg]]en, som är Skånes [[lokaltåg]]. Förr i tiden var Helsingborg en ännu viktigare järnvägsknut än den är i dag för då gick [[Tågfärja|tågfärjor]] till Helsingör för tåg mellan Köpenhamn och Stockholm. Av denna orsak var därför Helsingborg ofta Sveriges port mot stora delar av det övriga Europa. Denna funktion var speciellt viktig under [[kalla kriget]] mellan 1947–1991 eftersom detta var den enda utgångspunkten för svenska [[persontåg]] som skulle vidare mot till exempel dåvarande [[Västtyskland]] utan att beröra det dåvarande [[Östeuropa]]. I dag finns inte denna funktion kvar längre i Helsingborg då tågfärjeförbindelsen har lagts ned eftersom Öresundsbron helt och hållet har ersatt denna. Antalet regionala tågresenärer har ökat kraftigt de senaste åren, men stadens roll som järnvägsknut ur ett riksperspektiv har minskat.
+
+=== Stadstrafik ===
+{{Huvudartikel|Helsingborgs stadstrafik|Helsingborgs stads spårvägar}}
+Helsingborg var den tredje staden i Sverige att få elektrifierade spårvägar efter Stockholm och Göteborg när dessa invigdes i samband med Helsingborgsutställningen 1903. Spårväg kom också under lång tid vara det dominerande resesättet inom staden eftersom den första kommunala busslinjen inte invigdes förrän 1928. 1948 hade spårvägen som mest resenärer (drygt 12,2 miljoner) och på 1950-talet var spårvägsnätet som mest utbyggt i staden, med sedan följde nerkortande av flera linjer. I och med högertrafikomläggningen 1967 lades slutligen spårvägstrafiken ner i Helsingborg och ersattes av bussar.<ref>{{webbref |författare=Nilsson, Truls |titel=Helsingborgs spårvägar 1903–1967 |utgivare=''Helsingborgs Dagblad'' |datum=17 april 2011 |url=http://hd.se/helsingborg/2011/04/17/helsingborgs-sparvagar-1903-1967/ |arkivurl=http://web.archive.org/web/20110424023831/http://hd.se/helsingborg/2011/04/17/helsingborgs-sparvagar-1903-1967/ |arkivdatum=24 april 2011 |språk= |hämtdatum=20 januari 2015}}</ref> Länge drev Helsingborgs stad själv stadstrafiken i staden, men i juni 2005 tog [[Skånetrafiken]] över.<ref>{{webbref |författare= |titel=Bussåkandet i stan ökar mest i Skåne |utgivare=''Helsingborgs Dagblad'' |datum=30 november 2005 |url=http://www.hd.se/lokalt/helsingborg/2005/11/30/fler_bussar_och_fler_chauffoerer/ |arkivurl= |arkivdatum= |språk= |hämtdatum=20 januari 2015}}</ref> Den traditionella blå färgsättningen av stadstrafiken ändrades då till grön. Det nuvarande linjenätet består av tre huvudlinjer med avgångar så täta som fem minuters mellanrum samt ytterligare sex reguljära linjer, två servicelinjer och fyra pendlarlinjer.
+
+=== Flygplats ===
+{{Huvudartikel|Ängelholm-Helsingborg Airport}}
+[[Ängelholm-Helsingborg Airport]], som ligger utanför [[Ängelholm]], för inrikesflyg till Stockholm med flygbolagen [[Kullaflyg]] (till [[Stockholm-Bromma flygplats|Bromma]]) och [[Scandinavian Airlines|SAS]] (till [[Arlanda]]). Från och med 2007 avgår även charterflyg säsongsvis från flygplatsen genom ett flertal researrangörer. Linjetrafik till Visby, Mora och Åre/Östersund erbjuds under vissa säsonger.<ref>{{webbref |författare= |titel=Destinationer |utgivare=Ängelholm-Helsingborg Airport |datum= |url=http://www.angelholmhelsingborgairport.se/Destinationer/ |arkivurl=http://web.archive.org/web/20141228024010/http://www.angelholmhelsingborgairport.se/Destinationer/ |arkivdatum=28 december 2014 |språk= |hämtdatum=20 januari 2015}}</ref>
+
+== Näringsliv ==
+Stadens placering och de goda kommunikationerna har bidragit till att Helsingborg har ett bra näringslivsklimat. Detta bekräftas av studier gjorda av [[Svenskt Näringsliv]] 2007, där Helsingborg hamnar på plats 13 på listan över de kommuner med bäst företagsklimat. Det gör att staden kommer först bland de tio största städerna i Sverige.<ref>{{webbref |författare= |titel=Företagsklimat 2007 |utgivare=Svenskt Näringsliv |datum=2007 |url=http://www.svensktnaringsliv.se/multimedia/archive/00008/F_retagsklimat_2007_8547a.pdf |arkivurl=http://web.archive.org/web/20150116190244/http://www.svensktnaringsliv.se/migration_catalog/Rapporter_och_opinionsmaterial/Rapporters/foretagsklimat-2007_527878.html/binary/F%C3%B6retagsklimat%202007 |arkivdatum=16 januari 2015 |språk= |hämtdatum=16 januari 2015}}</ref> I en liknande undersökning gjord 2013 hade dock Helsingborg tappat i placering till plats 53.<ref>{{webbref |författare= |titel=Lokalt företagsklimat 2013 |utgivare=Svenskt Näringsliv |datum=2013 |url=http://www.svensktnaringsliv.se/migration_catalog/foretagsklimat-2013-placering_533419.html/binary/F%C3%B6retagsklimat%202013%20-%20Placering |arkivurl=http://web.archive.org/web/20140825174333/http://www.svensktnaringsliv.se/migration_catalog/foretagsklimat-2013-placering_533419.html/binary/F%C3%B6retagsklimat%202013%20-%20Placering |arkivdatum=25 augusti 2014 |språk= |hämtdatum=21 januari 2015}}</ref> Helsingborgs läge har bidragit till att flera [[åkeri]]företag är etablerade i staden samt flera distributionscentraler. Helsingborgsområdet har dessutom flest huvudkontor utanför Sveriges tre storstadsområden: Stockholm, Göteborg och Malmö.<ref>{{webbref |författare=Fölster, Stefan; Widell, Hanna; Wikner, Göran |titel=Huvudkontorsflytt farligast utanför Stockholm |utgivare=Svenskt Näringsliv |datum=september 2002 |url=http://www.svensktnaringsliv.se/migration_catalog/huvudkontorsflytt-farligast-utanfor-stockholm_525707.html/binary/Huvudkontorsflytt%20farligast%20utanf%C3%B6r%20Stockholm |arkivurl=http://web.archive.org/web/20150116190540/http://www.svensktnaringsliv.se/migration_catalog/huvudkontorsflytt-farligast-utanfor-stockholm_525707.html/binary/Huvudkontorsflytt%20farligast%20utanf%C3%B6r%20Stockholm |arkivdatum=16 januari 2015 |språk= |hämtdatum=16 januari 2015}}</ref> 2006 utnämndes Helsingborg till Årets nyföretagarkommun av Visma Spcs i samarbete med Jobs and Society NyföretagarCentrum.<ref>{{webbref |författare= |titel=Årets nyföretagarkommun: Helsingborg |utgivare=NyföretagarCentrum |datum=5 oktober 2006 |url=http://www.mynewsdesk.com/se/pressroom/jobs_and_society_nyforetagarcentrum/pressrelease/view/108399 |arkivurl=http://web.archive.org/web/20150116190758/http://www.mynewsdesk.com/se/jobs_and_society_nyforetagarcentrum/pressreleases/aarets-nyfoeretagarkommun-helsingborg-108399 |arkivdatum=16 januari 2015 |språk= |hämtdatum=16 januari 2015}}</ref>
+
+=== Arbetsmarknad ===
+Helsingborg har över 10&nbsp;000 momsregistrerade företag, varav drygt 90 har fler än 50 anställda. Antalet förvärvsarbetande låg 2013 på 67&nbsp;044<ref>{{webbref |författare= |titel=Antal förvärvsarbetande (dagbefolkning) efter sektor och kommun |utgivare=Statistiska centralbyrån |datum=2013 |url=http://www.scb.se/sv_/Hitta-statistik/Statistik-efter-amne/Arbetsmarknad/Sysselsattning-forvarvsarbete-och-arbetstider/Registerbaserad-arbetsmarknadsstatistik-RAMS/7895/7902/23032/ |arkivurl=http://web.archive.org/web/20150121074300/http://www.scb.se/sv_/Hitta-statistik/Statistik-efter-amne/Arbetsmarknad/Sysselsattning-forvarvsarbete-och-arbetstider/Registerbaserad-arbetsmarknadsstatistik-RAMS/7895/7902/23032/ |arkivdatum=21 januari 2015 |språk= |hämtdatum=21 januari 2015}}</ref>. Den största näringsgrenen 2006 var handel och kommunikationer med ungefär 16&nbsp;500 arbetstillfällen. Störst inom handel och kommunikation var detta år parti- och agenturhandel med knappt 5&nbsp;200 sysselsatta, följt av detaljhandel med cirka 5&nbsp;000 och transport och magasinering med drygt 4&nbsp;100. Inom industrin ligger tyngdpunkten på livsmedel, kemi och läkemedelsteknik. Den snabbast växande sektorn är servicesektorn som fördubblats de senaste 20 åren. Inom tjänstebranscherna har finansiella verksamheter och företagstjänster ökat kraftigt och var 2006 störst efter att ha passerat vård och omsorgssektorn.<ref name="näringsl2006">{{webbref |författare= |titel=Helsingborgs näringsliv år 2006 |utgivare=Sofiero.se |datum=|url=http://www.sofiero.se/upload/Om%20Helsingborg/Kalla%20fakta%20om%20Helsingborg/PERSPEKTIV0108.pdf |arkivurl= |arkivdatum= |språk= |hämtdatum=16 januari 2015}}</ref> 
+
+Pendlingen till och från Helsingborg är omfattande både vad det gäller in- och utpendling. Den totala bruttopendlingen låg 2006 på runt 32&nbsp;544 med ett överskott för inpendlingen på 6&nbsp;200 personer. Den största inpendlingen (70,9%) kommer från nordvästra Skåne, mestadels från Höganäs och Ängelholm. 1&nbsp;820 pendlar från Lund eller Malmö. 23,6% av de sysselsatta i Helsingborg pendlar till andra kommuner, mestadels till Landskrona och Malmö.<ref name="näringsl2006" />
+
+=== Företag ===
+{| class=toccolours border=0 cellpadding=3 cellspacing=0 style="padding:.5em; width:21em; float:right; font-size:95%; margin-left:1em; margin-bottom:1em;"
+|- style="font-size:105%;" 
+| colspan=2 align=center |'''Helsingborgs största arbetsgivare<br />(per 2007)'''<ref name="ForetagTjugoNollSju">{{webbref |författare= |titel=Ett statistiskt hjälpmedel vid presentation av Helsingborg |utgivare=Helsingborg.se |datum=2007 |url=http://www.helsingborg.se/upload/Om%20Helsingborg/Kalla%20fakta%20om%20Helsingborg/Statistikinfo2007.ppt |arkivurl= |arkivdatum= |språk= |hämtdatum=16 januari 2015}}</ref> 
+|- style="vertical-align:top;"
+|'''Företag'''
+| align=right width=35% |'''Anställda'''
+|- style="vertical-align:top;"
+|[[Helsingborgs kommun]] 
+| align=right |9 100
+|- style="vertical-align:top;"
+|[[Region Skåne]]
+| align=right |3 675
+|- style="vertical-align:top;"
+|[[Ikea]]
+| align=right |1 500
+|- style="vertical-align:top;"
+|[[McNeil]]
+| align=right |775
+|- style="vertical-align:top;"
+|[[Unilever Sverige]]
+| align=right |625
+|- style="vertical-align:top;"
+|[[Peab]]
+| align=right |525
+|- style="vertical-align:top;"
+|[[Rikspolisstyrelsen]]
+| align=right |475
+|- style="vertical-align:top;"
+| Becton-Dickinson
+| align=right |375
+|- style="vertical-align:top;"
+|[[Yves Rocher]]
+| align=right |360
+|- style="vertical-align:top;"
+| DFDS Transport
+| align=right |325
+|- style="vertical-align:top;"
+|[[Posten]]
+| align=right |325
+|}
+Den största privata arbetsgivaren var 2007 [[Ikea]], med sammanlagt cirka 1&nbsp;500 anställda vid det dåvarande huvudkontoret för Ikea Svenska försäljnings AB på Väla samt Ikea stabsfunktioner vid Sockerbruket och Ikeas IT-bolag i Tretorns gamla fabrik, båda vid Södra hamnen. I övrigt är Helsingborgs stad den största arbetsgivaren med ungefär 9&nbsp;100 anställda, följt av [[Skåne läns landsting]] med cirka 3&nbsp;675 anställda, till största delen på Helsingborgs lasarett.<ref name="ForetagTjugoNollSju" /> Helsingborgs kommun är bland annat även ägare av företagen [[Öresundskraft]] och [[Helsingborgshem]].
+
+Flera äldre industrier, varav en del bildades på 1800-talet, finns fortfarande kvar. Skånska superfosfat- och svavelsyrefabriks AB blev 1918 Reymersholms Gamla Industri AB och 1963 köptes det upp av [[Boliden]], som 1977 bildade Boliden Kemi AB. 1989 köptes detta upp av [[Kemira|Kemira Oy]] och anläggningarna bär namnet [[Kemira Kemi|Kemira Kemi AB]].<ref>{{webbref |författare= |titel=Kemisk-teknisk industri |utgivare=Länsstyrelsen Skåne |datum= |url=http://www.lansstyrelsen.se/skane/sv/samhallsplanering-och-kulturmiljo/landskapsvard/kulturmiljoprogram/historia-utveckling/industrins-landskap/kem-tek-industri/Pages/index.aspx |arkivurl=http://web.archive.org/web/20131119080444/http://www.lansstyrelsen.se/skane/Sv/samhallsplanering-och-kulturmiljo/landskapsvard/kulturmiljoprogram/historia-utveckling/industrins-landskap/kem-tek-industri/Pages/index.aspx |arkivdatum=19 november 2013 |språk= |hämtdatum=21 januari 2015}}</ref> [[Leo Läkemedel AB|Läkemedelsbolaget Leo]], grundat 1914, köptes 1986 upp av Pharmacia som efter en fusion 1995 bytte namn till Pharmacia & Upjohn. Detta blev 2003 uppköpt av [[Pfizer]], som senare sålde vidare denna del till [[McNeil]] i december 2006.<ref>{{webbref |författare= |titel=Historik |utgivare=McNeil AB |datum= |url=http://www.mcneilab.se/about |arkivurl=http://web.archive.org/web/20131129071419/http://www.mcneilab.se/about |arkivdatum=29 oktober 2013 |språk= |hämtdatum=21 januari 2015}}</ref> Margarinbolaget AB bildades 1926 och övertogs 1977 av Artimoskoncernen tillsammans med Unilever. 1991 köpte Unilever ut Artimos och 1993 införlivades bolaget i koncernens livsmedelsgrupp Van den Bergh Foods, som sedan år 2000 heter [[Unilever Bestfoods]]. Medicintekniksföretaget [[Viggo]], som grundades 1923, köptes 1973 upp av British Oxygen Corporation och fusionerades 1990 med Spectramed till Viggo-Spectramed. 1998 köptes företaget upp av Becton-Dickinson och drevs under namnet BD Infusion Therapy. 2010 hade Becton-Dickinson ingen tillverkning kvar i Helsingborg och fabriken på Gåsebäcks industriområde lades ned.<ref>{{webbref |författare= |titel=Nålskyddsbolaget Vigmed listas på NASDAQ OMX First North den 15 februari 2013 |utgivare=Vigmed |datum=13 februari 2013 |url=https://se.vigmed.com/investor/pressmeddelande.aspx?releaseid=1241490 |arkivurl=http://web.archive.org/web/20150121080307/https://se.vigmed.com/investor/pressmeddelande.aspx?releaseid=1241490 |arkivdatum=21 januari 2015 |språk= |hämtdatum=21 januari 2015}}</ref>
+
+Bland de varumärken som kommer från Helsingborg är några av de mest välkända mineralvattnet [[Ramlösa Hälsobrunn (företag)|Ramlösa]], kafferosteriet [[Zoégas]] och gummiföretaget Tretorn. Andra kända varumärken med bas i Helsingborg är tidningsförlaget [[Allers förlag|Allers]], nikotintuggummit [[Nicorette]], cerealieföretaget [[Abdon Finax|Finax]] samt [[Bostik]], som bland annat tillverkar lim- och tätningsmedel. I övrigt har ett flertal andra företag sina huvudkontor i staden till exempel [[Biltema]], [[Viktväktarna]] och [[Yves Rocher]]. Andra framstående företag är mobilteknikföretaget [[Spectronic]], distributions- och kylteknikföretaget Frigoscandia samt frukt- och gröntföretagen Saba och KA Lundbladh.
+
+== Idrott ==
+Helsingborg är en stad med långa idrottstraditioner. Redan 1834 anordnades utanför [[Ramlösa (stadsdel)|Ramlösa]] de första [[Olympiska spel]]en i modern tid. Bakom spelen stod Olympiska föreningen, vars mål var att återuppväcka intresset för de Olympiska spelen i Sverige och Norge. I dessa spel tävlades det i [[gymnastik]], kapp[[löpning]], [[brottning]] och [[klättring]]. Spelen drog en ansenlig mängd åskådare och återupprepades 1836. Dock blev det inga fler efter detta, men området där spelen hölls, numera industriområde i anknytning till Ramlösa station, bär gatorna namn som Kapplöpningsgatan, Fäktmästargatan och Rännarbanan som minne av evenemangen.
+
+=== Fotboll ===
+[[Fil:Olympiahelsingborg.jpg|miniatyr|Fullsatt på [[Olympia (arena)|Olympias]] östra läktare under en allsvensk match.]]
+I Helsingborg är fotboll den dominerande sporten och det finns ett flertal fotbollslag i staden. Det mest framstående laget är [[Helsingborgs IF]], grundat 1907 genom sammanslagningen av klubbarna Svithiod och Stattena, som spelar i [[Fotbollsallsvenskan]]. Runt 30-talet var Helsingborgs IF en allsvensk gigant med allsvenska vinster [[Fotbollsallsvenskan 1928/1929|1929]], [[Fotbollsallsvenskan 1929/1930|1930]], [[Fotbollsallsvenskan 1932/1933|1933]], [[Fotbollsallsvenskan 1933/1934|1934]] och [[Fotbollsallsvenskan 1940/1941|1941]]. Efter det följde en blygsammare period och [[Fotbollsallsvenskan 1968|1968]] föll laget ner i Division 1. Man lyckades inte komma tillbaka till Allsvenskan förrän 1992, men har sedan dess haft en stabil plats som topp- eller mittenlag i högsta serien, krönt med [[SM-guld]] [[Fotbollsallsvenskan 1999|1999]] och [[Fotbollsallsvenskan 2011|2011]], samt spel i [[UEFA Champions League 2000/2001]]. Bland stadens och klubbens stora fotbollsprofiler märks bland annat dubbla VM-medaljören [[Kalle Svensson]], [[Henrik Larsson]], [[Malte Mårtensson]], [[Knut Kroon]], [[Roland Nilsson (fotbollsspelare)|Roland Nilsson]], [[Andreas Jakobsson]], [[Mats Magnusson]] och [[Harry Lundahl]].
+
+HIF har vunnit Svenska cupen 5 gånger: 1941, 1998, 2006, 2010 och 2011.
+
+HIF har däremot inte varit stadens enda representant i Allsvenskan. Under åren [[Fotbollsallsvenskan 1927/1928|1928]] och [[Fotbollsallsvenskan 1929/1930|1930]] spelade även Stattena IF i Allsvenskan och [[Fotbollsallsvenskan 1950/1951|1951]] och [[Fotbollsallsvenskan 1951/1952|1952]] spelade också [[Råå IF]] där och de och HIF delades om att spela på Olympia. Råå IF:s största triumf var segern i [[Svenska cupen i fotboll|Svenska cupen]] 1948. Numera spelar klubben dock i Division 5. [[Högaborgs BK]], som grundades 1927, är ett av Helsingborgs kändare lag, trots att man för närvarande endast ligger i Division 2. Grunden till detta är mestadels att klubben fostrat fotbollsspelaren [[Henrik Larsson]]. 
+Ett annat lag i staden, som numera ligger högre i seriesystemet än Högaborg, är [[Ramlösa Södra FF]], som spelar i Division 2. Ramlösa Södra bildades 1991 genom sammanslagningen av Helsingborgs Södra BIS, bildat 1991 av klubbarna Helsingborgs Södra BK, Helsingborgs Bois och BK Drott. Helsingborgs mest framstående damlag i fotboll är [[Stattena IF]], bildat 1922, vars damlag spelar i Allsvenskan säsongen 2009 efter att ha vunnit Division 1. Man har tidigare spelat i [[Damallsvenskan|Allsvenskan]] säsongerna [[Damallsvenskan 2003|2003]] och [[Damallsvenskan 2004|2004]].
+År 1973 introducerade Korpen i Helsingborg för första gången en serie, där mixade fotbollslag deltog (killar och tjejer). Serien kallades för "Fotboll Annorlunda" och fanns i 4 säsonger.
+
+=== Elitklubbar ===
+Förutom att Helsingborgs IF spelar i högsta serien i fotboll har staden flera andra klubbar i olika sporter på elitnivå. Innebandyklubben [[FC Helsingborg]]s herrlag har spelat i [[Svenska superligan|den högsta divisionen]] sedan grundandet 2003. Detta beror på att klubben är ett resultat av sammanslagningen av de två Helsingborgsklubbarna Ramlösa och Högaborg, som sedan 2000 spelade under namnet HR2000 för att 2003 byta till FC Helsingborg. Inom bordtennisen är klubben [[BTK Rekord]] och dess farmarlag Råå BTK:s damlag etablerade namn i elitsammanhang och Rekord är en av Sveriges största bordtennisklubbar. [[Olympic/Viking Helsingborg HK|Olympic/Viking Helsingborg]] spelade i [[Elitserien i handboll för herrar|Elitserien i handboll]] säsongen 2007/2008, men föll efter säsongen åter till [[Allsvenskan i handboll|Allsvenskan]] under 2008/2009. Föreningen lyckades dock genom kvalspel ta sig tillbaka till Elitserien inför säsongen 2009/2010. Stadens simförening, [[Helsingborgs Simsällskap]], är en av Sveriges mest framstående inom sin sport, särskilt på damsidan och [[Helsingborgs Tennisklubb]] är en av Sveriges mest framgångsrika tennisföreningar. Föreningen spelar i tennisens elitserie och har även spelat i Europacupen samt vunnit SM-guld, både som förening och individuellt.
+
+=== Övriga sporter ===
+Helsingborgs [[Idrottsföreningen Kamraterna|kamratförening]], [[IFK Helsingborg]], grundades 1896 av blott 16-åriga Hjalmar Hedenblad som "Sällskapet Idrottsvänner", men blev en kamratförening redan samma år, samtidigt med en sammanslagning med fotbollsklubben GFK. Föreningen har under sin långa historia innefattat ett flertal olika sporter, bl a [[fotboll]], [[cykling]], [[simning]], [[orientering]], [[handboll]], [[gymnastik]], [[ishockey]] och [[basket]]. I verksamheten ingår numera ingår [[friidrott]] (den enda som varit med sedan starten), [[skidor]], [[tennis]], [[bowling]], [[konståkning]], [[volleyboll]] och [[triathlon]]. Som hemmaarena har man, åtminstone inom friidrotten, idrottsplatsen Heden, där bland annat SM i friidrott arrangerats, och en inomhusarena belägen i närheten av [[Idrottens hus, Helsingborg|Idrottens hus]]. Ännu en friidrottsförening finns i staden i form av [[IS Göta]], bildad 1898. Göta grundades som en renodlad friidrottsföreningen, men har även sektioner för bowling, inlines och tennis. Föreningen har under åren även hyst sporter som bandy, hockey, handboll och gång.
+
+Basketklubben [[Helsingborgs BK]]:s herrlag spelade i [[Svenska basketligan]] från 2003 under namnet [[Öresundskraft]], efter huvudsponsorn, fram till säsongen [[Svenska basketligan 2008/2009|2008/2009]]. Men på grund av ekonomiska problem försattes föreningen 2009 i konkurs. Dock ska en efterföljare till klubben, vid namn Helsingborgs Basketbollklubb, skapas. Helsingborgs Basket kom till genom en sammanslagning mellan IFK Helsingborgs basketverksamhet och Pantrarna. Föreningen hade 900 medlemmar och 20 ungdomslag. Klubben drev även projekt för att hjälpa integrationen tillsammans med Stattena IF och Svensk-Arabiska vänskapsföreningen. Tanken är att all verksamhet ska fortsätta i den nya föreningen. Klubbens herrlag måste dock på grund av konkursen börja om i division 3 och damlaget i division 2.
+
+Ishockeyn har levt en lite undanskymd tillvaro i Helsingborg, i skuggan av fotbollen. Stadens hockeylag, [[HHC Redskins]], grundades 1977 och spelar i hockeyns [[Division 1 i ishockey|Division 1]]. Helsingborg har däremot ett flertal [[gymnastik]]föreningar som alla stöds av Helsingborgs Gymnastikförbund och har sin verksamhet inhyst i [[Gymnastikens Hus]] på [[Ättekulla]] i södra Helsingborg. Dessa är [[GF Fram]], [[GF Ling]], [[Helsingborgs Turnförening]] och [[Råå GF]]. Helsingborg representeras också i löpning av [[HLK-92]] och badminton av [[Helsingborgs Badmintonklubb]]. Staden har förutom detta en del framgångsrika klubbar inom [[kampsport]]. Taekwondoklubben [[Tian Dao]] har skördat en del framgångar i svenska mästerskap. Helsingborgs Jujitsuklubb (HJJK) är en av de äldsta kampsportsföreningarna i staden och har funnits sedan mitten av 1970-talet. Några av de nyare sporterna i Helsingborg är [[rugby]], [[baseboll]] och [[amerikansk fotboll]]. Stadens representeras här av respektive [[Helsingborgs RC|Helsingborgs Rugby Club Gripen]], [[Helsingborg Generals]] och [[Helsingborg Jaguars AFC]].
+
+=== Anläggningar ===
+Den mest kända arenan i Helsingborg är [[Olympia (arena)|Olympia]], hemmaarena för Helsingborgs IF, som är en av Sveriges äldsta fotbollsarenor, uppförd 1898. Till en början var Olympia plats för både [[fotboll]] och [[friidrott]], men har på senare tid omvandlats till en renodlad fotbollsarena med plats för cirka 16&nbsp;700 åskådare. Runt Olympia har flera andra sportanläggningar senare tillkommit och hela området är ett slags centrum för Helsingborgs idrott. Norr om Olympia ligger [[Idrottens hus, Helsingborg|Idrottens hus]], som är stadens största inomhusarena med ett flertal hallar och möjlighet för många olika sporter. Den största hallen, A-hallen, har plats för 1&nbsp;800 åskådare. Flera av inomhussporterna i Helsingborg använder Idrottens hus för träning och hemmamatcher. Till exempel kan man här se handbollsföreningen [[Olympic/Viking]], innebandyklubben [[FC Helsingborg]] och bordtennisklubben [[BTK Rekord]]. En ny multiarena som av Helsingborgs stad planeras byggas på Olympiaområdet. Invigningsdatumet har skjutits fram flera gånger och arenan är nu tänkt att stå klar 2012. Den ha plats för cirka 6&nbsp;000 åskådare. Arenan är tänkt att ersätta Idrottens Hus som stadens huvudarena för inomhussporter, dock inte ishockey och racketsporter.<ref>{{webbref |författare=Sundblad, Johannes; Linde, Stina |titel=Explosiv invigning av nya arenan |utgivare=''Helsingborgs Dagblad'' |datum= 30 november 2012 |url=http://hd.se/helsingborg/2012/11/30/arenainvigningen-i-bilder/ |arkivurl=http://web.archive.org/web/20130225174140/http://hd.se/helsingborg/2012/11/30/arenainvigningen-i-bilder/ |arkivdatum=25 februari 2013 |språk= |hämtdatum=1 december 2012}}</ref><ref>{{webbref |författare= |titel=Helsingborgs nya arena invigs |utgivare=Sweco |datum= 29 november 2012 |url=http://www.sweco.se/sv/Sweden/Nyheter/2012/Helsingborgs-nya-arena-invigs/ |arkivurl=http://web.archive.org/web/20150116191746/http://www.sweco.se/sv/Sweden/Nyheter/2012/Helsingborgs-nya-arena-invigs/ |arkivdatum=16 januari 2015 |språk= |hämtdatum=22 januari 2013}}</ref> Stadens ishockeyarena, [[Olympiarinken]], som är hemmaarena för [[Helsingborg HC]] och kan ta 2 100 åskådare, ligger in bit norr om Idrottens Hus. Öster om Olympia ligger HIF-hallen, med en inomhusplan av konstgräs och Olympiahallen, byggd 1981 och utbyggd 1988, med plats för 7 tennisbanor och 18 badmintonbanor.
+
+Dock finns det även flera idrottsanläggningar utanför Olympiaområdet, till exempel i stadsdelen [[Högasten]] i södra Helsingborg, där man kan finna Idrottsplatsen Heden, som har faciliteter för friidrott och har arrangerat bland annat [[SM i friidrott]]. I anknytning till idrottsplatsen ligger inomhushallen Götahallen. I anknytning till Gustav Adolfskolan i stadsdelen [[Söder, Helsingborg|Söder]] ligger ännu en inomhushall vid namn GA-hallen, som ofta används som hemmaarena för basketklubben Helsingborg Pearls. Centrum för simsporterna är [[Filbornabadet]], som förvaltas av Helsingborgs simsällskap och som även har sin verksamhet i anläggningen. Sällskapet driver dessutom visionen om en kombinerad sim- och sporthall vid Filborna, då man anser att [[Simhallsbadet, Helsingborg|Simhallsbadet]] i centrala Helsingborg inte längre håller måttet. I övrigt finns ett flertal mindre idrottsplatser, mest ämnade för fotboll, runt om i staden, till exempel idrottsplatserna Harlyckan, Norrvalla och Råå IP.
+
+=== Återkommande idrottsevenemang ===
+* Nyårssaluten (januari) – inomhusfotbollsturnering som hålls i samband med det nya året.
+* [[Springtime]] (maj) – löptävling med distanserna 5 kilometer och 10 kilometer.
+* [[OV Beachhandboll]] (maj/juni) – beachhandbollsturnering för både skolklasser och idrottsföreningar.
+* [[Eskilscupen]] (juli/augusti) – utomhusfotbollsturnering för ungdomar som alltid spelas vecka 31 över veckoslutet fredag till söndag.
+* [[Helsingborg Marathon]] (september) – [[maraton]]lopp som hålls under sensommaren.
+
+== Sevärdheter ==
+=== Centrala delarna ===
+* [[Kärnan]]
+* [[Terrasstrapporna]]
+* Stortorget
+* [[Sankta Maria kyrka]]
+* [[Jacob Hansens hus]]
+* [[Gamlegård, Helsingborg|Gamlegård]]
+* [[Henckelska gården]]
+* [[Dunkers kulturhus]]
+* [[Helsingborgs konserthus]]
+* [[Helsingborgs stadsteater]]
+* [[Norra hamnen, Helsingborg|Norra Hamnen]]
+* [[Idrottsmuseet]]
+* Gustav Adolfs torg (torghandel)
+
+=== Östra delarna ===
+* [[Fredriksdal, Helsingborg|Fredriksdal]], botanisk trädgård och stadskvarter
+* [[Fredriksdalsteatern]]
+* [[Olympia, Helsingborg|Olympia]]
+* [[Idrottens hus]]
+* [[Teknik på farfars tid]] (museum ägt av privatperson)
+* [[Helsingborgs tropikarium]]
+
+=== Södra delarna ===
+* [[Ramlösa (stadsdel)|Ramlösa]] brunn
+* [[Råå]] fiskeläge
+* [[Råå Museum]]
+* [[Råå vallar]]
+
+=== Norra delarna ===
+* [[Beredskapsmuseet]]
+* [[Sofiero slott]] & slottspark
+* [[Pålsjö skog]]
+* [[Pålsjö slott]]
+* [[Pålsjö kyrkogård]] med krigsgravar från 2:a världskriget
+
+== Referenser ==
+=== Noter ===
+<div class="references-small" style="-moz-column-count:2; column-count:2;">
+<references/>
+</div>
+
+=== Tryckta källor ===
+*{{bokref |titel=Helsingborgs stadslexikon |efternamn=Ander |förnamn=Karl-Erik |författarlänk= |medförfattare=Rigstam, Ulf; Ohlsson, Karin; Lindskog, Bengt |år=2006 |utgivare=Helsingborgs lokalhistoriska förening |utgivningsort=Helsingborg |språk= |isbn=91-631-8878-3 |ref=CITEREFAnder_et_al.2006}}
+*{{bokref |titel=Min gamla stad: Episoder och hågkomster |efternamn=Dahlin |förnamn=Georg Ludvig |författarlänk= |medförfattare= |år=1973 |utgivare=Aktiebolaget Boktryck |utgivningsort=Helsingborg |språk= |isbn= |sid= }}
+*{{bokref |titel=Helsingborgs stadskärna : bevarandeprogram : antaget i kommunfullmäktige 2002-09-25 |efternamn=Haas |förnamn=Jonas |författarlänk= |medförfattare=Katzeff, Adam |år=2003 |utgivare=Bevarandeplanskommittén, Helsingborgs stad |utgivningsort=Helsingborg |språk= |isbn=91-631-3664-3 |ref=CITEREFHaasKatzeff2003}}
+*{{bokref |titel=Helsingborg 900 år |efternamn=Herlin |förnamn=Tylle |författarlänk= |medförfattare=Moberg, Rune |år=1985 |utgivare=Bokhuset |utgivningsort=Höganäs |språk= |isbn=91-7690-156-4 |sid= }}
+*{{bokref |titel=Helsingborg: Stad i 900 år |efternamn=Johannesson |förnamn=Gösta |författarlänk= |medförfattare= |år=1980 |utgivare=AWE/Geber |utgivningsort=Stockholm |språk= |isbn=91-20-06249-4 |sid= }}
+*{{bokref |titel=Helsingborgs historia, del VI:2 : Bebyggelse, hantverk, manufaktur |efternamn=Johannesson |förnamn=Gösta (red.) |författarlänk= |medförfattare= |år=1985 |utgivare=Helsingborgs stad |utgivningsort=Helsingborg |språk= |isbn=91-20-06743-7 |sid= }}
+*{{bokref |titel=Fragment : en utställning om Helsingborgs historia |efternamn=Jönsson |förnamn=Charlotta (red.) |författarlänk= |medförfattare= |år=2003 |utgivare=Stadshistoriska avdelningen, Dunkers kulturhus |utgivningsort=Helsingborg |språk= |isbn=91-974550-0-8 |sid= }}
+*{{bokref |titel=Kulturens finansiering 2007 |efternamn=Kulturrådet |förnamn= |författarlänk= |medförfattare= |år=2008 |nummer=7 |utgivare=Statens Kulturråd |utgivningsort=Stockholm |språk= |isbn=978-91-85259-56-4 |sid= }}
+*{{bokref |titel=Kulturens finansiering 2008–2009 |efternamn=Kulturrådet |förnamn= |författarlänk= |medförfattare= |år=2010 |nummer=7 |utgivare=Statens Kulturråd |utgivningsort=Stockholm |språk= |isbn=978-918525982-3 |sid= }}
+*{{bokref |titel=Helsingborgs historia, del VII:3 : Stadsbild, stadsplanering och arkitektur. Helsingborgs bebyggelseutveckling 1863–1971 |efternamn=Ranby |förnamn=Henrik |författarlänk= |medförfattare= |år=2005 |utgivare=Helsingborgs stad |utgivningsort=Helsingborg |språk= |isbn=91-631-6844-8 |sid= }}
+*{{bokref |titel=Arkitekturguide för Helsingborg |efternamn=Stadsbyggnadskontoret |förnamn=Helsingborgs stad |författarlänk= |medförfattare= |år=2005 |utgivare=Helsingborgs stad |utgivningsort=Helsingborg |språk= |isbn=91-975719-0-3 |sid= }}
+*{{bokref |titel=Fjärde staden: Placemarketing Helsingborg |efternamn=Tufvesson |förnamn=Ola |författarlänk= |medförfattare= |år=2006 |utgivare=Näringslivs- och marknadsavdelningen, Helsingborgs stad |utgivningsort=Helsingborg |språk= |isbn=978-91-85663-00-2 |sid= }}
+*{{bokref |titel=Skånska resa år 1749 |efternamn=von Linné |förnamn=Carl |författarlänk=Carl von Linné |medförfattare= |år=1751 |utgivare=[[Lars Salvius]] |utgivningsort=Stockholm |språk= |isbn=91-46-12470-1 |sid= }}
+
+=== Webbkällor ===
+*Helsingborgs stads officiella webbplats, [http://www.helsingborg.se helsingborg.se].
+*Helsingborgs stads officiella webbplats, [http://helsingborg.com helsingborg.com].
+*[http://web.archive.org/web/20100721123325/http://www.lansstyrelsen.se/skane/Kartor_och_planeringsunderlag/Kulturmiljoprogram/Sarskilt_vardefulla_kulturmiljoer_i_Skane/Helsingborg/Helsingborg.htm Särskilt värdefulla kulturmiljöer i Skåne: Helsingborg]. Länsstyrelsen i Skåne län. 19 oktober 2009. Läst 19 oktober 2010.
+
+== Externa länkar ==
+{{KML}}
+*[http://www.helsingborg.se Officiell webbplats]
+*[http://www.foteviken.se/historia/skane/towns.htm Helsingborg i Fotevikens museums årtalsdatabas över Öresunds städer]
+{{Commonscat|Helsingborg}}
+{{Wiktionary|sv:Helsingborg}}
+{{Wikiquote|Helsingborg}}
+
+{{Helsingborgs kommun}}
+{{Utmärkt}}
+
+[[Kategori:Helsingborg| ]]
+[[Kategori:Öresundsregionen]]
+[[Kategori:Orter i Helsingborgs kommun]]
+[[Kategori:Tätorter i Sverige]]
+[[Kategori:Centralorter i Skåne län]]
+[[Kategori:Gränsorter i Europa]]

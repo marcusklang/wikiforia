@@ -16,6 +16,12 @@
  */
 package se.lth.cs.nlp.wikipedia.lang;
 
+import se.lth.cs.nlp.mediawiki.model.Page;
+import se.lth.cs.nlp.wikipedia.WikipediaPageType;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 /**
  * Swedish Wikipedia configuration
  */
@@ -47,6 +53,34 @@ public class SwedishConfig extends TemplateConfig {
 
         addI18nAlias("redirect", "#OMDIRIGERING", "#Omdirigering");
         addI18nAlias("filepath", "SÖKVÄG:");
+    }
+
+    private static final Pattern stubTextPattern = Pattern.compile("\\{\\{\\s*?([a-zA-Z0-9åäöÅÄÖ\\ ]*?stub)\\s*?\\}\\}", Pattern.CASE_INSENSITIVE | Pattern.DOTALL);
+    private static final Pattern disambiguationTextPattern = Pattern.compile("\\{\\{\\s*?(förgrening|gren)\\s*?\\}\\}", Pattern.CASE_INSENSITIVE | Pattern.DOTALL);
+    private static final Pattern listTitlePattern = Pattern.compile("(^lista\\s+över)|(\\(lista\\))", Pattern.CASE_INSENSITIVE | Pattern.UNICODE_CASE | Pattern.DOTALL);
+    private static final Pattern disambiguationTitlePattern = Pattern.compile(".*?\\((\\s|[\\_])*olika(\\s|[\\_])*betydelser(\\s|[\\_])*\\)", Pattern.CASE_INSENSITIVE);
+
+    @Override
+    public WikipediaPageType classifyPageType(Page page) {
+        WikipediaPageType type = super.classifyPageType(page);
+        if(type == WikipediaPageType.ARTICLE) {
+            Matcher matcher = disambiguationTextPattern.matcher(page.getContent());
+            if(matcher.find() || disambiguationTitlePattern.matcher(page.getTitle()).find() ) {
+                return WikipediaPageType.DISAMBIGUATION;
+            }
+
+            matcher = stubTextPattern.matcher(page.getContent());
+            if(matcher.find()) {
+                return WikipediaPageType.STUB;
+            }
+
+            if(listTitlePattern.matcher(page.getTitle()).find())
+                return WikipediaPageType.LIST;
+
+            return WikipediaPageType.ARTICLE;
+        }
+        else
+            return type;
     }
 
     @Override

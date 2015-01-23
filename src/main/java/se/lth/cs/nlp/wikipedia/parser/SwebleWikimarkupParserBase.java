@@ -16,10 +16,6 @@
  */
 package se.lth.cs.nlp.wikipedia.parser;
 
-import org.sweble.wikitext.engine.EngineException;
-import org.sweble.wikitext.engine.PageId;
-import org.sweble.wikitext.engine.PageTitle;
-import org.sweble.wikitext.engine.WtEngineImpl;
 import org.sweble.wikitext.engine.config.WikiConfig;
 import org.sweble.wikitext.engine.nodes.EngProcessedPage;
 import se.lth.cs.nlp.mediawiki.model.Page;
@@ -39,32 +35,33 @@ public abstract class SwebleWikimarkupParserBase<T> extends Mapper<Page,T,Page> 
         this.config = config.get();
     }
 
-    private EngProcessedPage parseWikipage(WtEngineImpl engine, PageId pageId, String markup) throws EngineException {
-        return engine.postprocess(pageId, markup, null);
-    }
-
     /**
      * Extract information from the page
      * @param page the page
      * @param cp the processed page that contains the AST
      * @return instance of T
      */
-    protected abstract T extract(Page page, EngProcessedPage cp);
+    protected T extract(Page page, EngProcessedPage cp) {
+        throw new UnsupportedOperationException();
+    }
 
     public T parse(Page page) {
         try {
-            WtEngineImpl engine = new WtEngineImpl(config);
-
-            PageTitle pageTitle = PageTitle.make(config, page.getTitle());
-            PageId pageId = new PageId(pageTitle, page.getRevision());
-
-            EngProcessedPage cp = parseWikipage(engine, pageId, page.getContent());
-            return extract(page, cp);
+            return extract(page, SwebleParserUtil.parsePage(
+                    config,
+                    page.getTitle(),
+                    page.getRevision(),
+                    page.getContent())
+            );
         }
         catch (Exception ex)
         {
             throw new RuntimeException(ex);
         }
+    }
+
+    public WikiConfig getConfig() {
+        return config;
     }
 
     @Override
