@@ -127,6 +127,7 @@ public class TextParser<T,Out> extends AstVisitor<WtNode> {
 
         parser.startListItem(context, currentList.peek(), itemId, start);
         iterate(item);
+        sb.flush();
         int end = sb.length();
 
         start = trimStart(start);
@@ -238,6 +239,7 @@ public class TextParser<T,Out> extends AstVisitor<WtNode> {
         {
         }
 
+        sb.flush();
         int start = sb.length();
 
         if(!isInsideFilteredSection()) {
