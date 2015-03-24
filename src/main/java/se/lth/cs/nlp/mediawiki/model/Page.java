@@ -16,17 +16,23 @@
  */
 package se.lth.cs.nlp.mediawiki.model;
 
+import java.io.Serializable;
+
 /**
  * Represents a MediaWiki page
  */
-public class Page {
-    private final Header header;
-    private final long id;
-    private final String title;
-    private final String content;
-    private final long revision;
-    private final int namespace;
-    private final String format;
+public class Page implements Serializable {
+    private Header header;
+    private long id;
+    private String title;
+    private String content;
+    private long revision;
+    private int namespace;
+    private String format;
+
+    protected Page() {
+
+    }
 
     public Page(Header head, long id, String title, String content, long revision, int namespace, String format) {
         this.header = head;

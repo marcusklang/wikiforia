@@ -16,6 +16,7 @@
  */
 package se.lth.cs.nlp.mediawiki.model;
 
+import java.io.Serializable;
 import java.util.Collections;
 import java.util.Map;
 import java.util.TreeMap;
@@ -23,12 +24,16 @@ import java.util.TreeMap;
 /**
  * Represents siteinfo present in the mediawiki dump header.
  */
-public class Siteinfo {
-    private final String sitename;
-    private final String dbname;
-    private final String base;
-    private final String generator;
-    private final Map<Integer,String> namespaces;
+public class Siteinfo implements Serializable {
+    private String sitename;
+    private String dbname;
+    private String base;
+    private String generator;
+    private Map<Integer,String> namespaces;
+
+    protected Siteinfo() {
+
+    }
 
     public Siteinfo(String sitename, String dbname, String base, String generator, Map<Integer, String> namespaces) {
         this.sitename = sitename;

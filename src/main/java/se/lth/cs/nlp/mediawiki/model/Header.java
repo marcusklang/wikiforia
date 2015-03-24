@@ -16,16 +16,21 @@
  */
 package se.lth.cs.nlp.mediawiki.model;
 
+import java.io.Serializable;
 import java.util.HashMap;
 import java.util.TreeMap;
 
 /**
  * Represents a Mediawiki dump header
  */
-public class Header {
-    private final String lang;
-    private final String version;
-    private final Siteinfo siteinfo;
+public class Header implements Serializable {
+    private String lang;
+    private String version;
+    private Siteinfo siteinfo;
+
+    protected Header() {
+
+    }
 
     public Header(String lang, String version, Siteinfo siteinfo) {
         this.siteinfo = siteinfo;

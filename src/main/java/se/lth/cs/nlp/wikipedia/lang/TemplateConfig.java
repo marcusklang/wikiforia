@@ -22,10 +22,7 @@ import org.sweble.wikitext.engine.utils.DefaultConfig;
 import se.lth.cs.nlp.mediawiki.model.Page;
 import se.lth.cs.nlp.wikipedia.WikipediaPageType;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 /**
  * Programatically generate a default configuration for that is similar to that
@@ -37,8 +34,8 @@ public abstract class TemplateConfig
 {
 
     public List<String> getNamespaceAliases(int ns) {
-        ArrayList<String> list = nsAliases.get(ns);
-        return list == null ? Collections.<String>emptyList() : list;
+        TreeSet<String> list = nsAliases.get(ns);
+        return list == null ? Collections.<String>emptyList() : new ArrayList<>(list);
     }
 
     protected abstract String getSiteName();
@@ -49,9 +46,9 @@ public abstract class TemplateConfig
         if(aliases.length == 0)
             throw new IllegalArgumentException("aliases must have length > 0");
 
-        ArrayList<String> list = nsAliases.get(ns);
+        TreeSet<String> list = nsAliases.get(ns);
         if(list == null) {
-            list = new ArrayList<String>();
+            list = new TreeSet<String>();
             nsAliases.put(ns, list);
         }
 
@@ -66,17 +63,39 @@ public abstract class TemplateConfig
         return c;
     }
 
-    private final HashMap<Integer,ArrayList<String>> nsAliases = new HashMap<Integer, ArrayList<String>>();
-    private final HashMap<String,ArrayList<String>> i18nAliases = new HashMap<String, ArrayList<String>>();
+    private final HashMap<Integer,TreeSet<String>> nsAliases = new HashMap<Integer, TreeSet<String>>();
+    private final HashMap<String,TreeSet<String>> i18nAliases = new HashMap<String, TreeSet<String>>();
+    private final HashMap<String,TreeSet<String>> i18nCIAliases = new HashMap<String, TreeSet<String>>();
 
     protected void addI18nAlias(String key, String...aliases) {
         if(aliases.length == 0)
             throw new IllegalArgumentException("aliases must have length > 0");
 
-        ArrayList<String> list = i18nAliases.get(key);
+        TreeSet<String> list = i18nAliases.get(key);
         if(list == null) {
-            list = new ArrayList<String>();
+            list = new TreeSet<String>();
             i18nAliases.put(key, list);
+        }
+
+        for (String aliase : aliases) {
+            list.add(aliase);
+        }
+    }
+
+    protected void addI18nCIAlias(String key, String...aliases) {
+        if(aliases.length == 0)
+            throw new IllegalArgumentException("aliases must have length > 0");
+
+        TreeSet<String> list = i18nCIAliases.get(key);
+        if(list == null) {
+            list = new TreeSet<String>(new Comparator<String>() {
+                @Override
+                public int compare(String o1, String o2) {
+                    return o1.toLowerCase().compareTo(o2.toLowerCase());
+                }
+            });
+
+            i18nCIAliases.put(key, list);
         }
 
         for (String aliase : aliases) {
@@ -109,22 +128,22 @@ public abstract class TemplateConfig
     }
 
     public List<String> getI18nAlias(String key) {
-        ArrayList<String> list = i18nAliases.get(key);
-        return list == null ? Collections.<String>emptyList() : list;
+        TreeSet<String> list = i18nAliases.get(key);
+        return list == null ? Collections.<String>emptyList() : new ArrayList<>(list);
     }
 
     public TemplateConfig() {
         super();
-        addI18nAlias("expr", "#expr:");
-        addI18nAlias("if", "#if:");
-        addI18nAlias("ifeq", "#ifeq:");
-        addI18nAlias("ifexpr", "#ifexpr:");
-        addI18nAlias("iferror", "#iferror:");
-        addI18nAlias("switch", "#switch:");
-        addI18nAlias("ifexist", "#ifexist:");
-        addI18nAlias("time", "#time:");
-        addI18nAlias("titleparts", "#titleparts:");
-        addI18nAlias("redirect", "#REDIRECT");
+        addI18nCIAlias("expr", "#expr:");
+        addI18nCIAlias("if", "#if:");
+        addI18nCIAlias("ifeq", "#ifeq:");
+        addI18nCIAlias("ifexpr", "#ifexpr:");
+        addI18nCIAlias("iferror", "#iferror:");
+        addI18nCIAlias("switch", "#switch:");
+        addI18nCIAlias("ifexist", "#ifexist:");
+        addI18nCIAlias("time", "#time:");
+        addI18nCIAlias("titleparts", "#titleparts:");
+        addI18nCIAlias("redirect", "#REDIRECT");
         addI18nAlias("currentmonth", "CURRENTMONTH", "CURRENTMONTH2");
         addI18nAlias("currentday", "CURRENTDAY");
         addI18nAlias("currentyear", "CURRENTYEAR");
@@ -138,20 +157,20 @@ public abstract class TemplateConfig
         addI18nAlias("basepagename","BASEPAGENAME");
         addI18nAlias("talkpagename","TALKPAGENAME", "TALKPAGENAME:");
         addI18nAlias("subjectpagename","SUBJECTPAGENAME", "ARTICLEPAGENAME");
-        addI18nAlias("safesubst","SAFESUBST:");
+        addI18nCIAlias("safesubst","SAFESUBST:");
         addI18nAlias("sitename","SITENAME");
-        addI18nAlias("ns","NS:");
-        addI18nAlias("fullurl","FULLURL:");
-        addI18nAlias("lcfirst","LCFIRST:");
-        addI18nAlias("ucfirst","UCFIRST:");
-        addI18nAlias("lc","LC:");
-        addI18nAlias("uc","UC:");
-        addI18nAlias("urlencode","URLENCODE:");
+        addI18nCIAlias("ns","NS:");
+        addI18nCIAlias("fullurl","FULLURL:");
+        addI18nCIAlias("lcfirst","LCFIRST:");
+        addI18nCIAlias("ucfirst","UCFIRST:");
+        addI18nCIAlias("lc","LC:");
+        addI18nCIAlias("uc","UC:");
+        addI18nCIAlias("urlencode","URLENCODE:");
         addI18nAlias("contentlanguage","CONTENTLANGUAGE", "CONTENTLANG");
-        addI18nAlias("padleft","PADLEFT:");
+        addI18nCIAlias("padleft","PADLEFT:");
         addI18nAlias("defaultsort","DEFAULTSORT:", "DEFAULTSORTKEY:", "DEFAULTCATEGORYSORT:");
-        addI18nAlias("filepath","FILEPATH:");
-        addI18nAlias("tag","#tag:");
+        addI18nCIAlias("filepath","FILEPATH:");
+        addI18nCIAlias("tag","#tag:");
         addI18nAlias("protectionlevel","PROTECTIONLEVEL:");
     }
 
@@ -4346,830 +4365,12 @@ public abstract class TemplateConfig
 
     protected void addI18nAlises(WikiConfigImpl c)
     {
-		/*
-		c.addI18nAlias(new I18nAliasImpl(
-				"img_lossy",
-				false,
-				Arrays.asList("lossy=$1")));
-		*/
-        c.addI18nAlias(new I18nAliasImpl(
-                "expr",
-                false,
-                getI18nAlias("expr")));
-        c.addI18nAlias(new I18nAliasImpl(
-                "if",
-                false,
-                getI18nAlias("if")));
-        c.addI18nAlias(new I18nAliasImpl(
-                "ifeq",
-                false,
-                getI18nAlias("ifeq")));
-        c.addI18nAlias(new I18nAliasImpl(
-                "ifexpr",
-                false,
-                getI18nAlias("ifexpr")));
-        c.addI18nAlias(new I18nAliasImpl(
-                "iferror",
-                false,
-                getI18nAlias("iferror")));
-        c.addI18nAlias(new I18nAliasImpl(
-                "switch",
-                false,
-                getI18nAlias("switch")));
-		/*
-		c.addI18nAlias(new I18nAliasImpl(
-				"default",
-				false,
-				Arrays.asList("#default")));
-		*/
-        c.addI18nAlias(new I18nAliasImpl(
-                "ifexist",
-                false,
-                getI18nAlias("ifexist")));
-        c.addI18nAlias(new I18nAliasImpl(
-                "time",
-                false,
-                getI18nAlias("time")));
-		/*
-		c.addI18nAlias(new I18nAliasImpl(
-				"timel",
-				false,
-				Arrays.asList("timel")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"rel2abs",
-				false,
-				Arrays.asList("rel2abs")));
-		*/
-        c.addI18nAlias(new I18nAliasImpl(
-                "titleparts",
-                false,
-                getI18nAlias("titleparts")));
-		/*
-		c.addI18nAlias(new I18nAliasImpl(
-				"convert",
-				false,
-				Arrays.asList("convert")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"sourceunit",
-				false,
-				Arrays.asList("#sourceunit")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"targetunit",
-				false,
-				Arrays.asList("#targetunit")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"linkunit",
-				false,
-				Arrays.asList("#linkunit")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"decimalplaces",
-				false,
-				Arrays.asList("#dp")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"significantfigures",
-				false,
-				Arrays.asList("#sf")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"abbreviate",
-				false,
-				Arrays.asList("#abbreviate")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"language",
-				false,
-				Arrays.asList("#language", "#LANGUAGE:")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"len",
-				false,
-				Arrays.asList("len")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"pos",
-				false,
-				Arrays.asList("pos")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"rpos",
-				false,
-				Arrays.asList("rpos")));
-		/*
-		c.addI18nAlias(new I18nAliasImpl(
-				"sub",
-				false,
-				Arrays.asList("sub")));
-		/
-		c.addI18nAlias(new I18nAliasImpl(
-				"count",
-				false,
-				Arrays.asList("count")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"replace",
-				false,
-				Arrays.asList("replace")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"explode",
-				false,
-				Arrays.asList("explode")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"urldecode",
-				false,
-				Arrays.asList("urldecode")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"categorytree",
-				false,
-				Arrays.asList("categorytree")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"ogg_noplayer",
-				false,
-				Arrays.asList("noplayer")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"ogg_noicon",
-				false,
-				Arrays.asList("noicon")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"ogg_thumbtime",
-				false,
-				Arrays.asList("thumbtime=$1")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"babel",
-				false,
-				Arrays.asList("babel")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"contributiontotal",
-				false,
-				Arrays.asList("contributiontotal")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"pagesusingpendingchanges",
-				false,
-				Arrays.asList("pagesusingpendingchanges")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"pendingchangelevel",
-				false,
-				Arrays.asList("pendingchangelevel")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"useliquidthreads",
-				false,
-				Arrays.asList("UseLiquidThreads")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"lqtpagelimit",
-				false,
-				Arrays.asList("lqtpagelimit")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"translationdialog",
-				false,
-				Arrays.asList("translationdialog")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"usertestwiki",
-				false,
-				Arrays.asList("USERTESTWIKI")));
-		*/
-        c.addI18nAlias(new I18nAliasImpl(
-                "redirect",
-                false,
-                getI18nAlias("redirect")));
-		/*
-		c.addI18nAlias(new I18nAliasImpl(
-				"notoc",
-				false,
-				Arrays.asList("__NOTOC__")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"nogallery",
-				false,
-				Arrays.asList("__NOGALLERY__")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"forcetoc",
-				false,
-				Arrays.asList("__FORCETOC__")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"toc",
-				false,
-				Arrays.asList("__TOC__")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"noeditsection",
-				false,
-				Arrays.asList("__NOEDITSECTION__")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"noheader",
-				false,
-				Arrays.asList("__NOHEADER__")));
-		*/
-        c.addI18nAlias(new I18nAliasImpl(
-                "currentmonth",
-                true,
-                getI18nAlias("currentmonth")));
-		/*
-		c.addI18nAlias(new I18nAliasImpl(
-				"currentmonth1",
-				true,
-				Arrays.asList("CURRENTMONTH1")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"currentmonthname",
-				true,
-				Arrays.asList("CURRENTMONTHNAME")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"currentmonthnamegen",
-				true,
-				Arrays.asList("CURRENTMONTHNAMEGEN")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"currentmonthabbrev",
-				true,
-				Arrays.asList("CURRENTMONTHABBREV")));
-		*/
-        c.addI18nAlias(new I18nAliasImpl(
-                "currentday",
-                true,
-                getI18nAlias("currentday")));
-		/*
-		c.addI18nAlias(new I18nAliasImpl(
-				"currentday2",
-				true,
-				Arrays.asList("CURRENTDAY2")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"currentdayname",
-				true,
-				Arrays.asList("CURRENTDAYNAME")));
-		*/
-        c.addI18nAlias(new I18nAliasImpl(
-                "currentyear",
-                true,
-                getI18nAlias("currentyear")));
-		/*
-		c.addI18nAlias(new I18nAliasImpl(
-				"currenttime",
-				true,
-				Arrays.asList("CURRENTTIME")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"currenthour",
-				true,
-				Arrays.asList("CURRENTHOUR")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"localmonth",
-				true,
-				Arrays.asList("LOCALMONTH", "LOCALMONTH2")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"localmonth1",
-				true,
-				Arrays.asList("LOCALMONTH1")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"localmonthname",
-				true,
-				Arrays.asList("LOCALMONTHNAME")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"localmonthnamegen",
-				true,
-				Arrays.asList("LOCALMONTHNAMEGEN")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"localmonthabbrev",
-				true,
-				Arrays.asList("LOCALMONTHABBREV")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"localday",
-				true,
-				Arrays.asList("LOCALDAY")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"localday2",
-				true,
-				Arrays.asList("LOCALDAY2")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"localdayname",
-				true,
-				Arrays.asList("LOCALDAYNAME")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"localyear",
-				true,
-				Arrays.asList("LOCALYEAR")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"localtime",
-				true,
-				Arrays.asList("LOCALTIME")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"localhour",
-				true,
-				Arrays.asList("LOCALHOUR")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"numberofpages",
-				true,
-				Arrays.asList("NUMBEROFPAGES")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"numberofarticles",
-				true,
-				Arrays.asList("NUMBEROFARTICLES")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"numberoffiles",
-				true,
-				Arrays.asList("NUMBEROFFILES")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"numberofusers",
-				true,
-				Arrays.asList("NUMBEROFUSERS")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"numberofactiveusers",
-				true,
-				Arrays.asList("NUMBEROFACTIVEUSERS")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"numberofedits",
-				true,
-				Arrays.asList("NUMBEROFEDITS")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"numberofviews",
-				true,
-				Arrays.asList("NUMBEROFVIEWS")));
-		*/
-        c.addI18nAlias(new I18nAliasImpl(
-                "pagename",
-                true,
-                getI18nAlias("pagename")));
-        c.addI18nAlias(new I18nAliasImpl(
-                "pagenamee",
-                true,
-                getI18nAlias("pagenamee")));
-        c.addI18nAlias(new I18nAliasImpl(
-                "namespace",
-                true,
-                getI18nAlias("namespace")));
-		/*
-		c.addI18nAlias(new I18nAliasImpl(
-				"namespacee",
-				true,
-				Arrays.asList("NAMESPACEE")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"namespacenumber",
-				true,
-				Arrays.asList("NAMESPACENUMBER")));
-		*/
-        c.addI18nAlias(new I18nAliasImpl(
-                "talkspace",
-                true,
-                getI18nAlias("talkspace")));
-		/*
-		c.addI18nAlias(new I18nAliasImpl(
-				"talkspacee",
-				true,
-				Arrays.asList("TALKSPACEE")));
-		*/
-        c.addI18nAlias(new I18nAliasImpl(
-                "subjectspace",
-                true,
-                getI18nAlias("subjectspace")));
-		/*
-		c.addI18nAlias(new I18nAliasImpl(
-				"subjectspacee",
-				true,
-				Arrays.asList("SUBJECTSPACEE", "ARTICLESPACEE")));
-		*/
-        c.addI18nAlias(new I18nAliasImpl(
-                "fullpagename",
-                true,
-                getI18nAlias("fullpagename")));
-        c.addI18nAlias(new I18nAliasImpl(
-                "fullpagenamee",
-                true,
-                getI18nAlias("fullpagenamee")));
-		/*
-		c.addI18nAlias(new I18nAliasImpl(
-				"subpagename",
-				true,
-				Arrays.asList("SUBPAGENAME")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"subpagenamee",
-				true,
-				Arrays.asList("SUBPAGENAMEE")));
-		*/
-        c.addI18nAlias(new I18nAliasImpl(
-                "basepagename",
-                true,
-                getI18nAlias("basepagename")));
-		/*
-		c.addI18nAlias(new I18nAliasImpl(
-				"basepagenamee",
-				true,
-				Arrays.asList("BASEPAGENAMEE")));
-		*/
-        c.addI18nAlias(new I18nAliasImpl(
-                "talkpagename",
-                true,
-                getI18nAlias("talkpagename")));
-		/*
-		c.addI18nAlias(new I18nAliasImpl(
-				"talkpagenamee",
-				true,
-				Arrays.asList("TALKPAGENAMEE")));
-		*/
-        c.addI18nAlias(new I18nAliasImpl(
-                "subjectpagename",
-                true,
-                getI18nAlias("subjectpagename")));
-		/*
-		c.addI18nAlias(new I18nAliasImpl(
-				"subjectpagenamee",
-				true,
-				Arrays.asList("SUBJECTPAGENAMEE", "ARTICLEPAGENAMEE")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"msg",
-				false,
-				Arrays.asList("MSG:")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"subst",
-				false,
-				Arrays.asList("SUBST:")));
-		*/
-        c.addI18nAlias(new I18nAliasImpl(
-                "safesubst",
-                false,
-                getI18nAlias("safesubst")));
-		/*
-		c.addI18nAlias(new I18nAliasImpl(
-				"msgnw",
-				false,
-				Arrays.asList("MSGNW:")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"img_thumbnail",
-				true,
-				Arrays.asList("thumbnail", "thumb")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"img_manualthumb",
-				true,
-				Arrays.asList("thumbnail=$1", "thumb=$1")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"img_right",
-				true,
-				Arrays.asList("right")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"img_left",
-				true,
-				Arrays.asList("left")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"img_none",
-				true,
-				Arrays.asList("none")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"img_width",
-				true,
-				Arrays.asList("$1px")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"img_center",
-				true,
-				Arrays.asList("center", "centre")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"img_framed",
-				true,
-				Arrays.asList("framed", "enframed", "frame")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"img_frameless",
-				true,
-				Arrays.asList("frameless")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"img_page",
-				true,
-				Arrays.asList("page=$1", "page $1")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"img_upright",
-				true,
-				Arrays.asList("upright", "upright=$1", "upright $1")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"img_border",
-				true,
-				Arrays.asList("border")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"img_baseline",
-				true, Arrays.asList("baseline")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"img_sub",
-				true,
-				Arrays.asList("sub")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"img_super",
-				true,
-				Arrays.asList("super", "sup")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"img_top",
-				true,
-				Arrays.asList("top")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"img_text_top",
-				true,
-				Arrays.asList("text-top")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"img_middle",
-				true,
-				Arrays.asList("middle")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"img_bottom",
-				true,
-				Arrays.asList("bottom")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"img_text_bottom",
-				true,
-				Arrays.asList("text-bottom")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"img_link",
-				true,
-				Arrays.asList("link=$1")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"img_alt",
-				true,
-				Arrays.asList("alt=$1")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"int",
-				false,
-				Arrays.asList("INT:")));
-		*/
-        c.addI18nAlias(new I18nAliasImpl(
-                "sitename",
-                true,
-                getI18nAlias("sitename")));
-        c.addI18nAlias(new I18nAliasImpl(
-                "ns",
-                false,
-                getI18nAlias("ns")));
-		/*
-		c.addI18nAlias(new I18nAliasImpl(
-				"nse",
-				false,
-				Arrays.asList("NSE:")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"localurl",
-				false,
-				Arrays.asList("LOCALURL:")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"localurle",
-				false,
-				Arrays.asList("LOCALURLE:")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"articlepath",
-				false,
-				Arrays.asList("ARTICLEPATH")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"server",
-				false,
-				Arrays.asList("SERVER")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"servername",
-				false,
-				Arrays.asList("SERVERNAME")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"scriptpath",
-				false,
-				Arrays.asList("SCRIPTPATH")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"stylepath",
-				false,
-				Arrays.asList("STYLEPATH")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"grammar",
-				false,
-				Arrays.asList("GRAMMAR:")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"gender",
-				false,
-				Arrays.asList("GENDER:")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"notitleconvert",
-				false,
-				Arrays.asList("__NOTITLECONVERT__", "__NOTC__")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"nocontentconvert",
-				false,
-				Arrays.asList("__NOCONTENTCONVERT__", "__NOCC__")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"currentweek",
-				true,
-				Arrays.asList("CURRENTWEEK")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"currentdow",
-				true,
-				Arrays.asList("CURRENTDOW")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"localweek",
-				true,
-				Arrays.asList("LOCALWEEK")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"localdow",
-				true,
-				Arrays.asList("LOCALDOW")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"revisionid",
-				true,
-				Arrays.asList("REVISIONID")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"revisionday",
-				true,
-				Arrays.asList("REVISIONDAY")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"revisionday2",
-				true,
-				Arrays.asList("REVISIONDAY2")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"revisionmonth",
-				true,
-				Arrays.asList("REVISIONMONTH")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"revisionmonth1",
-				true,
-				Arrays.asList("REVISIONMONTH1")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"revisionyear",
-				true,
-				Arrays.asList("REVISIONYEAR")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"revisiontimestamp",
-				true,
-				Arrays.asList("REVISIONTIMESTAMP")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"revisionuser",
-				true,
-				Arrays.asList("REVISIONUSER")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"plural",
-				false,
-				Arrays.asList("PLURAL:")));
-		*/
-        c.addI18nAlias(new I18nAliasImpl(
-                "fullurl",
-                false,
-                getI18nAlias("fullurl")));
-		/*
-		c.addI18nAlias(new I18nAliasImpl(
-				"fullurle",
-				false,
-				Arrays.asList("FULLURLE:")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"canonicalurl",
-				false,
-				Arrays.asList("CANONICALURL:")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"canonicalurle",
-				false,
-				Arrays.asList("CANONICALURLE:")));
-		*/
-        c.addI18nAlias(new I18nAliasImpl(
-                "lcfirst",
-                false,
-                getI18nAlias("lcfirst")));
-        c.addI18nAlias(new I18nAliasImpl(
-                "ucfirst",
-                false,
-                getI18nAlias("ucfirst")));
-        c.addI18nAlias(new I18nAliasImpl(
-                "lc",
-                false,
-                getI18nAlias("lc")));
-        c.addI18nAlias(new I18nAliasImpl(
-                "uc",
-                false,
-                getI18nAlias("uc")));
-		/*
-		c.addI18nAlias(new I18nAliasImpl(
-				"raw",
-				false,
-				Arrays.asList("RAW:")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"displaytitle",
-				true,
-				Arrays.asList("DISPLAYTITLE")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"rawsuffix",
-				true,
-				Arrays.asList("R")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"newsectionlink",
-				true,
-				Arrays.asList("__NEWSECTIONLINK__")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"nonewsectionlink",
-				true,
-				Arrays.asList("__NONEWSECTIONLINK__")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"currentversion",
-				true,
-				Arrays.asList("CURRENTVERSION")));
-		*/
-        c.addI18nAlias(new I18nAliasImpl(
-                "urlencode",
-                false,
-                getI18nAlias("urlencode")));
-		/*
-		c.addI18nAlias(new I18nAliasImpl(
-				"anchorencode",
-				false,
-				Arrays.asList("ANCHORENCODE")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"currenttimestamp",
-				true,
-				Arrays.asList("CURRENTTIMESTAMP")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"localtimestamp",
-				true,
-				Arrays.asList("LOCALTIMESTAMP")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"directionmark",
-				true,
-				Arrays.asList("DIRECTIONMARK", "DIRMARK")));
-		*/
-        c.addI18nAlias(new I18nAliasImpl(
-                "contentlanguage",
-                true,
-                getI18nAlias("contentlanguage")));
-		/*
-		c.addI18nAlias(new I18nAliasImpl(
-				"pagesinnamespace",
-				true,
-				Arrays.asList("PAGESINNAMESPACE:", "PAGESINNS:")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"numberofadmins",
-				true,
-				Arrays.asList("NUMBEROFADMINS")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"formatnum",
-				false,
-				Arrays.asList("FORMATNUM")));
-		*/
-        c.addI18nAlias(new I18nAliasImpl(
-                "padleft",
-                false,
-                getI18nAlias("padleft")));
-		/*
-		c.addI18nAlias(new I18nAliasImpl(
-				"padright",
-				false,
-				Arrays.asList("PADRIGHT")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"special",
-				false,
-				Arrays.asList("special")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"speciale",
-				false,
-				Arrays.asList("speciale")));
-		*/
-        c.addI18nAlias(new I18nAliasImpl(
-                "defaultsort",
-                true,
-                getI18nAlias("defaultsort")));
-        c.addI18nAlias(new I18nAliasImpl(
-                "filepath",
-                false,
-                getI18nAlias("filepath")));
-        c.addI18nAlias(new I18nAliasImpl(
-                "tag",
-                false,
-                getI18nAlias("tag")));
-		/*
-		c.addI18nAlias(new I18nAliasImpl(
-				"hiddencat",
-				true,
-				Arrays.asList("__HIDDENCAT__")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"pagesincategory",
-				true,
-				Arrays.asList("PAGESINCATEGORY", "PAGESINCAT")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"pagesize",
-				true,
-				Arrays.asList("PAGESIZE")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"index",
-				true,
-				Arrays.asList("__INDEX__")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"noindex",
-				true,
-				Arrays.asList("__NOINDEX__")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"numberingroup",
-				true,
-				Arrays.asList("NUMBERINGROUP", "NUMINGROUP")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"staticredirect",
-				true,
-				Arrays.asList("__STATICREDIRECT__")));
-		*/
-        c.addI18nAlias(new I18nAliasImpl(
-                "protectionlevel",
-                true,
-                getI18nAlias("protectionlevel")));
-		/*
-		c.addI18nAlias(new I18nAliasImpl(
-				"formatdate",
-				false,
-				Arrays.asList("formatdate", "dateformat")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"url_path",
-				false,
-				Arrays.asList("PATH")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"url_wiki",
-				false,
-				Arrays.asList("WIKI")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"url_query",
-				false,
-				Arrays.asList("QUERY")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"defaultsort_noerror",
-				false,
-				Arrays.asList("noerror")));
-		c.addI18nAlias(new I18nAliasImpl(
-				"defaultsort_noreplace",
-				false,
-				Arrays.asList("noreplace")));
-		*/
+        for (Map.Entry<String, TreeSet<String>> stringArrayListEntry : i18nAliases.entrySet()) {
+            c.addI18nAlias(new I18nAliasImpl(stringArrayListEntry.getKey(), true, stringArrayListEntry.getValue()));
+        }
+
+        for (Map.Entry<String, TreeSet<String>> stringArrayListEntry : i18nCIAliases.entrySet()) {
+            c.addI18nAlias(new I18nAliasImpl(stringArrayListEntry.getKey(), false, stringArrayListEntry.getValue()));
+        }
     }
 }
