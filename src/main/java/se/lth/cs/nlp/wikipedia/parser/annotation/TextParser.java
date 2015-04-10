@@ -227,6 +227,7 @@ public class TextParser<T,Out> extends AstVisitor<WtNode> {
             {
                 PageTitle page = PageTitle.make(config, link.getTarget().getAsString());
                 if (page.getNamespace().equals(config.getNamespace("Category"))) {
+                    sb.flush();
                     parser.category(context, link.getTarget().getAsString(), page.getTitle().replace('_', ' '), sb.length());
                     return;
                 }
@@ -255,6 +256,7 @@ public class TextParser<T,Out> extends AstVisitor<WtNode> {
             sb.append(link.getPostfix());
         }
 
+        sb.flush();
         int end = sb.length();
 
         start = trimStart(start);
