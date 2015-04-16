@@ -110,7 +110,7 @@ public abstract class TemplateConfig
                 if(page.getContent().startsWith(" "))
                     data = data.trim();
 
-                for (String redirect : getI18nAlias("redirect")) {
+                for (String redirect : getCI18nAlias("redirect")) {
                     if(StringUtils.startsWithIgnoreCase(data, redirect))
                         return WikipediaPageType.REDIRECT;
                 }
@@ -129,6 +129,11 @@ public abstract class TemplateConfig
 
     public List<String> getI18nAlias(String key) {
         TreeSet<String> list = i18nAliases.get(key);
+        return list == null ? Collections.<String>emptyList() : new ArrayList<>(list);
+    }
+
+    public List<String> getCI18nAlias(String key) {
+        TreeSet<String> list = i18nCIAliases.get(key);
         return list == null ? Collections.<String>emptyList() : new ArrayList<>(list);
     }
 
