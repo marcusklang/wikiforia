@@ -18,11 +18,6 @@ package se.lth.cs.nlp.wikiforia;
 
 import org.apache.commons.cli.*;
 import org.apache.commons.lang3.StringUtils;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.core.LoggerContext;
-import org.apache.logging.log4j.core.appender.ConsoleAppender;
-import org.apache.logging.log4j.core.config.Configuration;
-import org.apache.logging.log4j.core.layout.PatternLayout;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import se.lth.cs.nlp.io.SimpleHadoopTextWriter;
@@ -32,22 +27,16 @@ import se.lth.cs.nlp.mediawiki.model.WikipediaPage;
 import se.lth.cs.nlp.mediawiki.parser.MultistreamBzip2XmlDumpParser;
 import se.lth.cs.nlp.mediawiki.parser.SinglestreamXmlDumpParser;
 import se.lth.cs.nlp.pipeline.Filter;
-import se.lth.cs.nlp.pipeline.PipelineBuilder;
-import se.lth.cs.nlp.pipeline.Sink;
 import se.lth.cs.nlp.pipeline.Source;
 import se.lth.cs.nlp.wikipedia.lang.EnglishConfig;
-import se.lth.cs.nlp.wikipedia.lang.SwedishConfig;
+import se.lth.cs.nlp.wikipedia.lang.LangFactory;
 import se.lth.cs.nlp.wikipedia.lang.TemplateConfig;
-import se.lth.cs.nlp.wikipedia.parser.SwebleWikimarkupToText;
 
 import java.io.File;
 import java.io.IOError;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.List;
-import java.util.TreeMap;
 import java.util.TreeSet;
-import java.util.concurrent.atomic.AtomicLong;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -365,13 +354,16 @@ public class App
             }
 
             TemplateConfig config;
-            if(langId.equals("sv")) {
-                config = new SwedishConfig();
-            }
-            else if(langId.equals("en")) {
-                config = new EnglishConfig();
-            }
-            else {
+            Class<? extends TemplateConfig> configClazz = LangFactory.get(langId);
+            if(configClazz != null) {
+                try {
+                    config = configClazz.newInstance();
+                } catch (InstantiationException e) {
+                    throw new RuntimeException(e);
+                } catch (IllegalAccessException e) {
+                    throw new RuntimeException(e);
+                }
+            } else {
                 config = new EnglishConfig();
                 logger.error("language {} is not yet supported and will be defaulted to a English setting for Sweble.", langId);
                 langId = "en";
