@@ -71,7 +71,9 @@ Empty articles, for which no text could be found is not included. This includes 
 
 Language support
 ----------------
-Because language support is dependent on localized translation of Wikimarkup tags only Swedish and English are supported at this time. I will happily accept contributions which extends this to support more languages. In a future version I might autogenerate all configurations from the proper Wikimedia source so that more languages will be supported.
+270 language specific configurations have been generated from the Wikimedia source tree that is publicly available. The quality of these autogenerations are uncertain as they are not tested. Kindly confirm or report if your language does not work so that I could possibly mitigate the issue.
+
+The English language is used as fallback when parsing.
 
 API
 ---
