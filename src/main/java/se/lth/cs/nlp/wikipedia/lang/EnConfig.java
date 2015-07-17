@@ -204,10 +204,8 @@ public class EnConfig extends TemplateConfig {
 		addI18nCIAlias("url_path", "PATH");
 		addI18nCIAlias("url_wiki", "WIKI");
 		addI18nCIAlias("url_query", "QUERY");
-		addI18nCIAlias("defaultsort_noerror", "noerror");
-		addI18nCIAlias("defaultsort_noreplace", "noreplace");
-		addI18nCIAlias("displaytitle_noerror", "noerror");
-		addI18nCIAlias("displaytitle_noreplace", "noreplace");
+		addI18nCIAlias("noerror", "defaultsort_noerror","displaytitle_noerror");
+		addI18nCIAlias("noreplace", "defaultsort_noreplace", "displaytitle_noreplace");
 		addI18nCIAlias("pagesincategory_all", "all");
 		addI18nCIAlias("pagesincategory_pages", "pages");
 		addI18nCIAlias("pagesincategory_subcats", "subcats");

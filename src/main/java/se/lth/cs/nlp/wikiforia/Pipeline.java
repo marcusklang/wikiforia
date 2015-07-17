@@ -28,11 +28,17 @@ public class Pipeline {
     protected final Sink<WikipediaPage> target;
     protected final ArrayList<Filter<WikipediaPage>> filters = new ArrayList<Filter<WikipediaPage>>();
     protected final TemplateConfig config;
+    protected final boolean test;
 
     public Pipeline(Source<Page, Void> source, Sink<WikipediaPage> target, TemplateConfig config) {
+        this(source,target,config,false);
+    }
+
+    public Pipeline(Source<Page, Void> source, Sink<WikipediaPage> target, TemplateConfig config, boolean test) {
         this.source = source;
         this.target = target;
         this.config = config;
+        this.test = test;
     }
 
     public void appendFilter(Filter<WikipediaPage> filter) {
@@ -65,7 +71,7 @@ public class Pipeline {
 
     public void run() {
         logger.info("Source: {}", source.toString());
-        logger.info("Target: {}", target.toString());
+        logger.info("Target: {}", target == null ? " NULL " :  target.toString());
         logger.info("Filters: {}", filters.isEmpty() ? "None" : "{ " + StringUtils.join(filters, ", \n") + " }");
 
         logger.info("Pipeline started...");
@@ -93,49 +99,79 @@ public class Pipeline {
             filter = new IdentityFilter<WikipediaPage>();
         }
 
-        PipelineBuilder.input(source)
-                       .sendOutput(new Sink<Page>() {
-                           @Override
-                           public void process(List<Page> batch) {
-                               count.addAndGet(batch.size());
-                           }
-                       })
-                       .pipe(new SwebleWikimarkupToText(config))
-                       .sendLog(new Sink<String>() {
-                           @Override
-                           public void process(List<String> batch) {
-                               for (String str : batch) {
-                                   logger.info(str);
-                               }
-                           }
-                       })
-                       .sendError(new Sink<Page>() {
-                           @Override
-                           public void process(List<Page> batch) {
-                               for (Page page : batch) {
-                                   logger.error("Failed to parse " + page.getTitle());
-                               }
+        if(test) {
+            PipelineBuilder.input(source)
+                    .sendOutput(new Sink<Page>() {
+                        private final AtomicLong futureTime = new AtomicLong(System.currentTimeMillis() + 1000);
 
-                               failcount.addAndGet(batch.size());
-                           }
-                       })
-                       .pipe(filter)
-                       .sendOutput(new Sink<WikipediaPage>() {
-                           private final AtomicLong futureTime = new AtomicLong(System.currentTimeMillis() + 1000);
+                        @Override
+                        public void process(List<Page> batch) {
+                            count.addAndGet(batch.size());
 
-                           @Override
-                           public void process(List<WikipediaPage> batch) {
-                               long added = addcount.addAndGet(batch.size());
+                            long added = addcount.addAndGet(batch.size());
 
-                               if (System.currentTimeMillis() >= futureTime.get()) {
-                                   futureTime.set(System.currentTimeMillis() + 1000);
-                                   NumberFormat nf = nfs.get();
-                                   logger.info("Read {}, Added {}", nf.format(count.get()), nf.format(added));
-                               }
-                           }
-                       })
-                       .pipe(target)
-                       .run();
+                            if (System.currentTimeMillis() >= futureTime.get()) {
+                                futureTime.set(System.currentTimeMillis() + 1000);
+                                NumberFormat nf = nfs.get();
+                                logger.info("Read {}, Added {}", nf.format(count.get()), nf.format(added));
+                            }
+                        }
+                    })
+                    .pipe(new Sink<Page>() {
+                        @Override
+                        public void process(List<Page> batch) {
+                            if(batch.size() == 0) {
+                                System.out.println("Found the end!");
+                            }
+                        }
+                    })
+                    .run();
+        } else {
+            PipelineBuilder.input(source)
+                    .sendOutput(new Sink<Page>() {
+                        @Override
+                        public void process(List<Page> batch) {
+                            count.addAndGet(batch.size());
+                        }
+                    })
+                    .pipe(new SwebleWikimarkupToText(config))
+                    .sendLog(new Sink<String>() {
+                        @Override
+                        public void process(List<String> batch) {
+                            for (String str : batch) {
+                                logger.info(str);
+                            }
+                        }
+                    })
+                    .sendError(new Sink<Page>() {
+                        @Override
+                        public void process(List<Page> batch) {
+                            for (Page page : batch) {
+                                logger.error("Failed to parse " + page.getTitle());
+                            }
+
+                            failcount.addAndGet(batch.size());
+                        }
+                    })
+                    .pipe(filter)
+                    .sendOutput(new Sink<WikipediaPage>() {
+                        private final AtomicLong futureTime = new AtomicLong(System.currentTimeMillis() + 1000);
+
+                        @Override
+                        public void process(List<WikipediaPage> batch) {
+                            long added = addcount.addAndGet(batch.size());
+
+                            if (System.currentTimeMillis() >= futureTime.get()) {
+                                futureTime.set(System.currentTimeMillis() + 1000);
+                                NumberFormat nf = nfs.get();
+                                logger.info("Read {}, Added {}", nf.format(count.get()), nf.format(added));
+                            }
+                        }
+                    })
+                    .pipe(target)
+                    .run();
+        }
+
 
         long end = System.currentTimeMillis();
 

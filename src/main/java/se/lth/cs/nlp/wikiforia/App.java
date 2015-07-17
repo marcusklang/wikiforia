@@ -35,6 +35,7 @@ import se.lth.cs.nlp.wikipedia.lang.TemplateConfig;
 import java.io.File;
 import java.io.IOError;
 import java.io.IOException;
+import java.nio.channels.Pipe;
 import java.util.ArrayList;
 import java.util.TreeSet;
 import java.util.regex.Matcher;
@@ -93,6 +94,10 @@ public class App
                                                     .hasArg()
                                                     .withDescription("set split size (defaults to 64 M UTF-8 chars), only applicable with hadoop, max value = 2 G")
                                                     .create("splitsize");
+
+    @SuppressWarnings("static-access")
+    private static final Option testDecompression = OptionBuilder.withLongOpt("test")
+                                                                 .create("test");
 
     @SuppressWarnings("static-access")
     private static final Option output = OptionBuilder.withLongOpt("output")
@@ -234,6 +239,22 @@ public class App
         pipeline.run();
     }
 
+    public static void test(TemplateConfig config,
+                            File indexPath,
+                            File pagesPath,
+                            int numThreads,
+                            int batchsize) {
+        Source<Page,Void> source;
+
+        if(index == null)
+            source = new SinglestreamXmlDumpParser(pagesPath, batchsize);
+        else
+            source = new MultistreamBzip2XmlDumpParser(indexPath, pagesPath, batchsize, numThreads);
+
+        Pipeline pipeline = new Pipeline(source, null, config, true);
+        pipeline.run();
+    }
+
     /**
      * Application entrypoint
      * @param args input arguments
@@ -242,7 +263,7 @@ public class App
     {
         Logger logger = LoggerFactory.getLogger(App.class);
 
-        logger.info("Wikiforia v1.1.1 by Marcus Klang");
+        logger.info("Wikiforia v1.2.1 by Marcus Klang");
 
         Options options = new Options();
         options.addOption(index);
@@ -253,6 +274,7 @@ public class App
         options.addOption(lang);
         options.addOption(hadoop);
         options.addOption(gzip);
+        options.addOption(testDecompression);
         options.addOption(filterNs);
 
         CommandLineParser parser = new PosixParser();
@@ -278,7 +300,7 @@ public class App
             outputPath = new File(cmdline.getOptionValue(output.getOpt()));
 
             //Create output directories if they do not exist
-            if(!outputPath.getParentFile().getAbsoluteFile().exists()) {
+            if(!outputPath.getAbsoluteFile().getParentFile().getAbsoluteFile().exists()) {
                 if (!outputPath.getParentFile().getAbsoluteFile().mkdirs()) {
                     throw new IOError(new IOException("Failed to create directories for " + outputPath.getParentFile().getAbsolutePath()));
                 }
@@ -384,7 +406,12 @@ public class App
                 }
             }
             else {
-                convert(config,indexPath,pagesPath, outputPath, numThreads, batchsize, filters);
+                if(cmdline.hasOption(testDecompression.getOpt())) {
+                    test(config, indexPath, pagesPath, numThreads, batchsize);
+                }
+                else {
+                    convert(config,indexPath,pagesPath, outputPath, numThreads, batchsize, filters);
+                }
             }
 
         } catch (ParseException e) {

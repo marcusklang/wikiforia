@@ -46,10 +46,16 @@ public class MultistreamBzip2XmlDumpParser extends AbstractEmitter<Page,Void> im
      * Represents a page block
      */
     private final static class PageBlock {
+        private final Block block;
         private final byte[] buffer;
 
-        public PageBlock(byte[] buffer) {
+        public PageBlock(Block block, byte[] buffer) {
+            this.block = block;
             this.buffer = buffer;
+        }
+
+        public Block getBlock() {
+            return block;
         }
 
         public final byte[] getBuffer() {
@@ -102,6 +108,16 @@ public class MultistreamBzip2XmlDumpParser extends AbstractEmitter<Page,Void> im
         this.batchsize = batchsize;
     }
 
+    private static class Block {
+        public final long start;
+        public final int size;
+
+        public Block(long start, int size) {
+            this.start = start;
+            this.size = size;
+        }
+    }
+
     /**
      * The index reader
      */
@@ -109,12 +125,12 @@ public class MultistreamBzip2XmlDumpParser extends AbstractEmitter<Page,Void> im
         private BufferedReader indexReader;
         private final long pageFileSize;
         private final int bufferAhead;
-        private final ArrayDeque<Integer> buffer;
+        private final ArrayDeque<Block> buffer;
 
         public IndexReader(File indexFile, File pageFile, int bufferAhead) {
             try {
                 this.pageFileSize = pageFile.length();
-                this.buffer = new ArrayDeque<Integer>();
+                this.buffer = new ArrayDeque<Block>();
                 this.bufferAhead = bufferAhead;
                 this.indexReader =
                         new BufferedReader(
@@ -138,13 +154,13 @@ public class MultistreamBzip2XmlDumpParser extends AbstractEmitter<Page,Void> im
                 String line;
                 while( (line = indexReader.readLine()) != null && counter < bufferAhead) {
                     if(line.isEmpty())
-                        break;
+                        continue;
 
                     int pos = line.indexOf(':');
                     long current = Long.parseLong(line.substring(0, pos));
                     if(start != current) {
                         long diff = current - start;
-                        buffer.addLast((int) diff);
+                        buffer.addLast(new Block(start, (int)diff));
                         start = current;
 
                         counter++;
@@ -152,7 +168,7 @@ public class MultistreamBzip2XmlDumpParser extends AbstractEmitter<Page,Void> im
                 }
 
                 if(counter != bufferAhead) {
-                    buffer.addLast((int) (pageFileSize - start));
+                    buffer.addLast(new Block(start, (int)(pageFileSize - start)));
                     indexReader.close();
                     indexReader = null;
                 }
@@ -161,22 +177,22 @@ public class MultistreamBzip2XmlDumpParser extends AbstractEmitter<Page,Void> im
             }
         }
 
-        public int peek() {
+        public Block peek() {
             if(buffer.isEmpty())
                 fillBuffer();
 
-            return buffer.isEmpty() ? -1 : buffer.peekFirst();
+            return buffer.isEmpty() ? null : buffer.peekFirst();
         }
 
         /**
          * Get next block to read
          * @return -1 if no more blocks to read, integer > 0 if more blocks to read
          */
-        public int next() {
+        public Block next() {
             if(buffer.isEmpty())
                 fillBuffer();
 
-            return buffer.isEmpty() ? -1 : buffer.removeFirst();
+            return buffer.isEmpty() ? null : buffer.removeFirst();
         }
     }
 
@@ -215,7 +231,7 @@ public class MultistreamBzip2XmlDumpParser extends AbstractEmitter<Page,Void> im
         }
 
         private Header readHeader() throws IOException {
-            byte[] header = next();
+            byte[] header = next().buffer;
 
             ByteArrayInputStream bais = new ByteArrayInputStream(header);
             BZip2CompressorInputStream bcis = new BZip2CompressorInputStream(bais);
@@ -247,35 +263,46 @@ public class MultistreamBzip2XmlDumpParser extends AbstractEmitter<Page,Void> im
          * Read page blocks
          * @return null if no more blocks, otherwise a byte[] with the block
          */
-        public byte[] next() {
-            int size = indexReader.next();
-            if(size == -1)
+        public PageBlock next() {
+            Block block = indexReader.next();
+            if(block == null)
                 return null;
 
             try
             {
-                byte[] buffer = new byte[size];
-                int left = size;
+                byte[] buffer = new byte[block.size];
+                int left = block.size;
                 while(left > 0) {
-                    int read = pageStream.read(buffer, size - left, left);
+                    int read = pageStream.read(buffer, block.size - left, left);
                     if(read == -1)
                         throw new IOError(new EOFException("Unexpected end of file!"));
 
                     left -= read;
                 }
 
-                return buffer;
+                return new PageBlock(block, buffer);
             } catch (IOException e) {
                 throw new IOError(e);
             }
         }
     }
 
-    protected final InputStream getStream() {
+    protected final ParallelDumpStream getStream() {
         return new ParallelDumpStream();
     }
 
     protected class ParallelDumpStream extends InputStream {
+
+        private PageBlock lastBlock = null;
+        private PageBlock currentBlock = null;
+
+        public PageBlock getLastBlock() {
+            return lastBlock;
+        }
+
+        public PageBlock getCurrentBlock() {
+            return currentBlock;
+        }
 
         private byte[] buffer = new byte[0];
         private int pos = 0;
@@ -291,6 +318,8 @@ public class MultistreamBzip2XmlDumpParser extends AbstractEmitter<Page,Void> im
                 else {
                     pos = 0;
                     this.buffer = block.getBuffer();
+                    this.lastBlock = this.currentBlock;
+                    this.currentBlock = block;
                     return true;
                 }
             } catch (InterruptedException e) {
@@ -338,7 +367,8 @@ public class MultistreamBzip2XmlDumpParser extends AbstractEmitter<Page,Void> im
         public void run()
         {
             try {
-                XmlDumpParser parser = new XmlDumpParser(pageReader.getHeader(), new BZip2CompressorInputStream(getStream(), true));
+                ParallelDumpStream dumpStream = getStream();
+                XmlDumpParser parser = new XmlDumpParser(pageReader.getHeader(), new BZip2CompressorInputStream(dumpStream, true));
                 ArrayList<Page> batch = new ArrayList<Page>(batchsize);
 
                 Page page;
@@ -346,7 +376,32 @@ public class MultistreamBzip2XmlDumpParser extends AbstractEmitter<Page,Void> im
                     batch.add(page);
                     if(batch.size() == batchsize)
                     {
-                        output(batch);
+                        try {
+                            output(batch);
+                        }
+                        catch (Exception ex) {
+                            //Save prev block, current block
+                            PageBlock currentBlock = dumpStream.getCurrentBlock();
+                            PageBlock prevBlock = dumpStream.getLastBlock();
+
+                            if(currentBlock != null && currentBlock.block != null) {
+                                File output = new File("stream-current-" + currentBlock.block.start + "-" + currentBlock.block.size + ".xml.bz2");
+                                FileOutputStream outputStream = new FileOutputStream(output);
+                                outputStream.write(currentBlock.buffer);
+                                outputStream.flush();
+                                outputStream.close();
+                            }
+
+                            if(prevBlock != null && prevBlock.block != null) {
+                                File output = new File("stream-prev-" + prevBlock.block.start + "-" + prevBlock.block.size + ".xml.bz2");
+                                FileOutputStream outputStream = new FileOutputStream(output);
+                                outputStream.write(prevBlock.buffer);
+                                outputStream.flush();
+                                outputStream.close();
+                            }
+
+                            throw new IOError(ex);
+                        }
                         batch = new ArrayList<Page>(batchsize);
                     }
                 }
@@ -386,10 +441,10 @@ public class MultistreamBzip2XmlDumpParser extends AbstractEmitter<Page,Void> im
         }
 
         //2. Seed them with data until there is no more
-        byte[] data;
+        PageBlock data;
         while((data = pageReader.next()) != null && !terminate.get()) {
             try {
-                blocks.put(new PageBlock(data));
+                blocks.put(data);
             } catch (InterruptedException e) {
                 logger.error("Data put interrupted", e);
                 break;
@@ -398,7 +453,7 @@ public class MultistreamBzip2XmlDumpParser extends AbstractEmitter<Page,Void> im
 
         for (int i = 0; i < workers.length; i++) {
             try {
-                blocks.put(new PageBlock(null));
+                blocks.put(new PageBlock(null, null));
             } catch (InterruptedException e) {
                 logger.info("Termination interrupted", e);
                 break;
