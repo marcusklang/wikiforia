@@ -20,6 +20,7 @@ import org.apache.commons.cli.*;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import se.lth.cs.nlp.io.PlainTextWikipediaPageWriter;
 import se.lth.cs.nlp.io.SimpleHadoopTextWriter;
 import se.lth.cs.nlp.io.XmlWikipediaPageWriter;
 import se.lth.cs.nlp.mediawiki.model.Page;
@@ -27,6 +28,7 @@ import se.lth.cs.nlp.mediawiki.model.WikipediaPage;
 import se.lth.cs.nlp.mediawiki.parser.MultistreamBzip2XmlDumpParser;
 import se.lth.cs.nlp.mediawiki.parser.SinglestreamXmlDumpParser;
 import se.lth.cs.nlp.pipeline.Filter;
+import se.lth.cs.nlp.pipeline.Sink;
 import se.lth.cs.nlp.pipeline.Source;
 import se.lth.cs.nlp.wikipedia.lang.EnglishConfig;
 import se.lth.cs.nlp.wikipedia.lang.LangFactory;
@@ -35,7 +37,6 @@ import se.lth.cs.nlp.wikipedia.lang.TemplateConfig;
 import java.io.File;
 import java.io.IOError;
 import java.io.IOException;
-import java.nio.channels.Pipe;
 import java.util.ArrayList;
 import java.util.TreeSet;
 import java.util.regex.Matcher;
@@ -113,6 +114,17 @@ public class App
             .hasArg()
             .withArgName("language")
             .create("lang");
+
+    @SuppressWarnings("static-access")
+    private static final Option outputFormatOption = OptionBuilder.withLongOpt("output-format")
+            .withDescription("Output format : xml or plain-text")
+            .hasArg()
+            .withArgName("outputformat")
+            .create("outputformat");
+
+    private static final String OUTPUT_FORMAT_XML = "xml";
+    private static final String OUTPUT_FORMAT_PLAIN_TEXT = "plain-text";
+    private static final String OUTPUT_FORMAT_DEFAULT = OUTPUT_FORMAT_XML;
 
     /**
      * Used to invoke the hadoop conversion internally
@@ -197,6 +209,28 @@ public class App
             int numThreads,
             int batchsize)
     {
+        convert(config, indexPath, pagesPath, outputPath, numThreads, batchsize, OUTPUT_FORMAT_DEFAULT);
+    }
+
+    /**
+     * Used to invoke the conversion internally
+     * @param config the language config
+     * @param indexPath the index path (might be null)
+     * @param pagesPath the pages path (must never be null)
+     * @param outputPath the output path (must never be null)
+     * @param numThreads the number of threads to use
+     * @param batchsize the size of a batch
+     * @param outputFormat format of output i.e. xml or plain-text
+     */
+    public static void convert(
+            TemplateConfig config,
+            File indexPath,
+            File pagesPath,
+            File outputPath,
+            int numThreads,
+            int batchsize,
+            String outputFormat)
+    {
         Source<Page,Void> source;
 
         if(index == null)
@@ -204,8 +238,18 @@ public class App
         else
             source = new MultistreamBzip2XmlDumpParser(indexPath, pagesPath, batchsize, numThreads);
 
-        Pipeline pipeline = new Pipeline(source, new XmlWikipediaPageWriter(outputPath), config);
+        Pipeline pipeline = new Pipeline(source, getSink(outputFormat, outputPath), config);
         pipeline.run();
+    }
+
+    /**
+     * @param outputFormat output format
+     * @param outputPath output path
+     * @return Sink
+     */
+    private static Sink<WikipediaPage> getSink(String outputFormat, File outputPath) {
+        return outputFormat != null && outputFormat.trim().equalsIgnoreCase(OUTPUT_FORMAT_PLAIN_TEXT)
+                ? new PlainTextWikipediaPageWriter(outputPath) : new XmlWikipediaPageWriter(outputPath);
     }
 
     /**
@@ -227,6 +271,30 @@ public class App
             int batchsize,
             ArrayList<Filter<WikipediaPage>> filters)
     {
+        convert(config, indexPath, pagesPath, outputPath, numThreads, batchsize, filters, OUTPUT_FORMAT_DEFAULT);
+    }
+
+    /**
+     * Used to invoke the conversion internally
+     * @param config the language config
+     * @param indexPath the index path (might be null)
+     * @param pagesPath the pages path (must never be null)
+     * @param outputPath the output path (must never be null)
+     * @param numThreads the number of threads to use
+     * @param batchsize the size of a batch
+     * @param filters All filters to append
+     * @param outputFormat format of output i.e. xml or plain-text
+     */
+    public static void convert(
+            TemplateConfig config,
+            File indexPath,
+            File pagesPath,
+            File outputPath,
+            int numThreads,
+            int batchsize,
+            ArrayList<Filter<WikipediaPage>> filters,
+            String outputFormat)
+    {
         Source<Page,Void> source;
 
         if(index == null)
@@ -234,7 +302,7 @@ public class App
         else
             source = new MultistreamBzip2XmlDumpParser(indexPath, pagesPath, batchsize, numThreads);
 
-        Pipeline pipeline = new Pipeline(source, new XmlWikipediaPageWriter(outputPath), config);
+        Pipeline pipeline = new Pipeline(source, getSink(outputFormat, outputPath), config);
         pipeline.appendAllFilters(filters);
         pipeline.run();
     }
@@ -276,6 +344,7 @@ public class App
         options.addOption(gzip);
         options.addOption(testDecompression);
         options.addOption(filterNs);
+        options.addOption(outputFormatOption);
 
         CommandLineParser parser = new PosixParser();
         try {
@@ -284,6 +353,7 @@ public class App
             File indexPath = null, pagesPath, outputPath;
             int batchsize = 100;
             int numThreads = Runtime.getRuntime().availableProcessors();
+            String outputFormat = OUTPUT_FORMAT_DEFAULT;
 
             //Read batch size
             if(cmdline.hasOption(batch.getOpt())) {
@@ -293,6 +363,11 @@ public class App
             //Read num threads
             if(cmdline.hasOption(threads.getOpt())) {
                 numThreads = Integer.parseInt(cmdline.getOptionValue(threads.getOpt()));
+            }
+
+            //Output format
+            if(cmdline.hasOption(outputFormatOption.getOpt())) {
+                outputFormat = cmdline.getOptionValue(outputFormatOption.getOpt());
             }
 
             //Read required paths
@@ -410,7 +485,7 @@ public class App
                     test(config, indexPath, pagesPath, numThreads, batchsize);
                 }
                 else {
-                    convert(config,indexPath,pagesPath, outputPath, numThreads, batchsize, filters);
+                    convert(config,indexPath,pagesPath, outputPath, numThreads, batchsize, filters, outputFormat);
                 }
             }
 
