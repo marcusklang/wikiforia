@@ -149,7 +149,7 @@ public class App
     {
         Source<Page,Void> source;
 
-        if(index == null)
+        if(indexPath == null)
             source = new SinglestreamXmlDumpParser(pagesPath, batchsize);
         else
             source = new MultistreamBzip2XmlDumpParser(indexPath, pagesPath, batchsize, numThreads);
@@ -182,7 +182,7 @@ public class App
     {
         Source<Page,Void> source;
 
-        if(index == null)
+        if(indexPath == null)
             source = new SinglestreamXmlDumpParser(pagesPath, batchsize);
         else
             source = new MultistreamBzip2XmlDumpParser(indexPath, pagesPath, batchsize, numThreads);
@@ -233,7 +233,7 @@ public class App
     {
         Source<Page,Void> source;
 
-        if(index == null)
+        if(indexPath == null)
             source = new SinglestreamXmlDumpParser(pagesPath, batchsize);
         else
             source = new MultistreamBzip2XmlDumpParser(indexPath, pagesPath, batchsize, numThreads);
@@ -297,7 +297,7 @@ public class App
     {
         Source<Page,Void> source;
 
-        if(index == null)
+        if(indexPath == null)
             source = new SinglestreamXmlDumpParser(pagesPath, batchsize);
         else
             source = new MultistreamBzip2XmlDumpParser(indexPath, pagesPath, batchsize, numThreads);
@@ -314,7 +314,7 @@ public class App
                             int batchsize) {
         Source<Page,Void> source;
 
-        if(index == null)
+        if(indexPath == null)
             source = new SinglestreamXmlDumpParser(pagesPath, batchsize);
         else
             source = new MultistreamBzip2XmlDumpParser(indexPath, pagesPath, batchsize, numThreads);
