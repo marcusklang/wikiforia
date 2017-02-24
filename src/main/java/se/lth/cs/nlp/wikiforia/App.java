@@ -252,7 +252,7 @@ public class App
     private static Sink<WikipediaPage> getSink(String outputFormat, File outputPath) {
         if (outputFormat != null) {
             if (outputFormat.trim().equalsIgnoreCase(OUTPUT_FORMAT_PLAIN_TEXT))
-                    return new PlainTextWikipediaPageWriter(outputPath);
+                return new PlainTextWikipediaPageWriter(outputPath);
             if (outputFormat.trim().equalsIgnoreCase(OUTPUT_FORMAT_ONE_LINE))
                 return new OneLineWikipediaPageWriter(outputPath);
         }
