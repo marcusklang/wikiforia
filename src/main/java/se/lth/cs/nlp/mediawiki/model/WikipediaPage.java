@@ -30,4 +30,6 @@ public class WikipediaPage extends Page {
     public String getText() {
         return text;
     }
+
+    public String getSignature() { return "{{page:"+this.getId()+"}}"; }
 }

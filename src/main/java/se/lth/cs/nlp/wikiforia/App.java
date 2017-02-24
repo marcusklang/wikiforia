@@ -20,6 +20,7 @@ import org.apache.commons.cli.*;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import se.lth.cs.nlp.io.OneLineWikipediaPageWriter;
 import se.lth.cs.nlp.io.PlainTextWikipediaPageWriter;
 import se.lth.cs.nlp.io.SimpleHadoopTextWriter;
 import se.lth.cs.nlp.io.XmlWikipediaPageWriter;
@@ -102,7 +103,7 @@ public class App
 
     @SuppressWarnings("static-access")
     private static final Option output = OptionBuilder.withLongOpt("output")
-            .withDescription("xml output filepath")
+            .withDescription("output filepath")
             .hasArg()
             .isRequired()
             .withArgName("path")
@@ -117,13 +118,14 @@ public class App
 
     @SuppressWarnings("static-access")
     private static final Option outputFormatOption = OptionBuilder.withLongOpt("output-format")
-            .withDescription("Output format : xml or plain-text")
+            .withDescription("Output format : xml, plain-text or one-line")
             .hasArg()
             .withArgName("outputformat")
-            .create("outputformat");
+            .create("of");
 
     private static final String OUTPUT_FORMAT_XML = "xml";
     private static final String OUTPUT_FORMAT_PLAIN_TEXT = "plain-text";
+    private static final String OUTPUT_FORMAT_ONE_LINE = "one-line";
     private static final String OUTPUT_FORMAT_DEFAULT = OUTPUT_FORMAT_XML;
 
     /**
@@ -248,8 +250,13 @@ public class App
      * @return Sink
      */
     private static Sink<WikipediaPage> getSink(String outputFormat, File outputPath) {
-        return outputFormat != null && outputFormat.trim().equalsIgnoreCase(OUTPUT_FORMAT_PLAIN_TEXT)
-                ? new PlainTextWikipediaPageWriter(outputPath) : new XmlWikipediaPageWriter(outputPath);
+        if (outputFormat != null) {
+            if (outputFormat.trim().equalsIgnoreCase(OUTPUT_FORMAT_PLAIN_TEXT))
+                return new PlainTextWikipediaPageWriter(outputPath);
+            if (outputFormat.trim().equalsIgnoreCase(OUTPUT_FORMAT_ONE_LINE))
+                return new OneLineWikipediaPageWriter(outputPath);
+        }
+        return new XmlWikipediaPageWriter(outputPath);
     }
 
     /**
@@ -283,7 +290,7 @@ public class App
      * @param numThreads the number of threads to use
      * @param batchsize the size of a batch
      * @param filters All filters to append
-     * @param outputFormat format of output i.e. xml or plain-text
+     * @param outputFormat format of output i.e. xml, plain-text or one-line
      */
     public static void convert(
             TemplateConfig config,
