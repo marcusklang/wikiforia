@@ -17,12 +17,12 @@ import java.util.List;
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
- *
+ * <p>
  * This file/class is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
- *
+ * <p>
  * You should have received a copy of the GNU General Public License
  * along with this forked version of wikiforia.
  * If not, see <http://www.gnu.org/licenses/>.
@@ -36,10 +36,15 @@ public class PlainTextWikipediaPageWriter implements Sink<WikipediaPage> {
 
     /**
      * Default constructor
+     *
      * @param output which file to write to
      */
     public PlainTextWikipediaPageWriter(File output) {
         try {
+            // fails if file exists, which is fine
+            File f = new File(output.toURI());
+            f.createNewFile();
+
             this.output = output;
             this.fileChannel = FileChannel.open(Paths.get(output.toURI()), StandardOpenOption.WRITE, StandardOpenOption.TRUNCATE_EXISTING);
         } catch (IOException e) {
@@ -49,11 +54,11 @@ public class PlainTextWikipediaPageWriter implements Sink<WikipediaPage> {
 
     @Override
     public synchronized void process(List<WikipediaPage> batch) {
-        if(this.fileChannel == null)
+        if (this.fileChannel == null)
             return;
 
         try {
-            if(batch.size() == 0) {
+            if (batch.size() == 0) {
                 this.fileChannel.write(ByteBuffer.wrap("\n".getBytes("utf-8")));
                 this.fileChannel.close();
                 this.fileChannel = null;
@@ -61,7 +66,7 @@ public class PlainTextWikipediaPageWriter implements Sink<WikipediaPage> {
             }
 
             for (WikipediaPage wikipediaPage : batch) {
-                if(wikipediaPage.getText().length() > 0) {
+                if (wikipediaPage.getText().length() > 0) {
                     this.fileChannel.write(ByteBuffer.wrap(wikipediaPage.getText().getBytes("utf-8")));
                     this.fileChannel.write(ByteBuffer.wrap("\n".getBytes("utf-8")));
                 }
